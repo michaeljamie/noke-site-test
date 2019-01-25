@@ -1514,6 +1514,33 @@ h6 {
     transform: translateX(4px);
 }
 
+@media (max-width: 1761px) {
+    #product1 {
+        margin-right: -25px;
+    }
+    
+    #product2 {
+        margin: 0 -10px;
+    }
+    
+    #product3 {
+        height: 55%;
+    }
+    
+    #product4 {
+        height: 53%;
+    }
+    
+    #product6 {
+       height: 37%;
+    }
+    
+    #product8 {
+        height: 55%;
+    }
+
+}
+
 /* Mobile View */
 @media (max-width: 1025px) {
     .home-productsMobile {
