@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS imports -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/software.css">
+    <link rel="stylesheet" href="./css/api-integration.css">
+
+    <!-- Meta Tags and Title -->
+    <link rel="shortcut icon" href="./assets/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Nokē API allows you to integrate our security management system into your web and mobile apps.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nokē | Customized API Access</title>
+
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Nokē | Customized API Access" />
+    <meta property="og:url" content="https://noke.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="The Nokē API allows you to integrate our security management system into your web and mobile apps." />
+    <meta property="og:image" content="https://image.ibb.co/dpoNuU/New_collage.jpg" />
+    <meta property="og:site_name" content="Nokē" />
+
+    <!-- Twitter Card Data -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@nokelocks" />
+    <meta property="twitter:title" content="Nokē | Customized API Access" />
+    <meta property="twitter:description" content="The Nokē API allows you to integrate our security management system into your web and mobile apps." />
+    <meta property="twitter:url" content="https://noke.com/" />
+    <meta property="twitter:image" content="https://image.ibb.co/dpoNuU/New_collage.jpg" />
+
+    <!-- Javascript imports -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/lazysizes.min.js" async=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66722710-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-66722710-1');
+    </script>
+</head>
+<body>
+    <div class='inner-site'>
+        <nav id='navbar' class='navbar'>
+            <div class='menuToggle'>
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class='menu'>
+                    <a href="./home.html" role='link'><img src="./assets/noke_logo_white.png" alt="mobile logo"></a>
+                    <a href="./products.html" role='link'><li>PRODUCTS</li></a>
+                    <a href="./software.html" role='link'><li>SOFTWARE</li></a>
+                    <a href="./industries.html" role='link'><li>INDUSTRIES</li></a>
+                    <a href="./about-noke.html" role='link'><li>ABOUT NOKĒ</li></a>
+                    <a href="./success-stories.html" role='link'><li>SUCCESS STORIES</li></a>
+                    <a href="./demo.html" role='link'><li>REQUEST INFO</li></a>
+                    <a href="https://nokepro.com/login" role='link'><li id='side-last'>LOGIN</li></a>
+                </ul>
+            </div>
+            <div class='nav-top'>
+                <a href="https://nokepro.com/login" role='link'>Login</a>
+                <a href="https://nokepro.zendesk.com/hc/en-us" role='link'>Support</a>
+                <button role='button' id='nav-button' onclick="location.href='./demo.html'" type="button" class='buttonBlue'>Request Info</button>
+            </div>
+            <div class='nav-left'>
+                <a href="./home.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
+                <ul class='nav-links'>
+                    <li class='menu-item'><a href="./products.html" role='link'>PRODUCTS</a>
+                        <ul class='submenu'>
+                            <li class='nav-submenuItem'><a href="./smart-padlock-overview.html">Smart Padlock Overview</a></li>
+                                <ul>
+                                    <li class='nav-submenuPoint'><a href="./hd-smart-padlocks.html"><img src="./assets/Gray Arrow.png" class='nav-menuArrow' alt="navigation arrow">HD and HD+ Smart Padlocks</a></li>
+                                    <li class='nav-submenuPoint'><a href="./lock-block.html"><img src="./assets/Gray Arrow.png" class='nav-menuArrow' alt="navigation arrow">Lock Block For HD</a></li>
+                                    <li class='nav-submenuPoint'><a href="./standard-padlock.html"><img src="./assets/Gray Arrow.png" class='nav-menuArrow' alt="navigation arrow">Standard Padlock</a></li>
+                                </ul>
+                            <li class='nav-submenuItem'><a href="./smart-door-controller-overview.html">Smart Door Controller Overview</a></li>
+                                <ul>
+                                    <li class='nav-submenuPoint'><a href="./in-wall-door-controllers.html"><img src="./assets/Gray Arrow.png" class='nav-menuArrow' alt="navigation arrow">In-Wall Door Controllers</a></li>
+                                    <li class='nav-submenuPoint'><a href="./on-wall-door-controllers.html"><img src="./assets/Gray Arrow.png" class='nav-menuArrow' alt="navigation arrow">On-wall Door Controllers</a></li>
+                                </ul>
+                            <li class='nav-submenuItem'><a href="./u-lock.html">U-Lock</a></li>
+                            <li class='nav-submenuItem'><a href="./key-fob.html">Key Fob</a></li>
+                            <li class='nav-submenuItem'><a href="./loto-smart-lockout-tagout.html">LOTO: Smart Lockout Tagout</a></li>
+                            <li class='nav-submenuItem'><a href="./custom-locking-solutions.html">Custom Locking Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'><a href="./software.html" role='link'>SOFTWARE</a>
+                        <ul class='submenu'>
+                            <li class='nav-submenuItem'><a href="./web-portal.html">Web Portal</a></li>
+                            <li class='nav-submenuItem'><a href="./mobile-app.html">Mobile App</a></li>
+                            <li class='nav-submenuItem'><a href="./api-integration.html">API Integration</a></li>
+                            <li class='nav-submenuItem'><a href="./cloud-technology.html">Cloud Technology</a></li>
+                            <li class='nav-submenuItem'><a href="./software.html#software-security">Data Security</a></li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'><a href="./industries.html" role='link'>INDUSTRIES</a>
+                        <ul class='submenu'>
+                            <li class='nav-submenuItem'><a href="./utilities.html">Utilities</a></li>
+                            <li class='nav-submenuItem'><a href="./logistics.html">Logistics</a></li>
+                            <li class='nav-submenuItem'><a href="./commercial-properties.html">Commercial Properties</a></li>
+                            <li class='nav-submenuItem'><a href="./transportation.html">Transportation</a></li>
+                            <li class='nav-submenuItem'><a href="./self-storage.html">Self-Storage</a></li>
+                            <li class='nav-submenuItem'><a href="./health-and-wellness.html">Health and Wellness</a></li>
+                            <li class='nav-submenuItem'><a href="./lockout-tagout.html">Lockout Tagout</a></li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'><a href="./about-noke.html" role='link'>ABOUT NOKĒ</a>
+                        <ul class='submenu'>
+                                
+                                <li class='nav-submenuItem'><a href="./why-noke.html">Why Nokē</a></li>
+                                
+                                <li class='nav-submenuItem'><a href="./about-noke.html#our-team">Our Team</a></li>
+                                <li class='nav-submenuItem'><a href="./in-the-media.html">In The Media</a></li>
+                                <li class='nav-submenuItem'><a href="./awards.html">Awards</a></li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'><a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
+                        <ul class='submenu'>
+                            <li class='nav-submenuItem'><a href="https://www.youtube.com/channel/UCoOqd0RXWyxrx87RLhVFEyw">Videos</a></li>
+                            <li class='nav-submenuItem'><a href="./case-studies.html">Case Studies</a></li>
+                            
+                        </ul>
+                    </li>
+                    </ul>
+            </div>
+        </nav>
+        <div class='nav-spacer'>
+        </div>
+        <div class='api-header'>
+            <div class='software-headerTitle'>
+                <h1>WE'VE BUILT IT</h1>
+                <h2>SO YOU CAN CONTROL IT</h2>
+                <h3>NOKĒ API</h3>
+                <p>By utilizing the Nokē API, businesses can gain accountability and visibility by integrating their existing platforms with Nokē to avoid complicated management processes, multiple platforms, and redundancy.</p>
+            </div>
+        </div>
+        <div class='api-integration'>
+            <div>
+                <h2 data-aos="fade-up"><span>INTEGRATION</span> SIMPLIFIED</h2>
+                <h5 data-aos="fade-up">Nokē's integration solution positions Nokē as the only industrial lock manufacturer that can seamlessly plug into customers existing platforms, apps, data, and analytics, and create a network effect of systems working together.</h5>
+                <h4 data-aos="fade-up">HERE ARE THE KEY BENEFITS:</h4>
+            </div>
+            <div class='api-integrationLower'>
+                <div class='api-integrationList'>
+                    <div data-aos="fade-up">
+                        <h4>EASY TO USE</h4>
+                        <h5>Manages only locks and keys, simply adding that data to your user management system</h5>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h4>QUICK TO IMPLEMENT</h4>
+                        <h5>API wrappers in most common programming languages and native mobile libraries for iOS and Android</h5>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h4>SECURE</h4>
+                        <h5>Two layers of 128-bit AES encryption</h5>
+                    </div>
+                </div>
+                <div class='api-integrationGear'>
+                    <img data-src="./assets/integration graphic.png" alt="Nokē API Simplified Gear" class='lazyload' data-aos="fade-up">
+                </div>
+                <div class='api-integrationList'>
+                    <div data-aos="fade-up">
+                        <h4>CUSTOMIZABLE</h4>
+                        <h5>Provides freedom to customize all Nokē features according to individual needs</h5>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h4>FAST</h4>
+                        <h5>Always in active development allowing for feature requests to be quickly implemented</h5>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h4>DOCUMENTATION</h4>
+                        <h5>Comprehensive documentation and examples for all endpoints and sandbox environment for testing</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='api-platform'>
+            <div>
+                <h2 data-aos="fade-up">A PLATFORM OF <span>YOUR OWN</span></h2>
+                <h5 data-aos="fade-up" id='api-platformSub'>Nokē API not only provides seemless integration but also offers the flexibility to manage your own system</h5>
+                <h4 data-aos="fade-up">API COMMUNICATION FEATURES:</h4>
+            </div>
+            <div class='api-platformLower'>
+                <div data-aos="fade-up">
+                    <div id='api-platformImg'>
+                        <img data-src="./assets/platform1.png" class='lazyload' alt="Nokē Internal Management Tools">
+                    </div>
+                    <h4>INTERNAL MANAGEMENT</h4>
+                    <h5>Nokē only manages the encrypted keys for locks.  All other user data is managed internally by client.</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="50">
+                    <div id='api-platformImg'>
+                        <img data-src="./assets/platform2.png" class='lazyload' alt="Nokē Data Access Limited">   
+                    </div>
+                    <h4>NOKĒ DATA ACCESS LIMITED</h4>
+                    <h5 id="api-platformShort">Mobile app, server, and all user data, event history, and company information is not accessible to Nokē.</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <div id='api-platformImg'>
+                        <img data-src="./assets/platform3.png" class='lazyload' alt="Nokē Server Access Limited">
+                    </div>
+                    <h4>NOKĒ SERVER ACCESS LIMITED</h4>
+                    <h5>Communication with Nokē servers is limited to one-way requests for encrypted keys via a RESTful API and requires an API key.</h5>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="150">
+                    <div id='api-platformImg'>
+                        <img data-src="./assets/platform4.png" class='lazyload' alt="Nokē Bluetooth">
+                    </div>
+                    <h4>BLUETOOTH</h4>
+                    <h5>All Bluetooth communication with locks is handled through the integrated Nokē mobile library for Android and iOS.</h5>
+                </div>
+            </div>
+            <div class='api-platformBottom'>
+                <h2 data-aos="fade-up">YOU CAN BUILD A BASIC OR COMPLEX SYSTEM <span></br>AND WHEN IT'S TIME TO OPEN YOUR LOCK, WE'LL PROVIDE THE KEY</span></h2>
+                <h4 data-aos="fade-up">HERE'S HOW THE NOKĒ CORE API WORKS:</h4>
+                <div data-aos="fade-up">
+                    <div class='api-platformBox' id='complexLock'>
+                        <img data-src="./assets/platform5.png" class='lazyload' alt="Nokē HD Lock">
+                        <h5>LOCK</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox' id='coreLibrary'>
+                        <img data-src="./assets/platform6.png" class='lazyload' alt="Nokē Mobile App & Core Library">
+                        <h5 id='coreApiText'>MOBILE APP & CORE LIBRARY</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox'>
+                        <img data-src="./assets/platform7.png" class='lazyload' alt="Nokē Server">
+                        <h5>NOKĒ SERVER</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox'>
+                        <img data-src="./assets/platform8.png" class='lazyload' alt="Nokē Cloud">
+                        <h5>NOKĒ CLOUD</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox' id='coreApi'>
+                        <img data-src="./assets/platform9.png" class='lazyload' alt="Nokē Core API">
+                        <h5>NOKĒ CORE API</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox'>
+                        <img data-src="./assets/platform8.png" class='lazyload' alt="Nokē Cloud">
+                        <h5>NOKĒ CLOUD</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox'>
+                        <img data-src="./assets/platform7.png" class='lazyload' alt="Nokē Server">
+                        <h5>NOKĒ SERVER</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox' id='coreLibrary'>
+                        <img data-src="./assets/platform6.png" class='lazyload' alt="Nokē Mobile App & Core Library">
+                        <h5 id='coreApiText'>MOBILE APP & CORE LIBRARY</h5>
+                    </div>
+                    <div class='platform-arrow'>
+                        <img data-src="./assets/platform-rightArrow.png" class='lazyload' alt="Right Arrow Graphic">
+                    </div>
+                    <div class='platform-arrowMobile'>
+                        <img data-src="./assets/platform-downArrow.png" class='lazyload' alt="Down Arrow Graphic">
+                    </div>
+                    <div class='api-platformBox' id='complexLock'>
+                        <img data-src="./assets/platform5.png" class='lazyload' alt="Nokē HD Lock">
+                        <h5>LOCK</h5>
+                    </div>
+                </div>
+            </div>
+            <div class='platform-veryBottom'>
+                <div class='platform-bottomRow' data-aos="fade-up">
+                    <div>
+                        <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot1.png" class='lazyload' alt="Number 1">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6>Nokē lock connects to Nokē Mobile app via Bluetooth and user requests unlock</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot2.png" class='lazyload' alt="Number 2">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6 id='platformBottomShort'>Mobile app sends lock and user data to the Nokē cloud</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot3.png"class='lazyload'  alt="Number 3">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6>The cloud authenticates user an dlock.  If user has permission to unlock the lock, cloud sends request to the Nokē Core API</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class='platform-bottomRow' data-aos="fade-up">
+                    <div>
+                       <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot4.png" class='lazyload' alt="Number 4">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6>Nokē Core API generates and encrypts the unlock command using the lock's keys (stored on secure Nokē servers)</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot5.png" class='lazyload' alt="Number 5">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6>Cloud receives unlock command from API and passes it to the mobile app</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowImage'>
+                            <img data-src="./assets/platformdot6.png" class='lazyload' alt="Number 6">
+                        </div>
+                        <div class='platform-bottomRowText'>
+                            <h6 id='platformBottomShort'>Mobile app sends command to the lock and the lock opens</h6>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='api-unhack lazyload' data-bg='./assets/api bkgd placeholder.PNG'>
+            <div id='unhack1'>
+                <img data-src="./assets/api-security-graphic.png" alt="Nokē Security Shield Unhackable" class='lazyload'>
+            </div>
+            <div  id='unhack2'>
+                <h2 data-aos="fade-up">SAFE, SECURE, AND <span>UNHACKABLE</span></h2>
+                <h5 data-aos="fade-up">Nokē API security protocols</h5>
+                <h4 data-aos="fade-up">NOKĒ API SECURITY</h4>
+                <h5 data-aos="fade-up">Utilizing an independent, end to end 128-bit AES encryption with an additional layer of 128-bit AES, the Nokē team of technology experts works hard to ensure that our system of rigorous and audited API security mechanisms and protocols are built to restrict all unauthorized access.</h5>
+                <button onclick="location.href='./software.html#software-security'" type="button" class='buttonBlue' data-aos="fade-up">Learn more about security</button>
+            </div>
+        </div>
+        <footer>
+            <div class='footer-wrapper'>
+                <input id='products' type="checkbox">
+                <label for="products">
+                    <p>PRODUCTS</p>
+                    <div class='lil_arrow'></div>
+                    <div class='content'>   
+                        <ul>
+                            <li>
+                                <a href="./products.html">Products Overview</a>
+                            </li>
+                            <li>
+                                <a href="./smart-padlock-overview.html">Smart Padlocks</a>
+                            </li>
+                            <li>
+                                <a href="./smart-door-controller-overview.html">Smart Door Controllers</a>
+                            </li>
+                            <li>
+                                <a href="./u-lock.html">U-Lock</a>
+                            </li>
+                            <li>
+                                <a href="./key-fob.html">Key Fob</a>
+                            </li>
+                            <li>
+                                <a href="./loto-smart-lockout-tagout.html">LOTO: Smart Lockout Tagout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='software' type="checkbox">
+                <label for="software">
+                    <p>SOFTWARE</p>
+                    <div class='lil_arrow'></div>
+                    <div class='content'>
+                        <ul>
+                            <li>
+                                <a href="./software.html">Software Overview</a>
+                            </li>
+                            <li>
+                                <a href="./web-portal.html">Web Portal</a>
+                            </li>
+                            <li>
+                                <a href="./mobile-app.html">Mobile App</a>
+                            </li>
+                            <li>
+                                <a href="./api-integration.html">API Integration</a>
+                            </li>
+                            <li>
+                                <a href="./cloud-technology.html">Cloud Technology</a>
+                            </li>
+                            <li>
+                                <a href="./software.html#software-security">Data Security</a>
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='company' type="checkbox">
+                <label for="company">
+                    <p>COMPANY</p>
+                    <div class='lil_arrow'></div>
+                    <div class='content'>
+                        <ul>
+                            <li>
+                                <a href="./about-noke.html">About Nokē</a>
+                            </li>
+                            <li>
+                                
+                            </li>
+                            <li>
+                                <a href="./why-noke.html">Why Nokē</a>
+                            </li>
+                            <li>
+                                <a href="./our-partners.html">Our Partners</a>
+                            </li>
+                            <li>
+                                <a href="./our-team.html">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="./success-stories.html">Customer Success Stories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='support' type="checkbox">
+                <label for="support">
+                    <p>SUPPORT</p>
+                    <div class='lil_arrow'></div>
+                    <div class='content'>
+                        <ul>
+                            <li>
+                                <a href="https://nokepro.zendesk.com/hc/en-us">Support</a>
+                            </li>
+                            <li>
+                                <a href="https://nokepro.com/login">Login</a>
+                            </li>
+                            <li>
+                                <a href="./contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="./demo.html">Request Info</a>
+                            </li>
+                            <li>
+                                <a href="./instructions.html">Instructions</a>
+                            </li>
+                            <li>
+                                <a href="./frequently-asked-questions.html">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+            </div>
+            <div class='footer-top'>
+                <div class='footer-column'>
+                    <a href="./home.html"id="logo-footer"><img src="./assets/noke_logo_white.png" alt="Nokē logo With Tag Line White"></a>
+                </div>
+                <div class='footer-column'>
+                    <a href="./products.html">PRODUCTS</a>
+                    <ul class='footer-list'>
+                        <li><a href="./smart-padlock-overview.html" class='footer-item'><span>Smart Padlocks</span></a></li>
+                        <li><a href="./smart-door-controller-overview.html" class='footer-item'><span>Smart Door Controllers</span></a></li>
+                        <li><a href="./u-lock.html" class='footer-item'><span>U-Lock</span></a></li>
+                        <li><a href="./key-fob.html" class='footer-item'><span>Key Fob</span></a></li>
+                        <li><a href="./loto-smart-lockout-tagout.html" class='footer-item'><span>LOTO: Smart Lockout Tagout</span></a></li>
+                    </ul>
+                </div>
+                <div class='footer-column'>
+                    <a href="./software.html">SOFTWARE</a>
+                    <ul class='footer-list'>
+                        <li><a href="./web-portal.html" class='footer-item'><span>Web Portal</span></a></li>
+                        <li><a href="./mobile-app.html" class='footer-item'><span>Mobile App</span></a></li>
+                        <li><a href="./api-integration.html" class='footer-item'><span>API Integration</span></a></li>
+                        <li><a href="./cloud-technology.html" class='footer-item'><span>Cloud Technology</span></a></li>
+                        <li><a href="./software.html#software-security" class='footer-item'><span>Data Security</span></a></li>
+                    </ul>
+                </div>
+                <div class='footer-column'>
+                        <a href="./about-noke.html">COMPANY</a>
+                        <ul class='footer-list'>
+                            
+                            <li><a href="./why-noke.html" class='footer-item'><span>Why Nokē</span></a></li>
+                            
+                            <li><a href="./our-team.html" class='footer-item'><span>Our Team</span></a></li>
+                            <li><a href="https://noke.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
+                            <li><a href="./awards.html" class='footer-item'><span>Awards</span></a></li>
+                        </ul>
+                </div>
+                <div class='footer-column'>
+                    <a href="https://nokepro.zendesk.com/hc/en-us">SUPPORT</a>
+                    <ul class='footer-list'>
+                        <li><a href="https://nokepro.com/login" class='footer-item'><span>Login</span></a></li>
+                        <li><a href="./contact-us.html" class='footer-item'><span>Contact Us</span></a></li>
+                        <li><a href="./demo.html" class='footer-item'><span>Request Info</span></a></li>
+                        <li><a href="https://nokepro.zendesk.com/hc/en-us/categories/115000807688-User-Guides" class='footer-item'><span>Instructions</span></a></li>
+                        <li><a href="https://nokepro.zendesk.com/hc/en-us/categories/115000803687-FAQs" class='footer-item'><span>FAQs</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class='footer-bottom'>
+                <div>
+                    <a href="https://www.facebook.com/nokelocks/"><img src="./assets/facebook.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/nokelocks?lang=en"><img src="./assets/twitter.png" alt="Twitter link"></a>
+                    <a href="https://www.linkedin.com/company/nok%C4%93/"><img src="./assets/linkedin.png" alt="LinkedIn link"></a>
+                </div>
+                <p>© Nokē, Inc. 2019 | <a href="./terms-of-service.html" id='footer-TC'>Terms & Conditions</a> | <a href="./privacy-policy.html" id='footer-TC'>Privacy Policy</a></p>
+            </div>
+        </footer>
+    </div>
+<!-- Fade in Animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ disable: 'mobile' });
+</script>
+</body>
+</html>

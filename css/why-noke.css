@@ -1,0 +1,307 @@
+.hardware-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/business\ win\ header\ image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hardware-headerTitle {
+    width: 100%;
+}
+
+.hardware-header h3 {
+    width: 100%;
+}
+
+.hardware-header p {
+    width: 30%;
+}
+
+.about-problems {
+    height: auto;
+}
+
+.about-problems>div {
+    padding: 8vh 3vh 2vh 3vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-problems h1 {
+    color: var(--main-blue);
+    text-align: center;
+    font-size: 32px;
+}
+
+.about-problems h2 {
+    color: var(--main-blue);
+    text-align: center;
+    font-size: 32px;
+}
+
+.about-problemsLower {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    justify-content: center;
+    margin: 8% 0;
+}
+
+.about-problemsLower img {
+    width: 63%;
+}
+
+.about-problemsLower>div {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-problemsImg {
+    width: 38%;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 80px 50px 0;
+}
+
+.about-problemsImg img {
+    min-width: 100%;
+}
+
+.about-problemsLower h4 {
+    color: var(--main-blue);
+    font-size: 18px;
+    margin-bottom: 6.5px;
+}
+
+.about-problemsLower h5 {
+    margin-bottom: 15%;
+    font-size: 16px;
+    font-family: var(--main-text);
+    width: 78%;
+    line-height: 1.3;
+}
+
+.about-solutions {
+    background: url('./../assets/why\ noke\ image_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    height: auto;
+    border-bottom: 5px solid white;
+}
+
+.about-solutions>div {
+    padding: 8vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.about-solutions h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.about-solutions h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.about-solutionsLower {
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2% 0 2% 0;
+    color: white;
+}
+
+.about-solutionsLower>div {
+    width: 50%;
+}
+
+.about-solutionsLower h6 {
+    color: white;
+    width: 100%;
+    font-size: 18px;
+}
+
+.about-solutionsLower p {
+    font-family: var(--main-text);
+    font-size: 16px;
+    margin-top: 8px;
+    width: 60%;
+    color: #D1D3D4;
+}
+
+.about-solutionsLower img {
+    width: 90px;
+    padding-right: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
+    filter: brightness(100%);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.about-solutionsList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.about-solutionsList:hover img {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(140%);
+	-moz-filter: brightness(140%);
+	-o-filter: brightness(140%);
+	-ms-filter: brightness(140%);
+    filter: brightness(140%);
+}
+
+@media (max-width: 1025px) {
+    .hardware-header {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hardware-header {
+        height: 90vh;
+    }
+
+    .hardware-header p {
+        display: block;
+        width: 50%;
+    }
+
+    .about-problemsLower img {
+        width: 20vw;
+    }
+
+    .about-solutionsLower>div {
+        width: 65%;
+    }
+
+    .about-solutionsLower p { 
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hardware-header p { 
+        display: none;
+    }
+
+    .hardware-header h4 {
+        font-size: 18px;
+    }
+
+    .about-problems>div {
+        padding: 2vh;
+    }
+
+    .about-problems h1 {
+        font-size: 25px;
+    }
+
+    .about-problems h2 {
+        font-size: 25px;
+    }
+
+    .about-problemsLower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-problemsLower>div {
+        width: 90%;
+        align-items: center;
+    }
+
+    .about-problemsLower img {
+        width: 50vw;
+        padding: 0 0 5vh 8vh;
+    }
+
+    .about-problemsLower h4 {
+        font-size: 20px;
+    }
+
+    .about-problemsLower h5 {
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    .about-solutions>div {
+        padding: 2vh;
+    }
+
+    .about-solutions h1 {
+        font-size: 25px;
+    }
+
+    .about-solutions h2 {
+        font-size: 25px;
+    }
+
+    .about-solutionsLower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-solutionsLower>div {
+        width: 95%;
+    }
+
+    .about-solutionsLower h6 {
+        width: 100%;
+    }
+
+    .about-solutionsLower img {
+        width: 15vw;
+    }
+
+}

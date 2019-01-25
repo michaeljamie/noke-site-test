@@ -1,0 +1,186 @@
+.hardware-header {
+    background: url('./../assets/on-wall\ door\ controller\ header.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.controller-series>img {
+    max-width: 30%;
+    max-height: 45vh;
+    margin: 6vh;
+}
+
+#in-wall1 {
+    background: url('./../assets/stone\ wall\ with\ garage_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+#in-wall2 {
+    background: url('./../assets/construction\ trailer_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+#in-wall3 {
+    background: url('./../assets/ROLLING\ GATE_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+#in-wall4 {
+    background: url('./../assets/on\ wall\ door\ controller\ on\ brick\ treated_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.controller-meetLower>div {
+    width: 50%;
+}
+
+.controller-meetLower img {
+    max-height: 250px;
+}
+
+#door-controllerRight {
+    margin-top: 55px;
+}
+
+#on-wall-text {
+    width: 55%;
+}
+
+#on-wallWiredLeft {
+    max-height: 300px;
+    margin-top: 40px;
+}
+
+#on-wallBatteryLeft {
+    max-height: 510px;
+}
+
+#controller-mid {
+    border-right: none;
+}
+
+#dc1 {
+    max-height: 35%;
+    margin-top: 22%;
+}
+
+.stats-lower {
+    padding: 3vh 0;
+}
+
+.stats-specImg {
+    max-width: 40%;
+}
+
+@media (max-width: 1025px) {
+    .controller-series>img {
+        max-height: 25vh;
+    }
+
+    .hardware-header h4 {
+        color: white;
+    }
+
+    .hardware-header p {
+        color: white;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .controller-series>img {
+        max-height: 45vh;
+    }
+
+    .controller-meet>div {
+        padding-bottom: 0;
+    }
+
+    .controller-meetLower>div {
+        width: 80%;
+    }
+
+    .controller-meetLower h4 {
+        font-size: 18px;
+    }
+
+    #controller-mid {
+        border-left: none;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .hardware-header {
+        background: url('./../assets/on-wall\ door\ controller\ header-mobile.jpg');
+        background-position: bottom right;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-headerTitle h3 {
+        width: 65%;
+    }
+
+    .hardware-headerTitle h4 {
+        width: 65%;
+        color: white;
+    }
+
+    .stats-specImg {
+        max-height: 45vh;
+    }
+
+    #on-wallWiredLeft {
+        margin-top: 0;
+    }
+    
+    #on-wallBatteryLeft {
+        max-height: auto;
+    }
+
+    #door-controllerRight {
+        margin-right: 100px;
+    }
+}
+
+@media (min-height: 750px) and (min-width: 1200px) { 
+    .hardware-header {
+        background: url('./../assets/on-wall\ door\ controller\ header-wide.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-headerTitle {
+        padding: 0 0 10vh 5vh;
+    }
+
+    .hardware-headerTitle h4 {
+        font-size: 28px;
+    }
+}

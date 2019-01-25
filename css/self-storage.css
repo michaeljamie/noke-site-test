@@ -1,0 +1,23 @@
+.industries-header {
+    height: 87vh;
+    background: url('./../assets/selfstorage\ header.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+@media (max-width: 479px) {
+    .industries-header {
+        background-position: center;
+    }
+}

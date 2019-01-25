@@ -1,0 +1,424 @@
+.hardware-header {
+    background: url('./../assets/NEW\ eliptic\ header.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hardware-header h3 {
+    width: 100%;
+}
+
+.hardware-header p {
+    width: 70%;
+}
+
+.controller-series {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.controller-series>img {
+    max-width: 30%;
+    max-height: 40vh;
+    margin: 8vh;
+}
+
+.controller-series>div {
+    width: 70%;
+}
+
+.controller-series h5 {
+    color: var(--main-blue);
+    font-size: 25px;
+    padding-top: 8vh;
+}
+
+.controller-series p {
+    width: 70%;
+}
+
+.controller-series h5 span {
+    font-weight: 600;
+}
+
+.controller-series h6 {
+    color: var(--main-gray);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--main-text);
+}
+
+.controller-seriesLower {
+    display: flex;
+    flex-direction: row;
+}
+
+.controller-seriesLower>div {
+    width: 50%;
+}
+
+#inwall-drill {
+    margin-right: 13px;
+}
+
+.controller-seriesBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5vh 0;
+}
+
+.controller-seriesBox>div {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.controller-seriesBox h6 {
+    width: 82%;
+}
+
+.controller-motionPic {
+    height: 500px;
+}
+
+#in-wall1 {
+    background: url('./../assets/loading\ dock\ doors_opt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 3.5px;
+}
+
+#in-wall2 {
+    background: url('./../assets/self\ storage\ door\ controller\ and\ phone\ treated_opt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+}
+
+#in-wall3 {
+    background: url('./../assets/office\ doors\ and\ people-opt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 3.5px;
+}
+
+#in-wall4 {
+    background: url('./../assets/elevator_opt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+}
+
+#in-wallWiredLeft {
+    max-height: 330px;
+    margin-top: 40px;
+}
+
+#in-wallBatteryLeft {
+    max-height: 280px;
+    margin-top: 55px;
+}
+
+.controller-meet>div {
+    padding: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controller-meet h2 {
+    color: var(--main-blue);
+}
+
+.controller-meet h4 {
+    color: var(--main-blue);
+}
+
+.controller-meet h4 span {
+    font-weight: 600;
+}
+
+.controller-meet p span {
+    font-weight: 600;
+}
+
+.controller-meetLower {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    width: 95%;
+}
+
+.controller-meetLower>div {
+    padding: 2vh 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 575px;
+    width: 30%;
+}
+
+.controller-meetLower img {
+    margin: 10px 0;
+}
+
+#dc1inwall {
+    max-width: 265px;
+    margin-bottom: 8px;
+}
+
+#dc2inwall {
+    max-width: 340px;
+}
+
+#controller-mid {
+    border-right: 1.25px solid #93959850;
+    border-left: 1.25px solid #93959850;
+}
+
+#controller-right {
+    width: 34%;
+}
+
+#controller-meetBottom {
+    margin-top: 10px;
+}
+
+.stats-table {
+    width: 110%;
+    margin-left: -20px;
+}
+
+.stats-table>div {
+    width: 35%;
+}
+
+#stats-middle {
+    width: 40%;
+}
+
+#stats-tableSpace {
+    margin-top: 12px;
+}
+
+.stats-box p span {
+    font-weight: 600;
+}
+
+#specsBox {
+    margin-top: 18px;
+    height: 50%;
+    justify-content: flex-start;
+}
+
+.stats-divider h3 span {
+    font-weight: 600;
+}
+
+#stats-dividerText {
+    margin: 0;
+}
+
+.stats-lower {
+    padding: 3vh 0;
+}
+
+.stats-specImg {
+    max-width: 40%;
+}
+
+@media (max-width: 1025px) {
+    .controller-meet {
+        overflow: hidden;
+    }
+
+    .controller-series>img {
+        max-width: 30%;
+        max-height: 20vh;
+        margin: 8vh;
+    }
+
+    .controller-meetLower>div {
+        padding: 10px;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hardware-header {
+        height: 90vh;
+    }
+
+    .controller-series>img {
+        max-width: 30%;
+        max-height: 40vh;
+        margin: 8vh;
+    }
+
+    .controller-series {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .controller-series>img {
+        max-width: 70%;
+        max-height: 40vh;
+        margin: 2vh;
+    }
+
+    .controller-series>div {
+        width: 100%;
+        margin-left: 5vh;
+    }
+
+    .controller-series h5 {
+        font-size: 25px;
+        padding-top: 0;
+    }
+
+    .controller-series p {
+        width: 85%;
+    }
+
+    .controller-seriesLower {
+        margin-top: 30px;
+    }
+
+    .controller-seriesBox h6 {
+        font-size: 14px;
+    }
+    
+    .controller-seriesBox {
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .controller-motionPic {
+        height: 350px;
+    }
+
+    #in-wall1 {
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    #in-wall2 {
+        margin: 0;
+    }
+
+    #in-wall3 {
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    #in-wall4 {
+        margin: 0;
+    }
+
+    .controller-meet h2 {
+        text-align: center;
+    }
+
+    .controller-meet img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #controller-mid {
+        border: none;
+    }
+
+    #controller-right {
+        width: 80%;
+    }
+
+    .controller-meetLower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .controller-meetLower>div {
+        width: 80%;
+        padding: 2vh 4vh;
+    }
+
+    .controller-meetLower h4 {
+        font-size: 18px;
+    }
+
+    .stats-table>div {
+        width: 100%;
+    }
+
+    .stats-lower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-lower img {
+        max-width: 70%;
+        margin: 30px 0;
+    }
+
+    #stats-middle {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .hardware-header {
+        background: url('./../assets/NEW\ eliptic\ header-mobile.jpg');
+        background-position: right top;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-headerTitle {
+        margin-bottom: 10vh;
+    }
+
+    .controller-seriesLower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .controller-seriesLower>div {
+        width: 100%;
+        height: auto;
+    }
+
+    #controller-right {
+        width: 85%;
+        height: auto;
+    }
+}
+
+

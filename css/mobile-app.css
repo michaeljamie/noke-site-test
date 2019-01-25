@@ -1,0 +1,373 @@
+.appportal-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/NEW\ APP\ HEADER.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.appportal-header p {
+    width: 75%;
+}
+
+.appportal-view {
+    padding: 7.5vh;
+    height: auto;
+    background: var(--main-lightest-gray);
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.appportal-phones {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8vh;
+}
+
+.appportal-phones>div {
+    max-width: 25%;
+}
+
+.appportal-phones img {
+    max-width: 100%;
+}
+
+.appportal-lower img {
+    -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.08));
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.08));
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.appportal-lower>div:hover img {
+    -webkit-transform: scale(1.03, 1.03) translateY(-10px);
+    transform: scale(1.03, 1.03) translateY(-10px);
+    -webkit-filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+.appportal-view h2 {
+    color: var(--main-blue);
+}
+
+.appportal-view>img {
+    margin: 5vh 0;
+    width: 85%;
+}
+
+.appportal-text {
+    font-size: 17px;
+    font-family: var(--main-text);
+    padding: 1% 0;
+}
+
+.appportal-rule {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-around;
+    width: 100%;
+    height: 3vh;
+}
+
+.appportal-rule>div {
+    height: 1.5px;
+    background: white;
+    width: 35%;
+    margin: 1.5vh 0;
+}
+
+.appportal-rule>h4 {
+    padding: 0 1.5vw;
+}
+
+.webportal-card {
+    min-height: 445px;
+}
+
+.appportal-data {
+    height: auto;
+    /* background: #E4EFF8; */
+    background-image: linear-gradient(to right bottom, #E4EFF8, #CBE4F8);
+    padding: 10vh;
+    margin: 7px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#appportal-text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appportal-lower {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.appportal-lower>div {
+    width: 28%;
+}
+
+.appportal-lower img {
+    max-height: 280px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    margin-bottom: 15%;
+}
+
+.appportal-data h2 {
+    color: var(--main-blue);
+    margin-bottom: 12px;
+}
+
+.appportal-data h3 {
+    color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appportal-data h4 {
+    margin-bottom: 8px;
+}
+
+.appportal-data p {
+    font-family: var(--main-text);
+    font-size: 16px;
+}
+
+.webportal-study img {
+    width: auto;
+    max-width: 215px;
+}
+
+.webportal-studyPic {
+    width: 50%;
+    background: url('./../assets/self\ storage\ image-min.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+@media (max-width: 1025px) {
+    .appportal-header {
+        background-position: left;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .appportal-header {
+        height: 90vh;
+        background-position: left;
+        overflow: hidden;
+    }
+
+    .appportal-header>div {
+        padding: 2vh;
+    }
+
+    .appportal-view {
+        padding: 2vh;
+    }
+
+    .appportal-text {
+        font-size: 20px;
+    }
+
+    .appportal-rule>div {
+        width: 30%;
+    }
+
+    .appportal-rule>h4 {
+        font-size: 18px;
+    }
+
+    .appportal-cards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .appportal-card {
+        height: 50vh;
+        width: 70%;
+    }
+
+    .appportal-card img {
+        width: 15vw;
+        padding: 0 3vw;
+    }
+
+    .appportal-data {
+        padding: 2vh;
+    }
+
+    .appportal-data>div {
+        width: 95%;
+    }
+
+    .appportal-study>div {
+        width: 85%;
+    }
+
+    .appportal-study h1 {
+        font-size: 50px;
+    }
+
+    .apportal-study h2 {
+        font-size: 19px;
+    }
+
+    .appportal-study h5 {
+        font-size: 18px;
+    }
+
+    .appportal-study {
+        height: 50vh;
+    }
+
+    .appportal-data h3 {
+        font-size: 14px;
+    }
+
+    .webportal-studyPic {
+        width: 100%;
+    }
+
+    .webportal-study img {
+        width: 15vw;
+        margin-bottom: 45px;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .appportal-header {
+        background: url('./../assets/NEW\ APP\ HEADER-mobile.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .software-headerTitle {
+        margin-left: 2vw;
+    }
+
+    .appportal-header p {
+        width: 100%;
+    }
+
+    .appportal-rule>div {
+        width: 20%;
+    }
+
+    .appportal-rule>h4 {
+        font-size: 16px;
+    }
+
+    .appportal-card {
+        height: 50vh;
+        width: 85%;
+    }
+
+    .appportal-data img {
+        max-width: 55%;
+    }
+
+    .appportal-data p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .appportal-study>img {
+        width: 50vw;
+    }
+
+    .appportal-study {
+        height: 75vh;
+    }
+
+    #appportal-text {
+        width: 90%;
+    }
+
+    .appportal-lower {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .appportal-lower>div {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .appportal-lower img {
+        max-height: 240px;
+        margin-bottom: 7%;
+    }
+
+    .webportal-studyText img {
+        min-width: 110px;
+    }
+
+    .webportal-studyPic {
+        min-height: 350px;
+    }
+}
+
+@media (min-height: 750px) and (min-width: 1200px) {
+    .appportal-header {
+        height: 87vh;
+        width: 100%;
+        background: url('./../assets/NEW\ APP\ HEADER-wide.jpg');
+        background-position: right bottom;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .appportal-header p {
+        width: 55%;
+    }
+}

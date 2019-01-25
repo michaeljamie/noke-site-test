@@ -1,0 +1,1200 @@
+.hardware-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/test\ collage.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hardware-headerTitle {
+    width: 38%;
+    padding: 0 0 10vh 10vh;
+}
+
+.hardware-headerTitle h4 {
+    font-size: 32px;
+    font-family: var(--main-font);
+    line-height: 1.05;
+}
+
+.hardware-headerTitle h2 {
+    color: var(--main-blue);
+    font-size: 47px;
+    line-height: .95;
+    margin-top: 2px;
+}
+
+.hardware-headerTitle h3 {
+    color: var(--main-blue);
+    font-size: 17px;
+    font-weight: 800;
+    margin: 30px 0 0 0;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.hardware-headerTitle p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-text);
+    width: 90%;
+}
+
+.hardware-products {
+    height: auto;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.hardware-products a {
+    width: 50%;
+    text-decoration: none;
+}
+
+.hardware-products>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.hardware-productBox {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: space around;
+    justify-content: center;
+}
+
+.hardware-bar {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 7px;
+}
+
+.hardware-bar h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.hardware-bar h4 {
+    font-family: var(--main-text);
+    font-size: 17px;
+}
+
+.home-text img {
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hardware-barLocks {
+    width: 50%;
+    height: 100%;
+    margin-right: 3.5px;
+    color: var(--main-blue);
+    overflow: hidden;
+    position: relative;
+}
+
+.hardware-barLocksBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/padlock\ page\ tile_opt.jpg');
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: -moz-crisp-edges; 
+    image-rendering:   -o-crisp-edges;   
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.product-bladePadlock {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hardware-barLocks:hover .product-bladePadlock {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.45));
+}
+
+.hardware-barLocks:hover img {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.product-bladePadlock>div {
+    padding: 2.3vw;
+}
+
+.hardware-barLocks:hover .hardware-barLocksBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hardware-barControllers {
+    width: 50%;
+    height: 100%;
+    margin-left: 3.5px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.hardware-barControllersBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/elevator\ for\ DC_opt.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: -moz-crisp-edges; 
+    image-rendering:   -o-crisp-edges;   
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.product-bladeController {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hardware-barControllers:hover .product-bladeController {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.45));
+}
+
+.hardware-barControllers:hover img {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.product-bladeController>div {
+    padding: 2.3vw;
+}
+
+.hardware-barControllers:hover .hardware-barControllersBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hardware-barULocks {
+    width: 50%;
+    height: 100%;
+    margin-right: 3.5px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.hardware-barULocksBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/u-lock\ tile\ hardware_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: -moz-crisp-edges; 
+    image-rendering:   -o-crisp-edges;   
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.product-bladeUlock {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 2.3vw;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hardware-barULocks:hover .product-bladeUlock {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.45));
+}
+
+.hardware-barULocks:hover img {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.hardware-barULocks:hover .hardware-barULocksBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hardware-barFob {
+    width: 50%;
+    height: 100%;
+    margin-left: 3.5px;
+    color: var(--main-blue);
+    overflow: hidden;
+    position: relative;
+}
+
+.hardware-barFobBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/key\ fob\ image\ for\ blade_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: -moz-crisp-edges; 
+    image-rendering:   -o-crisp-edges;   
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.product-bladeFob {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hardware-barFob:hover .product-bladeFob {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.45));
+}
+
+.hardware-barFob:hover img {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.product-bladeFob>div {
+    padding: 2.3vw;
+}
+
+.product-bladeFob>div h4 {
+    width: 63%;
+    margin-left: 37%;
+}
+
+.hardware-barFob:hover .hardware-barFobBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hardware-LOTO {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 7px;
+    color: var(--main-dark-gray);
+    overflow: hidden;
+    position: relative;
+}
+
+.hardware-LOTOBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/NEW\ LOTO\ grid\ tile\ for\ hardware\ home\ 2-min.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: -moz-crisp-edges; 
+    image-rendering:   -o-crisp-edges;   
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.product-bladeLoto {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 2.3vw;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hardware-LOTO:hover .product-bladeLoto {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.45));
+}
+
+.hardware-LOTO:hover img {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.hardware-LOTO:hover .hardware-LOTOBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hardware-LOTO h2 {
+    font-size: 32px;
+}
+
+.hardware-LOTO h4 {
+    font-family: var(--main-text);
+    font-size: 17px;
+}
+
+#home-textBlue {
+    color: var(--main-blue);
+}
+
+#home-textGray {
+    color: var(--main-dark-gray);
+}
+
+#blue-arrowFob {
+    margin-top: 23px;
+}
+
+.hardware-durable {
+    height: auto;
+    background: var(--main-light-gray);
+    padding: 10vh;
+    text-align: center;
+}
+
+.hardware-durable h2 {
+    color: var(--main-blue);
+}
+
+.hardware-durable h5 {
+    font-size: 17px;
+    margin-bottom: 10vh;
+    margin-top: 12px;
+    font-family: var(--main-text);
+}
+
+.hardware-durable button {
+    background: var(--main-light-gray);
+    color: var(--main-blue);
+}
+
+.hardware-durable button:hover {
+    background: var(--main-blue);
+    color: var(--main-light-gray);
+}
+
+.hardware-durable>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hardware-card {
+    padding: 3% 0;
+    margin: 3.5px;
+    width: 45%;
+    height: 500px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: center;
+    line-height: 1.4;
+    position: relative;
+    transition: all .2s ease;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.hardware-card:before {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .2s ease;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.hardware-card:after {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .2s ease;
+    z-index: -2;
+    border-radius: 3px;
+}
+
+.hardware-card:hover {
+    transform: translate(-15px, -15px);
+}
+
+.hardware-card:hover div {
+    transform: translate(-15px, -15px);
+}
+
+.hardware-card:hover h2 {
+    transform: translate(-15px, -15px);
+}
+
+.hardware-card:hover button {
+    transform: translate(-15px, -15px);
+}
+
+.hardware-card:hover:before {
+    transform: translate(-10px, -10px);
+}
+
+.hardware-card:hover:after {
+    transform: translate(-5px, -5px);
+}
+
+.hardware-card h2 {
+    transition: all .2s ease;
+}
+
+.hardware-card button {
+    transition: all .2s ease;
+    justify-self: flex-end;
+}
+
+.hardware-card img {
+    max-height: 150px;
+    transition: all .2s ease;
+}
+
+.prod-cardImg {
+    max-height: 180px;
+    margin: 35px 0;
+}
+
+.prod-cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 170px;
+}
+
+.hardware-card p {
+    width: 70%;
+    font-size: 16px;
+}
+
+#wide-cardText {
+    width: 75%;
+}
+
+#prod-cardHide {
+    visibility: hidden;
+}
+
+.hardware-card span {
+    color: var(--main-blue);
+    font-weight: 500;
+
+}
+
+.hardware-card>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+#hc-1 {
+    background: #a2a9a9;
+}
+
+#hc-1:before {
+    background: #F1F2F2;
+    /* background-image: linear-gradient(to right bottom, #F1F2F2, #D5D6D6); */
+}
+
+#hc-1:after {
+    background: #cacece;
+}
+
+#hc-2 {
+    background: #898d90;
+}
+
+#hc-2:before {
+    background: #D1D3D4;
+}
+
+#hc-2:after {
+    background: #b0b3b5;
+}
+
+#hc-3 {
+    background: #b3b3b3;
+}
+
+#hc-3:before {
+    background: white;
+}
+
+#hc-3:after {
+    background: #d9d9d9;
+}
+
+#hc-4 {
+    background: #52a7e0;
+}
+
+#hc-4:before {
+    background: #D1E8F7;
+}
+
+#hc-4:after {
+    background: #93c8ec;
+}
+
+.hardware-software {
+    height: auto;
+}
+
+.hardware-softwareTitle {
+    padding: 2.3vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hardware-softwareTitle p {
+    width: 60%;
+}
+
+#connected-shortText {
+    width: 65%;
+}
+
+#connected-shortText1 {
+    width: 75%;
+}
+
+.hardware-softwareTitle h2 {
+    color: var(--main-blue);
+    margin-bottom: 12px;
+}
+
+.hardware-softwareLower {
+    height: auto;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: center;
+    margin: 4vh 0;
+}
+
+.hardware-softwareList {
+    height: 100%;
+    width: 33%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.hardware-softwareList>div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3vh 0;
+    width: 100%;
+    height: auto;
+}
+
+.hardware-softwarePic {
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hardware-softwareText {
+    width: 70%;
+}
+
+.hardware-softwareList img {
+    max-height: 10vh;
+    max-width: 100%;
+}
+
+.hardware-softwareList h4 {
+    color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.hardware-softwareList h5 {
+    font-size: 16px;
+    font-family: var(--main-text);
+}
+
+.hardware-softwareList>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 90%;
+}
+
+.hardware-softwareLock {
+    height: 100%;
+    width: 28%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hardware-softwareLock>img {
+    width: 85%;
+    height: auto;
+}
+
+.hardware-softwareBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hardware-softwareBottom button {
+    margin: 7vh 0;
+}
+
+@media (max-width: 1025px) {
+    .hardware-headerTitle {
+        padding: 2vh;
+        font-size: 20px;
+        width: 90%;
+        margin-top: 10vh;
+    }
+
+    .hardware-headerTitle h3 {
+        width: 30%;
+    }
+
+    .hardware-headerTitle p {
+        width: 40%;
+    }
+
+    .hardware-products {
+        display: none;
+    }
+
+    .hardware-header {
+        margin-bottom: 7px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hardware-header {
+        height: 90vh;
+        justify-content: flex-start;
+        background-position: bottom right;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .hardware-headerTitle {
+        padding: 2vh;
+        font-size: 20px;
+        width: 90%;
+        margin-top: 10vh;
+    }
+
+    .hardware-headerTitle h2 {
+        font-size: 25px;
+    }
+
+    .hardware-headerTitle h3 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .hardware-headerTitle h4 {
+        font-size: 25px;
+    }
+
+    .hardware-headerTitle p {
+        display: none;
+    }
+
+    .hardware-products {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .hardware-products a {
+        width: 100%;
+    }
+
+    .hardware-products>div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 23%;
+        padding: 2vh;
+    }
+
+    .hardware-productBox {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+    }
+
+    .hardware-product {
+        height: 100%;
+        max-height: 100vh;
+        font-size: 18px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hardware-product img {
+        width: 30vw;
+        max-height: 25vh;
+    }
+
+    .hardware-bar {
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+    }
+
+
+    .hardware-barLocks {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+
+    .product-bladePadlock {
+        padding: 0;
+    }
+
+    .product-bladePadlock>div {
+        width: auto;
+        padding: 7vw 0 0 7vw;
+    }
+
+    .hardware-barControllers {
+        width: 100vw;
+        margin: 0;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+
+    .hardware-barControllersBG {
+        width: 100%;
+    }
+
+    .product-bladeController {
+        padding: 0;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .product-bladeController>div {
+        padding: 7vw 0 0 7vw;
+    }
+
+    .hardware-barULocks {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+    
+    .product-bladeUlock {
+        padding: 0;
+    }
+
+    .product-bladeUlock>div {
+        padding: 7vw 0 0 7vw;
+    }
+
+    .hardware-barFob {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+
+    .product-bladeFob {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .product-bladeFob>div {
+        padding: 7vw 0 0 7vw;
+    }
+
+    .product-bladeFob>div h4 {
+        margin-left: 0;
+    }
+
+    .hardware-LOTO {
+        height: 500px;
+        margin: 0;
+        margin-bottom: 7px;
+        overflow: hidden;
+    }
+
+    .hardware-LOTOBG {
+        background-position: left;
+    }
+
+    .product-bladeLoto {
+        padding: 0;
+    }
+
+    .product-bladeLoto>div {
+        padding: 7vw 0 0 7vw;
+    }
+
+    .hardware-durable {
+        padding: 3vh 0;
+        overflow: hidden;
+    }
+
+    .hardware-durable h2 {
+        font-size: 25px;
+        margin: 2vh 0;
+    }
+
+    .hardware-durable h5 {
+        font-size: 17px;
+        margin-bottom: 2vh;
+        font-family: var(--main-text);
+    }
+
+    .hardware-card {
+        width: 40%;
+        height: auto;
+        padding: 2vh;
+        margin: 3.5px;
+    }
+
+    .hardware-card img {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 4vh 0;
+    }
+
+    .hardware-card p {
+        width: 85%;
+        font-size: 17px;
+        margin-bottom: 3vh;
+    }
+
+    .hardware-software {
+        overflow: hidden;
+    }
+
+    .hardware-softwareLower {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .hardware-softwareTitle {
+        padding: 2.3vh 0;
+    }
+
+    .hardware-softwarePic {
+        height: auto;
+    }
+
+    .hardware-softwareList {
+        width: 100%;
+    }
+
+    .hardware-softwareLock {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .hardware-header {
+        background: url('./../assets/test\ collage-mobile.jpg');
+        background-position: bottom right;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-durable>div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .hardware-headerTitle {
+        margin: 0;
+    }
+
+    .hardware-card {
+        width: 85%;
+        height: auto;
+        padding: 5vh;
+        margin: 1.5vh 0;
+    }
+
+    .hardware-card img {
+        max-height: 20%;
+        max-width: 80%;
+        margin: 4vh 0;
+    }
+
+    .hardware-softwareLock {
+        width: 100%;
+    }
+
+    .hardware-bar h2 {
+        font-size: 20px;
+    }
+
+    .hardware-bar h4 {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .hardware-LOTO {
+        height: 450px;
+    }
+
+    .hardware-LOTO h2 {
+        font-size: 20px;
+    }
+
+    .hardware-LOTO h4 {
+        font-size: 14px;
+    }
+
+    .product-bladePadlock>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .hardware-barLocks>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .product-bladeController>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .product-bladeUlock>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .product-bladeFob>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .product-bladeLoto>div {
+        padding: 3.5vw 0 0 3.5vw;
+    }
+
+    .product-bladeFob>div h4 {
+        width: 70%;
+    }
+
+}

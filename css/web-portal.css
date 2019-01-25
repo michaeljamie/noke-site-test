@@ -1,0 +1,716 @@
+.webportal-header {
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.webportal-header img {
+    max-width: 50%;
+    margin-right: 8%;
+}
+
+.webportal-view {
+    padding: 7.5vh 0;
+    height: auto;
+    background: var(--main-lightest-gray);
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.webportal-view h2 {
+    color: var(--main-blue);
+    margin-bottom: 12px;
+}
+
+.webportal-view img {
+    margin: 40px 0;
+    height: auto;
+    max-width: 95%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+.webportal-text {
+    font-size: 17px;
+    font-family: var(--main-text);
+}
+
+.webportal-rule {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-around;
+    width: 100%;
+    height: 3vh;
+}
+
+.webportal-rule>div {
+    height: 1.5px;
+    background: white;
+    width: 35%;
+    margin: 1.5vh 0;
+}
+
+.webportal-rule>h4 {
+    padding: 0 1.5vw;
+}
+
+.webportal-cards {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.webportal-card {
+    min-height: 515px;
+    width: 28%;
+    background: white;
+    margin: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.5vh;
+    transition: all 0.28s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.webportal-card:hover {
+    box-shadow: 0 7.5px 9px 0 rgba(0, 0, 0, 0.32), 0 6px 9px 0 rgba(0, 0, 0, 0.29);
+    -webkit-transform: scale(1.0287, 1.0287) translate(-4.5px, -5.5px);
+    transform: scale(1.0287, 1.0287) translate(-4.5px, -5.5px);
+}
+
+.webportal-card>h3 {
+    color: var(--main-blue);
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.webportal-card h5 {
+    font-size: 16px;
+    font-family: var(--main-text);
+    width: 80%;
+}
+
+.portalCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.webportal-card>div {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+.webportal-infrastructure {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0;
+}
+
+.webportal-infrastructureLeft {
+    height: 100%;
+    width: 40%;
+    background: url('./../assets/business\ boost\ graphic_opt.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 3.5px;
+}
+
+.webportal-infrastructureRight {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5px;
+}
+
+.webportal-infrastructureRight img {
+    width: 5vw;
+}
+
+.webportal-infrastructureTop {
+    width: 100%;
+    height: 34%;
+    color: white;
+    /* background: var(--main-blue); */
+    background-image: linear-gradient(to right bottom, var(--main-blue), #157BCE);
+}
+
+.webportal-infrastructureTop h2 {
+    padding: 5vh 0 13px 5vh;
+}
+
+.webportal-infrastructureTop h3 {
+    padding: 0 5vh;
+    font-size: 17px;
+    width: 65%;
+}
+
+.webportal-infrastructureMid {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.webportal-infastructureCard {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #6D6E71;
+    position: relative;
+    transition: all .2s ease;
+    z-index: 1;
+}
+
+.webportal-infastructureCard:before {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .2s ease;
+    z-index: -1;
+}
+
+.webportal-infastructureCard:after {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .2s ease;
+    z-index: -2;
+}
+
+.webportal-infastructureCard:hover {
+    transform: translate(-15px, -15px);
+}
+
+.webportal-infastructureCard:hover:before {
+    transform: translate(-10px, -10px);
+}
+
+.webportal-infastructureCard:hover:after {
+    transform: translate(-5px, -5px);
+}
+
+.webportal-infastructureCard h3 {
+    font-family: var(--main-text);
+    padding: 5px 0 13px 0;
+    color: var(--main-blue);
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+.webportal-infastructureCard img {
+    transition: all .2s ease;
+}
+
+.webportal-infastructureCard:hover img {
+    transform: translate(-15px, -15px);
+}
+
+.webportal-infastructureCard:hover h3 {
+    transform: translate(-15px, -15px);
+}
+
+.webportal-infastructureCard li {
+    font-size: 16px;
+    font-family: var(--main-text);
+    width: 80%;
+    line-height: 1.2;
+    transition: all .2s ease;
+}
+
+.webportal-infastructureCard:hover li {
+    transform: translate(-15px, -15px);
+}
+
+.webportal-infastructureCard h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    transition: all .2s ease;
+}
+
+.webportal-infastructureCard:hover h5 {
+    transform: translate(-15px, -15px);
+}
+
+.webportal-infastructureCard a {
+    color: #6D6E71;
+    transition: all 0.3s ease;
+    transition: all .2s ease;
+}
+
+.webportal-infastructureCard a:hover {
+    color: var(--main-blue);
+}
+
+.webportal-infastructureCard li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
+#wpcard1 {
+    background: #6f7376;
+}
+
+#wpcard1:before {
+    /* background: #BCBEC0; */
+    background-image: linear-gradient(to right bottom, #BCBEC0, #A1A3A5);
+}
+
+#wpcard1:after {
+    background: #96999c;
+}
+
+#wpcard2 {
+    background: #898d90;
+}
+
+#wpcard2:before {
+    /* background: #D1D3D4; */
+    background-image: linear-gradient(to right bottom, #D1D3D4, #B5B7B8);
+}
+
+#wpcard2:after {
+    background: #b0b3b5;
+}
+
+#wpcard3 {
+    background: #a2a9a9;
+}
+
+#wpcard3:before {
+    /* background: #F1F2F2; */
+    background-image: linear-gradient(to right bottom, #F1F2F2, #D5D6D6);
+}
+
+#wpcard3:after {
+    background: #cacece;
+}
+
+#wpcard4 {
+    background: #52a7e0;
+}
+
+#wpcard4:before {
+    /* background: #D1E8F7; */
+    background-image: linear-gradient(to right bottom, #D1E8F7, #B8DEF7);
+}
+
+#wpcard4:after {
+    background: #93c8ec;
+}
+
+#wpcard4 img {
+    max-width: 35%;
+}
+
+.wp-image {
+    width: 40%;
+    padding: 16px 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.wp-image img {
+    max-width: 50%;
+}
+
+.wp-innerbox {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.webportal-infrastructureBottom {
+    width: 100%;
+    height: 33.333333%;
+    display: flex;
+    flex-direction: row;
+}
+
+.webportal-study {
+    height: 650px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+
+.webportal-studyText {
+    /* background: #f1f2f3; */
+    background-image: linear-gradient(to right bottom, #f1f2f3, #D5D6D7);
+    width: 50%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: center;
+    margin-right: 3.5px;
+}
+
+.webportal-studyText>div {
+    padding: 8vh;
+    height: 80%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.webportal-studyPic {
+    margin-left: 3.5px;
+    width: 50%;
+    background: url('./../assets/GO\ image_opt.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.webportal-Title {
+    margin-bottom: 20px;
+    color: var(--main-blue);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.webportal-study img {
+    width: 10vw;
+    margin-bottom: 85px;
+}
+
+.webportal-study h2 {
+    padding: 5px 0;
+    font-size: 32px;
+}
+
+.webportal-study h4 {
+    color: var(--main-blue);
+    font-size: 17px;
+    font-family: var(--main-text);
+    width: 75%;
+}
+
+.webportal-study h5 {
+    font-size: 17px;
+    margin: 10px 0;
+    font-family: var(--main-text);
+    width: 75%;
+}
+
+.webportal-study button {
+    margin-top: 15%;
+}
+
+@media (max-width: 1025px) {
+    .webportal-studyText>div {
+        padding: 5vh;
+    }
+
+    .webportal-cards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .webportal-card {
+        height: 550px;
+        width: 50%;
+    }
+
+    .webportal-card>div {
+        height: 80px;
+    }
+
+    .webportal-card img {
+        width: 5.5vw;
+        padding: 0 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .webportal-header {
+        height: 90vh;
+        background-position: bottom;
+        overflow: hidden;
+    }
+
+    .webportal-header>div {
+        padding: 2vh;
+    }
+
+    .webportal-header p {
+        width: 100%;
+    }
+
+    .webportal-view {
+        padding: 2vh;
+    }
+
+    .webportal-card {
+        width: 70%;
+    }
+
+    .webportal-text {
+        font-size: 20px;
+    }
+
+    .webportal-rule>div {
+        width: 30%;
+    }
+
+    .webportal-rule>h4 {
+        font-size: 18px;
+    }
+
+    .webportal-infrastructure {
+        height: auto;
+    }
+
+    .webportal-infrastructureLeft {
+        display: none;
+        height: 0;
+    }
+
+    .webportal-infrastructureRight {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .webportal-infrastructureRight img {
+        width: 20vw;
+    }
+
+    .webportal-infrastructureTop h3 {
+        font-size: 15px;
+        margin-bottom: 3vh;
+    }
+
+    .webportal-infrastructureMid {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .webportal-infrastructureBottom {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .webportal-infastructureCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .webportal-infastructureCard h5 {
+        margin-top: 2vh;
+    }
+
+    .wp-image img {
+        max-width: 90px;
+    }
+
+    #wpcard4 img {
+        max-width: 65px;
+    }
+
+    .appportal-data img {
+        max-width: 20vw;
+    }
+
+    .webportal-study {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .webportal-studyText {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .webportal-study button {
+        margin-top: 10%;
+    }
+
+    .webportal-studyPic {
+        width: 100%;
+        min-height: 500px;
+        margin-top: 7px;
+        overflow: hidden;
+        margin-left: 0;
+        background-position: top;
+    }
+
+    .webportal-study>img {
+        width: 30vw;
+    }
+
+    .webportal-study>h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .webportal-header {
+        flex-direction: column;
+    }
+
+    .software-headerTitle {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .software-headerTitle p {
+        font-size: 15px;
+    }
+
+    .webportal-view {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .webportal-header img {
+        max-width: 60%;
+        margin-right: 8%;
+    }
+
+    .webportal-rule>div {
+        width: 20%;
+    }
+
+    .webportal-text {
+        text-align: center;
+    }
+
+    .webportal-rule>h4 {
+        font-size: 16px;
+    }
+
+    .webportal-card {
+        height: 50vh;
+        width: 85%;
+    }
+
+    .webportal-card img {
+        width: 8vw;
+        padding: 0 3vw;
+    }
+
+    .webportal-card h5 {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .webportal-infrastructure {
+        overflow: hidden;
+    }
+
+    .webportal-infrastructureLeft {
+        overflow: hidden;
+        height: 0;
+    }
+
+    .webportal-infrastructureRight {
+        overflow: hidden;
+    }
+
+    .webportal-infrastructureRight li {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .wp-image img {
+        max-width: 68px;
+    }
+
+    #wpcard4 img {
+        max-width: 45px;
+    }
+
+    .webportal-studyText>div {
+        padding: 3vh;
+    }
+
+    .webportal-study img {
+        width: 100px;
+        margin-bottom: 40px;
+    }
+
+    .webportal-study h4 {
+        width: 100%;
+    }
+
+    .webportal-study h5 {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .webportal-infastructureCard li:before {
+        display: none;
+    }
+
+}

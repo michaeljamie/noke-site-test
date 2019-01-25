@@ -1,0 +1,985 @@
+.hd-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/HD\ and\ HD+\ PAGE\ header_1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hd-header p {
+    width: 80%;
+}
+
+.padlock-video {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    margin: .45% 0;
+    color: white;
+}
+
+.padlock-videoText {
+    height: 100%;
+    width: 35%;
+    background: #939598;
+    color: white;
+    line-height: 1.2;
+    margin-left: .45%;
+}
+
+.padlock-videoText>div {
+    padding: 8vh;
+}
+
+.padlock-videoText h2 {
+    font-size: 29px;
+}
+
+.padlock-videoText p {
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.padlock-videoBox {
+    height: 100%;
+    width: 65%;
+    background: url('./../assets/HD+\ on\ gate\ for\ application\ grid_opt.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.padlock-videoBoxMobile {
+    display: none;
+    background: url('./../assets/HD+\ on\ gate\ for\ application\ grid_opt.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.padlock-play {
+    height: 25%;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+h5 span {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.hd-meet {
+    color: var(--main-blue);
+}
+
+.hd-meet>div {
+    padding: 3vw;
+}
+
+.hd-meet h5 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hd-meet img {
+    max-height: 400px;
+    margin-top: 50px;
+}
+
+.hd-meet a {
+    text-decoration: none;
+    color: var(--main-gray);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.hd-meet a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px var(--main-blue);
+    transform: scaleX(0);
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.hd-meet a:hover:after {
+    transform: scaleX(1);
+}
+
+.hd-meetBody {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+}
+
+.hd-meetBody>div {
+    width: 50%;
+}
+
+.hd-meetTop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.hd-meetTop h6 {
+    margin: 0 0 40px 22px;
+}
+
+.hd-meetMid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--main-gray);
+    justify-content: space-between;
+}
+
+.hd-meetMid>div {
+    width: 45%;
+}
+
+.hd-meetMid p span {
+    font-weight: 600;
+}
+
+.shroud-box {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.shroud-box>div {
+    width: 15%;
+    margin-right: 7px;
+}
+
+.shroud-box p {
+    width: 75%;
+}
+
+.shroud-box img {
+    margin-top: 0;
+}
+
+#shackle-right {
+    border-left: 1.5px solid whitesmoke;
+    padding: 0 0 35px 35px;
+}
+
+#shackle-textBox {
+    margin: 35px 0 22.5px 0;
+}
+
+#shackle-arrow {
+    color: var(--main-blue);
+}
+
+.hd-shackle {
+    background: #F2F2F2;
+}
+
+.hd-shackle>div {
+    padding: 3vw;
+}
+
+.hd-shackle h5 {
+    color: var(--main-blue);
+    margin-bottom: 12px;
+}
+
+.hd-shackle p {
+    width: 60%;
+}
+
+.shackle-lower {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    margin-top: 70px;
+}
+
+.shackle-lower h6 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.shackle-thickness {
+    width: 50%;
+}
+
+.shackle-height {
+    width: 50%;
+}
+
+.shackle-height h6 {
+    margin-bottom: 8px;
+}
+
+.shackle-height p {
+    margin: 20px;
+}
+
+.shackle-height img {
+    max-height: 280px;
+}
+
+.hd-accessories {
+    display: flex;
+    flex-direction: row;
+    min-height: 550px;
+    margin-top: 7px;
+    color: var(--main-blue);
+}
+
+.hd-accessories p {
+    font-size: 17px;
+    margin-top: 12px;
+    color: var(--main-gray);
+}
+
+.hd-lockBlock {
+    width: 50%;
+    margin-right: 3.5px;
+    background: url('./../assets/lock\ block\ main\ image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.hd-lockBlock p {
+    width: 90%;
+}
+
+.hd-lockBlock button {
+    margin-top: 250px;
+}
+
+.hd-lockBlock>div {
+    padding: 3vh;
+}
+
+.hd-sleeve {
+    width: 50%;
+    background: url('./../assets/Noke\ Sleeve-min.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+}
+
+.hd-sleeve p {
+    width: 75%;
+}
+
+.hd-sleeve>div {
+    padding: 3vh;
+}
+
+.hd-applications1 {
+    width: 66%;
+}
+
+.hd-lockTiles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 105vh;
+}
+
+.hd-appTilesLower {
+    display: flex;
+    flex-direction: row;
+    width: 152.25%;    
+}
+
+.hd-appTilesLower>div {
+    width: 65%;
+}
+
+.hd-applicationsFirst {
+    height: 35vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.hd-applicationsFirstBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/Optimized-medical\ industry\ application\ image.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+}
+
+.hd-app1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hd-applicationsFirst:hover .hd-applicationsFirstBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hd-applicationsFirst:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.hd-applicationsFirst:hover .hd-app1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.hd-applicationsSecond {
+    width: 35%;
+    height: 70vh;
+    margin-right: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hd-applicationsSecondBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/Optimized-HD\ Lock\ on\ Cabinet\ for\ application\ grid.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+}
+
+.hd-app2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hd-applicationsSecond:hover .hd-applicationsSecondBG  {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hd-applicationsSecond:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.hd-applicationsSecond:hover .hd-app2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.hd-applicationsThird {
+    width: 46.85%;
+    height: 35vh;
+    margin-right: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hd-applicationsThirdBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../Optimized-assets/HD+\ on\ gate\ for\ application\ grid.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+}
+
+.hd-app3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hd-applicationsThird:hover .hd-applicationsThirdBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hd-applicationsThird:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.hd-applicationsThird:hover .hd-app3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.hd-applicationsFourth {
+    width: 100%;
+    height: 34vh;
+    margin-top: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hd-applicationsFourthBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/Optimized-padlock\ on\ truck\ for\ application\ grid.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+}
+
+.hd-app4 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hd-applicationsFourth:hover .hd-applicationsFourthBG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hd-applicationsFourth:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.hd-applicationsFourth:hover .hd-app4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.hd-applications2 {
+    width: 34%;
+    height: 67.30%;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hd-applications2BG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/Optimized-lock\ block\ on\ truck\ doors\ for\ applications.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-moz-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-o-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	-ms-filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+	filter: brightness(97%) saturate(97%) contrast(97%) blur(0px);
+}
+
+.hd-app5 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.hd-applications2:hover .hd-applications2BG {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-moz-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-o-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+	-ms-filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+    filter: brightness(105%) saturate(103%) contrast(102%) blur(0px);
+}
+
+.hd-applications2:hover .hd-app5 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.hd-applications2:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+#extendedMostText {
+    width: 420px;
+}
+
+#extendedText {
+    width: 330px;
+}
+
+#extendedMinText {
+    width: 270px;
+}
+
+@media (max-width: 1025px) {
+    
+    .lock-stats {
+        overflow: hidden;
+    }
+
+    .hd-header p {
+        width: 50%;
+    }
+
+    .shackle-height img {
+        max-height: 200px;
+    }
+
+    .shackle-thickness img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hd-header {
+        height: 90vh;
+        background-position: left;
+    }
+
+    .padlock-video {
+        flex-direction: column;
+        height: auto;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .padlock-videoText h2 {
+        font-size: 20px;
+    }
+
+    .padlock-videoText p {
+        font-size: 14px;
+    }
+
+    .padlock-videoText {
+        width: 100%;
+        margin: 0;
+    }
+
+    .padlock-videoBox {
+        display: none;
+    }
+
+    .padlock-videoBoxMobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        min-height: 35vh;
+        margin: 0;
+    }
+
+    .padlock-play {
+        max-height: 13vh;
+    }
+
+    .hd-meetBody {
+        flex-direction: column;
+    }
+
+    .hd-meetBody>div {
+        width: 100%;
+    }
+
+    .hd-meetTop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hd-meetTop img {
+        max-width: 80%;
+        margin: 0;
+    }
+
+    .hd-meetTop h6 {
+        width: 100%;
+        margin: 0;
+        margin: 10px 0 20px 0;
+        text-align: center;
+    }
+
+    .hd-meetMid {
+        justify-content: around;
+    }
+
+    .hd-meetMid>div {
+        width: 45%;
+    }
+
+    .shroud-box {
+        margin: 40px 0;
+    }
+
+    .shackle-lower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #shackle-right {
+        border-left: none;
+        padding: 0;
+    }
+
+    .shackle-thickness {
+        width: 100%;
+    }
+
+    .shackle-height {
+        width: 100%;
+    }
+
+    .shackle-thickness img {
+        height: auto;
+    }
+
+    .shackle-height img {
+        max-height: 280px;
+    }
+
+    .shackle-height p {
+        width: 60%
+    }
+
+    .hd-accessories {
+        flex-direction: column;
+    }
+
+    .hd-lockBlock {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+        min-height: 550px;
+    }
+
+    .hd-sleeve {
+        width: 100%;
+        margin: 0;
+        min-height: 550px;
+    }
+
+    .hd-sleeve p {
+        width: 60%;
+    }
+
+    .hd-lockTiles {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hd-applications1 {
+        width: 100%;
+    }
+
+    .hd-appTilesLower {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hd-appTilesLower>div {
+        width: 100%;
+    }
+
+    .hd-applicationsFirst {
+        margin: 0;
+        height: 40vh;
+        margin-bottom: 10px; 
+    }
+
+    .hd-applicationsSecond {
+        width: 100%;
+        height: 40vh;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .hd-applicationsThird {
+        width: 100%;
+        height: 40vh;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .hd-applicationsFourth {
+        height: 40vh;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .hd-applications2 {
+        width: 100%;
+        height: 40vh;
+        margin: 0;
+    }
+
+    .lower-lockApps button {
+        margin: 3vh 0;
+    }
+
+    #extendedText {
+        width: 50vw;
+    }
+    
+    #extendedMinText {
+        width: 50vw;
+    }
+
+    #extendedMostText {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 479px) { 
+
+    .hd-header {
+        background: url('./../assets/HD\ and\ HD+\ PAGE\ header_1-mobile.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hd-meet img {
+        max-height: 230px;
+    }
+
+    .hd-meetTop h6 {
+        text-align: left;
+    }
+
+    .hd-meetMid {
+        flex-direction: column;
+    }
+
+    .hd-meetMid>div {
+        width: 100%;
+    }
+
+    .shroud-box img {
+        max-width: 30px;
+    }
+
+    .hd-shackle p {
+        width: 80%;
+    }
+
+    .hd-shackle img {
+        max-width: 80vw;
+    }
+
+    .shackle-thickness {
+        width: 100%;
+    }
+
+    .shackle-thickness img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .shackle-height {
+        width: 100%;
+    }
+
+    .shackle-height p {
+        width: 70%;
+    }
+
+    .shackle-height img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .hd-lockBlock p {
+        font-size: 16px;
+    }
+
+    .hd-sleeve p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .lock-textBox h2 {
+        font-size: 18px;
+    }
+
+    .lock-textBox p {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .lower-lockApps button {
+        margin: 5vh 0;
+    }
+
+    #extendedText {
+        width: 100vw;
+    }
+    
+    #extendedMinText {
+        width: 100vw;
+    }
+
+    #extendedMostText {
+        width: 100vw;
+    }
+
+    .lock-textBox {
+        width: 100vw;
+    }
+
+}

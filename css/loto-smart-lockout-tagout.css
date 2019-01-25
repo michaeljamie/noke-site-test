@@ -1,0 +1,847 @@
+.hardware-header {
+    background: url('./../assets/LOTO\ for\ new\ web\ header.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.hardware-headerTitle>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hardware-headerTitle img {
+    max-height: 30px;
+    margin: 0 10px 8px 0;
+}
+
+.hardware-headerTitle h3 {
+    margin: 0;
+    font-size: 31.76px;
+    width: auto;
+}
+
+.loto-tm {
+    font-weight: 400;
+    font-size: 15px;
+    min-height: 30px;
+    color: var(--main-blue);
+}
+
+.hardware-headerTitle h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hardware-headerTitle p {
+    width: 62%;
+}
+
+.loto-procedures {
+    background: var(--main-light-gray);
+    margin: 7px 0;
+    color: var(--main-blue);
+}
+
+.loto-procedures>div {
+    padding: 8vh;
+}
+
+.loto-procedures p {
+    margin: 20px 0;
+    color: #939598;
+    width: 61%;
+    font-size: 17px;
+}
+
+.loto-procedures h5 {
+    font-size: 18px;
+    margin: 75px 0 10px 0;
+}
+
+.loto-card {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    min-height: 350px;
+    transition: all 0.28s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loto-card:hover {
+    box-shadow: 0 6px 8.5px 0 rgba(0, 0, 0, 0.28), 0 4.5px 8.5px 0 rgba(0, 0, 0, 0.24);
+    -webkit-transform: scale(1.01, 1.01);
+    transform: scale(1.01, 1.01);
+}
+
+#loto-card1 {
+    width: 50%;
+    min-height: 100%;
+    background: url('./../assets/keys\ in\ hands-min.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 3.5px;
+}
+
+#loto-card2 {
+    width: 50%;
+    min-height: 100%;
+    background: url('./../assets/LOTO\ bunch\ of\ locks-min.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+}
+
+#loto-card3 {
+    width: 50%;
+    min-height: 100%;
+    background: url('./../assets/LOTO\ phone\ screen-min.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 3.5px;
+}
+
+#loto-card4 {
+    width: 50%;
+    min-height: 100%;
+    background: url('./../assets/LOTO\ lock\ on\ electric\ cab-min.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+}
+
+.loto-protect {
+    display: flex;
+    flex-direction: row;
+    min-height: 550px;
+}
+
+.loto-protectText {
+    /* background: var(--main-blue); */
+    background-image: linear-gradient(to right bottom, var(--main-blue), var(--main-blue-dark));
+    min-height: 100%;
+    width: 50%;
+    margin-right: 3.5px;
+}
+
+.loto-protectText>div {
+    color: white;
+    padding: 70px;
+}
+
+.loto-protectText h2 {
+    font-size: 32px;
+}
+
+.loto-protectText h2 span {
+    font-size: 31px;
+}
+
+.loto-protectText p {
+    font-size: 17px;
+    width: 73%;
+    margin: 30px 0 70px 0;
+}
+
+.loto-protectText button {
+    background: white;
+    color: var(--main-blue);
+    border: 1px solid white;
+}
+
+.loto-protectText a {
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+.loto-protectText button:hover {
+    background: var(--main-blue);
+    color: white;
+}
+
+.loto-protectText button:hover>a {
+    color: white;
+}
+
+.loto-protectImg {
+    min-height: 100%;
+    width: 50%;
+    margin-left: 3.5px;
+    background: url('./../assets/workers\ on\ site-min.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.loto-featuresTitle {
+    padding: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loto-featuresTitle h2 {
+    color: var(--main-blue);
+}
+
+.loto-featuresTitle p {
+    margin-top: 12px;
+    font-size: 17px;
+    font-family: var(--main-text);
+    width: 100%;
+}
+
+.loto-featuresLower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loto-featuresLower>div {
+    width: 30%;
+}
+
+#loto-featuresImg {
+    width: 37%;
+}
+
+#loto-featuresImg img {
+    max-width: 90%;
+    margin-left: 15px;
+}
+
+.loto-featuresBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.loto-featuresBox img {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.15));
+}
+
+.loto-featuresBox img:hover {
+    -webkit-transform: scale(1.03, 1.03);
+    transform: scale(1.03, 1.03);
+    -webkit-filter: drop-shadow(5px 10px 12px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 10px 12px rgba(0, 0, 0, 0.2));
+}
+
+.loto-featuresBox>div {
+    width: 15%;
+    margin-right: 5%;
+}
+
+.loto-featuresBox p {
+    width: 65%;
+    font-size: 15px;
+}
+
+.loto-apps {
+    max-width: 90%;
+}
+
+.lock-applications {
+    margin-top: 5vh;
+}
+
+.loto-lockApplications {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.loto-lockLeft {
+    margin-right: 3.5px;
+    min-height: 100%;
+    width: 40%;
+}
+
+.loto-lockRight {
+    margin-left: 3.5px;
+    width: 60%;
+}
+
+.loto-lock1 {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 7px;
+}
+
+.loto-lock1BG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/big\ machine\ mechanic-min.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.ltbg-2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.loto-lock1:hover .loto-lock1BG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.loto-lock1:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.loto-lock1:hover .ltbg-2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.loto-lock2 {
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+    position: relative;
+}
+
+.loto-lock2BG {
+    background: url('./../assets/manufacturing-min.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.ltbg-1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.loto-lock2:hover .loto-lock2BG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.loto-lock2:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.loto-lock2:hover .ltbg-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.loto-lockRightTop {
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.loto-lock3 {
+    width: 42%;
+    overflow: hidden;
+    position: relative;
+}
+
+.loto-lock3BG {
+    background: url('./../assets/oen\ valve-min.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.ltbg-3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.loto-lock3:hover .loto-lock3BG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.loto-lock3:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.loto-lock3:hover .ltbg-3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.loto-lock4 {
+    width: 58%;
+    margin-left: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.loto-lock4BG {
+    background: url('./../assets/high\ voltage-min.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.ltbg-4 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.loto-lock4:hover .loto-lock4BG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.loto-lock4:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.loto-lock4:hover .ltbg-4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+.loto-lock5 {
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.loto-lock5BG {
+    background: url('./../assets/mining\ machine-min.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    z-index: 0;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.ltbg-5 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,114,206,0));
+}
+
+.loto-lock5:hover .loto-lock5BG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.loto-lock5:hover .lock-textBox {
+    background-color: rgba(253, 253, 253, 0.93);
+}
+
+.loto-lock5:hover .ltbg-5 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0,77,153,0.55));
+}
+
+@media (max-width: 1025px) {
+    .hardware-header {
+        background: url('./../assets/LOTO\ for\ new\ web\ header-mobile.jpg');
+        background-position: right bottom;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-headerTitle {
+        margin-bottom: 700px;
+    }
+
+    .loto-lockApplications {
+        flex-direction: column;
+    }
+
+    .loto-featuresBox img {
+        margin-left: -20px;
+    }
+
+    .loto-lockLeft {
+        width: 100%;
+        margin: 0;
+    }
+
+    .loto-lockRight {
+        margin: 0;
+        width: 100%;
+    }
+
+    .loto-lock1 {
+        height: 450px;
+        background-position: center;
+        margin-bottom: 7px;
+    }
+
+    .loto-lock2 {
+        height: 450px;
+        
+    }
+
+    .loto-lockRightTop {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .loto-lock3 {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 7px;
+        background-position: center;
+
+    }
+
+    .loto-lock4 {
+        width: 100%;
+        height: 450px;
+        margin: 0;
+    }
+
+    .loto-lock5 {
+        height: 450px;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hardware-header {
+        height: 90vh;
+    }
+
+    .hardware-headerTitle {
+        margin: 0;
+    }
+
+    .loto-procedures>div {
+        padding: 8vh 3vh;
+    }
+
+    .loto-card {
+        min-height: 270px;
+    }
+
+    .loto-protect {
+        flex-direction: column;
+
+    }
+
+    .loto-protectText {
+        margin: 0;
+        width: 100%;
+        min-height: 500px;
+        margin-bottom: 7px;
+    }
+
+    .loto-protectImg {
+        margin: 0;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .loto-featuresBox img {
+        margin-left: 0;
+    }
+
+    .loto-featuresLower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loto-featuresLower>div {
+        width: 70%;
+    }
+
+    #loto-featuresImg {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .hardware-header {
+        background: url('./../assets/LOTO\ for\ new\ web\ header-mobile.jpg');
+        background-position: right bottom;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .hardware-headerTitle {
+        width: 100%;
+    }
+
+    .loto-procedures p {
+        width: 100%;
+    }
+    .loto-card {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    #loto-card1 {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+        margin-bottom: 3.5px;
+    }
+
+    #loto-card2 {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+        margin-top: 3.5px;
+    }
+
+    #loto-card3 {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+        margin-bottom: 3.5px;
+    }
+
+    #loto-card4 {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+        margin-top: 3.5px;
+    }
+
+    .loto-protectText>div {
+        padding: 14px;
+    }
+
+    .loto-protectText h2 {
+        font-size: 24px;
+    }
+    
+    .loto-protectText h2 span {
+        font-size: 23px;
+    }
+
+    .loto-protectText p {
+        width: 100%;
+    }
+
+    .loto-featuresTitle p {
+        font-size: 14px;
+    }
+
+    .loto-featuresLower>div {
+        width: 90%;
+    }
+
+    .loto-featuresBox>div {
+        width: 15%;
+        margin-right: 15%;
+    }
+
+    .lower-lockApps button {
+        margin: 3vh 0;
+        font-size: 12px;
+    }
+
+    .loto-lock1 {
+        height: 300px;
+    }
+
+    .loto-lock2 {
+        height: 300px;
+    }
+
+    .loto-lock3 {
+        height: 300px;
+
+    }
+
+    .loto-lock4 {
+        height: 300px;
+    }
+
+    .loto-lock5 {
+        height: 300px;
+    }
+
+
+}
+
+@media (min-height: 750px) and (min-width: 1200px) {
+    .hardware-header {
+        height: 87vh;
+        width: 100%;
+        background: url('./../assets/LOTO\ for\ new\ web\ header-wide.jpg');
+        background-position: right bottom;
+        background-size: cover;
+        background-repeat: none;
+    }
+}

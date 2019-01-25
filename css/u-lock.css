@@ -1,0 +1,339 @@
+.u-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/u-lock\ header\ image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.u-header p {
+    width: 85%;
+}
+
+.padlock-videoText {
+    overflow: hidden;
+}
+
+.padlock-videoText>div {
+    height: 100%;
+    background: url('./../assets/woman\ with\ bike\ lock\ and\ phone-min\ \(1\).jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.maximumSecure {
+    height: 100%;
+    width: 65%;
+    /* background: var(--main-lightest-gray); */
+    background-image: linear-gradient(to right bottom, var(--main-lightest-gray), var(--main-lightest-gray-2));
+}
+
+.maximumSecure>div {
+    padding: 5vh;
+}
+
+.maximumSecure h2 {
+    color: var(--main-blue);
+    margin-bottom: 12px;
+}
+
+.maximumSecure h5 {
+    width: 43%;
+}
+
+.maximumSecure p {
+    font-size: 16px;
+    font-family: var(--main-text);
+}
+
+.maximumSecureColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.maximumSecureBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20% 0;
+}
+
+.maximumSecureBox img {
+    margin-right: 5%;
+    height: 70px;
+}
+
+.maximumSecureBox h5 {
+    color: var(--main-blue);
+    font-weight: 500;
+    max-width: 50%;
+}
+
+.maximumSecureBox p {
+    max-width: 85%;
+}
+
+.stats-title p {
+    width: 55%;
+}
+
+#coveredlock {
+    margin: 7.5% 0;
+}
+
+#on-bikeSecure {
+    width: 90%;
+}
+
+.lock-applicationsTiles {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.lock-applicationsMotor {
+    width: 50%;
+    margin-right: .225%;
+    overflow: hidden;
+}
+
+.lock-applicationsMotorBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/u-lock\ on\ scooter_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.lock-applicationsMotor:hover .lock-applicationsMotorBG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.lock-applicationsRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: .225%;
+}
+
+.lock-applicationsBike {
+    width: 100%;
+    height: 50%;
+    margin-bottom: .5%;
+    overflow: hidden;
+}
+
+.lock-applicationsBikeBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/U-lock\ on\ bike\ with\ pole_opt.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.lock-applicationsBike:hover .lock-applicationsBikeBG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+.lock-applicationsScooter {
+    width: 100%;
+    height: 50%;
+    margin-top: .5%;
+    overflow: hidden;
+}
+
+.lock-applicationsScooterBG {
+    height: 100%;
+    width: 100%;
+    background: url('./../assets/ulock\ on\ electric\ scooter_opt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-filter: brightness(97%);
+	-moz-filter: brightness(97%);
+	-o-filter: brightness(97%);
+	-ms-filter: brightness(97%);
+	filter: brightness(97%);
+}
+
+.lock-applicationsScooter:hover .lock-applicationsScooterBG {
+    transform: scale(1.015);
+    -webkit-transform: scale(1.015);
+    -webkit-filter: brightness(103%);
+	-moz-filter: brightness(103%);
+	-o-filter: brightness(103%);
+	-ms-filter: brightness(103%);
+    filter: brightness(103%);
+}
+
+@media (max-width: 1025px) {
+    .u-header p {
+        width: 60%;
+    }
+
+    .maximumSecureBox img {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .u-header {
+        height: 90vh;
+        background: url('./../assets/u-lock\ header\ image-mobile.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+    }
+
+    .padlock-videoText {
+        margin-top: 7px;
+    }
+
+    .padlock-videoText>div {
+        min-height: 20vh;
+        background-position: top;
+    }
+
+    .lock-stats {
+        overflow: hidden;
+    }
+
+    .lock-stats img {
+        max-width: 85vw;
+    }
+
+    .maximumSecure {
+        width: 100%;
+    }
+
+    .lock-applicationsTiles {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .lock-applicationsRight {
+        width: 100%;
+        margin: 0;
+    }
+
+    .lock-applicationsMotor {
+        margin: 0;
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 10px;
+    }
+
+    .lock-applicationsBike {
+        margin: 0;
+        height: 40vh;
+        margin-bottom: 10px;
+    }
+
+    .lock-applicationsScooter {
+        margin: 0;
+        height: 40vh;
+    }
+
+    .lower-lockApps button {
+        margin: 3vh 0;
+    }
+
+}
+
+@media (max-width: 479px) { 
+
+    .u-header {
+        background: url('./../assets/u-lock\ header\ image-mobile.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: none;
+        justify-content: flex-start;
+    }
+
+    .hardware-headerTitle {
+        margin-top: 40vh;
+    }
+
+    .hardware-headerTitle h4 {
+        color: white;
+    }
+
+    .maximumSecure h5 {
+        width: 100%;
+    }
+
+    .maximumSecureColumn {
+        flex-direction: column;
+    }
+
+    .lower-lockApps button {
+        margin: 5vh 0;
+    }
+
+    #u-lockspecs {
+        max-width: 60%;
+        margin-left: 20%;
+    }
+}

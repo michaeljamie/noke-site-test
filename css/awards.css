@@ -1,0 +1,129 @@
+.hardware-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/Awards\ header\ image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hardware-headerTitle {
+    width: 50%;
+}
+
+.hardware-headerTitle h4 {
+    width: 70%;
+}
+
+.hardware-headerTitle p {
+    width: 45%;
+}
+
+.awards-layout {
+    padding: 5vw;
+}
+
+.awards-layout>div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.awards-box {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.awards-box h5 {
+    font-family: var(--main-text);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.awards-box h5 span {
+    color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.awards-divider {
+    height: 1.5px;
+    width: 100%;
+    background: whitesmoke;
+    margin: 10px 0;
+}
+
+.awards-img {
+    max-height: 100px;
+}
+
+.awards-img img {
+    max-height: 100px;
+}
+
+#insertcoin {
+    max-height: 30px;
+    margin-top: 70px;
+}
+
+#utc {
+    max-height: 60px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .hardware-header {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 479px) {
+    .awards-layout>div {
+        flex-direction: column;
+    }
+
+    .hardware-headerTitle {
+        width: 95%;
+    }
+
+    .hardware-headerTitle h2 {
+        width: 100%;
+    }
+
+    .hardware-headerTitle h4 {
+        width: 100%;
+    }
+
+    .awards-layout>div {
+        margin: 0;
+    }
+
+    .awards-box {
+        width: 90%;
+        margin: 20px 0 20px 15px;
+    }
+
+    #insertcoin {
+        margin-top: 0px;
+    }
+
+}

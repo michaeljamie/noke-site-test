@@ -1,0 +1,237 @@
+.fob-header {
+    height: 87vh;
+    width: 100%;
+    background: url('./../assets/Fob\ header.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.fob-header p {
+    width: 92%;
+}
+
+.fob-access {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fob-access h2 {
+    color: var(--main-blue);
+}
+
+.fob-access>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    margin: 5vh 0;
+}
+
+.fob-accessColumn {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+}
+
+.fob-accessColumn>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    margin: 8% 0;
+}
+
+.fob-accessColumn img {
+    margin-right: 1vw;
+    max-width: 85%;
+}
+
+.fob-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.fob-accessColumn p {
+    font-size: 16px;
+    width: 58%;
+    margin-top: 4%;
+}
+
+.fob-secure {
+    /* background: var(--main-lightest-gray); */
+    background-image: linear-gradient(to right bottom, var(--main-lightest-gray), var(--main-lightest-gray-2));
+}
+
+.fob-secure h2 {
+    color: var(--main-blue);
+}
+
+.fob-secure p {
+    margin-top: 1.5%;
+    width: 35%;
+}
+
+.fob-secure>div {
+    padding: 10vh;
+}
+
+.fob-secureLower {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5vh 0;
+}
+
+.fob-secureLower>div {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.fob-secureLower p {
+    width: 100%;
+}
+
+.fob-secureLower h5 {
+    color: var(--main-blue);
+}
+
+.fob-secureLower img {
+    margin-right: 5%;
+}
+
+.fob-secureBox {
+    display: flex;
+    flex-direction: row;
+    margin: 7vh 0;
+}
+
+.fob-imgBox {
+    margin-right: 20px;
+}
+
+@media (max-width: 1025px) {
+    .fob-header p {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .fob-header {
+        height: 90vh;
+    }
+
+    .fob-accessColumn p {
+        width: 100%;
+    }
+
+    .fob-accessColumn img {
+        max-width: 7vw;
+        margin-right: 2.5vw;
+    } 
+
+    .fob-secure p {
+        width: 100%;
+    }
+
+    .fob-secureLower>div {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    .fob-secureLower img {
+        margin-right: 10%;
+        max-height: 13vh;
+    }
+
+    .fob-secureLower {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .fob-secureBox {
+        margin: 2vh 0;
+    }
+
+}
+
+@media (max-width: 479px) { 
+
+    .fob-header {
+        justify-content: flex-start;
+        background-position: right;
+    }
+
+    .hardware-headerTitle {
+        margin: 5vh 0 0 15vh;
+    }
+
+    .hardware-headerTitle h2 {
+        color: white;
+    }
+
+    .hardware-headerTitle h3 {
+        margin-top: 5px;
+        color: white;
+    }
+
+    .fob-access>div {
+        flex-direction: column;
+    }
+
+    .fob-accessColumn {
+        width: 100%;
+    }
+
+    .fob-accessColumn>div {
+        height: 10vh;
+    }
+
+    .fob-accessColumn img {
+        max-width: 12vw;
+        margin-right: 5vw;
+    } 
+
+    .fob-secure>div {
+        padding: 5vh;
+    }
+
+    .fob-secureLower {
+        margin: 0;
+    }
+
+    .fob-secureLower>div {
+        margin: 0;
+    }
+
+    #fobright {
+        max-width: 65%;
+        margin-left: 20%;
+    }
+
+}

@@ -1,0 +1,209 @@
+.contact-body {
+    background: linear-gradient(rgba(0, 114, 206, 0.4),rgba(0, 114, 206, 0.5)), url('./../assets/contact\ head.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 67vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.contact-body h1 {
+    font-size: 70px;
+}
+
+.contact-infoTop {
+    background: var(--main-blue);
+    height: 20vh;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 7px;
+}
+
+.contact-info img {
+    width: 2vw;
+    padding-right: 1.5vw;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info h2 {
+    font-size: 38px;
+}
+
+.contact-infoMid {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    height: 60vh;
+    max-height: 65vh;
+    margin: 7px 0;
+}
+
+.contact-infoMid>div {
+    width: 50%;
+    height: 100%;
+}
+
+.contact-infoMid h4 {
+    margin-bottom: 4.5vh;
+    font-size: 37px;
+}
+
+.contact-infoMid h4 span {
+    font-weight: 800;
+}
+
+.contact-infoMid h5 {
+    color: white;
+    margin-bottom: 5vh;
+    font-size: 25px;
+    font-family: var(--main-text);
+}
+
+.contact-infoMid input {
+    margin: 3vh 0;
+    background: #D1E8F7;
+    border-bottom: 1px solid #D1D3D4;
+    color: var(--main-gray);
+    font-family: var(--main-text);
+}
+
+.contact-infoMid input::placeholder {
+    color: var(--main-gray);
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactLeft {
+    background: #D1D3D4;
+    margin-right: 3.5px;
+}
+
+#contactLeft img {
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#contactLeft img:hover {
+    -webkit-transform: scale(1.03, 1.03) translateY(-2.5px);
+    transform: scale(1.03, 1.03) translateY(-2.5px);
+}
+
+#contactLeft>div {
+    padding: 5vh;
+}
+
+#contactRight {
+    margin-left: 3.5px;
+    height: 100%;
+}
+
+.cr-top {
+    margin-bottom: 3.5px;
+    background: #D1E8F7;
+    height: auto;
+    height: 50%;
+}
+
+.cr-top>div {
+    padding: 5vh;
+}
+
+.cr-top button {
+    background: var(--main-gray);
+    border: 1px solid var(--main-gray);
+}
+
+.cr-top button:hover {
+    border: 1px solid var(--main-gray);
+    color: var(--main-gray);
+    background: white;
+}
+
+.cr-bottom {
+    padding: 0;
+    margin: 0;
+    margin-top: 3.5px;
+    background: url(./../assets/Optimized-woman\ with\ bike\ lock\ and\ phone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 50%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .contact-body {
+        height: 70vh;
+    }
+
+    .contact-info img {
+        width: 5vw;
+        padding-right: 3vw;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .contact-body h1 {
+        font-size: 40px;
+    }
+
+    .contact-info h2 {
+        font-size: 18px;
+    }
+
+    .contact-info img {
+        width: 8vw;
+        padding-right: 3vw;
+    }
+
+    .contact-infoMid {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact-infoMid>div {
+        width: 100%;
+    }
+
+    .contact-infoMid h4 {
+        font-size: 25px;
+    }
+
+    .contact-infoMid h5 {
+        font-size: 18px;
+    }
+
+    .contact-infoMid input {
+        font-size: 18px;
+    }
+
+    .contact-infoMid input::placeholder {
+        font-size: 18px;
+    }
+}
