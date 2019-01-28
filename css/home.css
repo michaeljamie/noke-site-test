@@ -1828,6 +1828,32 @@ h6 {
         font-size: 17px;
     }
 
+    #product1 {
+        height: auto;
+        max-width: 65%;
+    }
+    
+    #product2 {
+        height: auto;
+    }
+    
+    #product3 {
+        height: auto;
+    }
+    
+    #product4 {
+        height: auto;
+    }
+    
+    #product6 {
+       height: auto;
+       max-width: 70%;
+    }
+    
+    #product8 {
+        height: auto;
+    }
+
     .home-productsMobile {
         width: 100%;
     }
@@ -1908,5 +1934,6 @@ h6 {
         justify-content: space-around;
         align-items: center;
     }
+
 }
 
