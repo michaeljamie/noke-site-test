@@ -372,6 +372,7 @@ p {
 
 .menu-item a {
     color: var(--main-gray);
+    
 }
 
 .menu-item>a:after {
@@ -414,6 +415,7 @@ p {
     position: fixed;
     padding: 1vw;
     cursor: pointer;
+    font-family: var(--main-text);
 }
 
 .nav-submenuItem {
@@ -423,6 +425,14 @@ p {
     padding: 5px 0 5px 10px;
     font-weight: 400;
     color: var(--main-gray);
+}
+
+.nav-submenuItem>a {
+    font-family: var(--main-text);
+}
+
+.nav-submenuPoint>a {
+    font-family: var(--main-text);
 }
 
 .nav-submenuItem>ul {
