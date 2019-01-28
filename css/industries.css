@@ -370,7 +370,7 @@
 .industries-successCards {
     background: white;
     height: 570px;
-    width: 28%;
+    width: 25%;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -392,7 +392,16 @@
 }
 
 .industries-successCards:hover p {
-    color: var(--main-blue);
+    color: #939598;
+}
+
+.industries-successCards>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    padding: 40px;
+    text-align: left;
 }
 
 .industries-successCards>img {
@@ -400,23 +409,25 @@
     height: 50%;
 }
 
-.industries-successCards>h3 {
+.industries-successCards h3 {
     color: var(--main-blue);
-    font-size: 18px;
-    text-align: center;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
-.industries-successCards>h4 {
+.industries-successCards h4 {
     color: #BCBEC0;
-    font-size: 16px;
+    font-size: 15px;
     font-family: var(--main-text);
-    padding: 0 15%;
+    line-height: 1.5;
 }
 
-.industries-successCards>p {
-    color: #939598;
-    padding: 8%;
-    font-size: 14px;
+.industries-successCards p {
+    justify-self: flex-end;
+    color: var(--main-blue);
+    font-size: 15px;
     font-weight: 600;
     transition: all 0.28s ease-in;
 }

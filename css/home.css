@@ -36,6 +36,11 @@ h6 {
     line-height: .8;
 }
 
+.home-headerTitleMobile {
+    display: none;
+    color: var(--main-blue);
+}
+
 .home-subTitle {
     font-size: 30px;
 }
@@ -84,6 +89,10 @@ h6 {
     font-weight: 700;
     color: var(--main-blue);
     font-size: 17px;
+}
+
+.home-headerVideoMobile {
+    display: none;
 }
 
 .home-headerVideo:hover img {
@@ -373,6 +382,10 @@ h6 {
     align-items: flex-end;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+}
+
+.home-productsBottomMobile {
+    display: none;
 }
 
 .home-productsBottom img {
@@ -1557,9 +1570,9 @@ h6 {
         width: 70%;
     }
 
-    .home-headerLocks {
+    /* .home-headerLocks {
         display: none;
-    }
+    } */
 
     #home-subTitle {
         width: 100%;
@@ -1570,7 +1583,7 @@ h6 {
         margin-top: 0vh;
     }
 
-    .home-headerVideo {
+    /* .home-headerVideo {
         display: none;
         height: 0;
     }
@@ -1583,7 +1596,7 @@ h6 {
     .video-overlayMed {
         display: none;
         height: 0;
-    }
+    } */
 
     .home-products {
         height: auto;
@@ -1746,13 +1759,32 @@ h6 {
 
 @media (max-width: 479px) {
 
+    .home-header {
+        background: url('./../assets/home-header-mobile.png');
+        background-position: bottom right;
+        background-size: cover;
+        background-repeat: none;
+    }
+
     .home-header>div {
-        padding: 2vh;
+        padding: 2vh 3vh;
     }
 
     .home-headerTitle {
-        font-size: 23px;
+        display: none;
+    }
+
+    .home-headerTitleMobile {
+        padding-top: 2.5vh;
+        display: block;
+        font-size: 22px;
         width: 100%;
+        line-height: 1;
+    }
+
+    #home-subTitle {
+        margin-top: 3px;
+        font-size: 15px;
     }
 
     .home-headerText {
@@ -1768,7 +1800,11 @@ h6 {
         margin-top: 0vh;
     }
 
-    .home-headerVideo {
+    .home-headerBottom h6 {
+        display: none;
+    }
+
+    /* .home-headerVideo {
         display: none;
         height: 0;
     }
@@ -1776,10 +1812,101 @@ h6 {
     .home-headerVideoMed {
         display: none;
         height: 0;
+    } */
+
+    .home-headerVideo {
+        display: none;
+    }
+
+    .home-headerVideoMobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1.5vh;
+        font-weight: 700;
+        color: var(--main-blue);
+        font-size: 17px;
+    }
+
+    .home-productsMobile {
+        width: 100%;
     }
 
     .home-productsMobile>img {
         width: 100vw; 
+    }
+
+    .home-productsMobileText {
+        padding: 5vw 3vh 0 3vw;
+    }
+
+    .home-productsMobile h6 {
+        font-size: 14px;
+    }
+
+    .home-productsMobile p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .home-productImgMobile {
+        max-width: 90%;
+    }
+
+    .home-productMobile {
+        width: 21.5%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .products-rowMobile {
+        width: 90%;
+        height: 110px;
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+        justify-content: space-around;
+    }
+
+    .home-productsBottom {
+        display: none;
+    }
+
+    .home-productsBottomMobile {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    .home-productsBottomMobile img {
+        -webkit-transition-duration: 0.1s;
+        transition-duration: 0.1s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+    
+    .home-productsBottomMobile>a:hover img {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    
+    .home-productsBottomMobile>a {
+        padding: 2%;
+        color: var(--main-blue);
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 

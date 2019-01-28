@@ -572,6 +572,12 @@ footer a {
 .footer-bottom img {
     height: 30px;
     padding: 8px;
+    transition: all 0.28s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.footer-bottom img:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 
 #footer-TC {
@@ -632,13 +638,13 @@ footer a {
 
     .noke-logo {
         position: static;
+        margin: 0;
         margin-left: auto;
-        margin-right: auto;
-        padding: 0;
+        padding: 0 25px 0px 0;
     }
 
     .noke-logo>img {
-        width: 20.5vw;
+        width: 18vw;
         margin: 0;
         padding: 0;
         padding-bottom: 1vh;
@@ -669,12 +675,19 @@ footer a {
         h2 {
             font-size: 30px;
         }
+
+        .noke-logo {
+            margin: 0;
+            margin-left: auto;
+            padding: 0 15px 8px 0;
+        }
     
         .noke-logo>img {
-            width: 28vw;
+            width: 21vw;
             margin: 0;
             padding: 0;
         }
+
     }
 
    /* Toggle menu on mobile & tablet */
@@ -1161,4 +1174,11 @@ footer a {
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+
+::selection {
+    background-color: var(--main-blue);
+    color: #fff;
 }
