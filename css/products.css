@@ -1185,6 +1185,10 @@
         justify-content: flex-end;
     }
 
+    .text-arrow {
+        margin: 1px 5px;
+    }
+
     .product-bladePadlock>div {
         padding: 3.5vw;
         display: flex;
