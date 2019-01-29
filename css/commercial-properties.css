@@ -16,11 +16,21 @@
          animation: fadein 2s;
 }
 
+.industries-successCards {
+    width: 50%;
+}
+
 @media (max-width: 479px) {
     .industries-header {
         background: url('./../assets/Commercial\ construction\ header-mobile.jpg');
         background-position: right bottom;
         background-size: cover;
         background-repeat: none;
+        height: 90vh;
+    }
+
+    .industries-successCards {
+        height: 600px;
+        width: 80vw;
     }
 }

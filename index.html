@@ -49,17 +49,17 @@
     <div class='inner-site'>
         <nav id='navbar' class='navbar'>
             <div class='menuToggle'>
-                <input type="checkbox" />
+                <input type="checkbox" aria-label="menu" />
                 <span></span>
                 <span></span>
                 <span></span>
                 <ul class='menu'>
-                    <a href="./home.html" role='link'><img src="./assets/noke_logo_white.png" alt="mobile logo"></a>
+                    <a href="./index.html" role='link'><img src="./assets/noke_logo_white.png" alt="mobile logo"></a>
                     <a href="./products.html" role='link'><li>PRODUCTS</li></a>
                     <a href="./software.html" role='link'><li>SOFTWARE</li></a>
                     <a href="./industries.html" role='link'><li>INDUSTRIES</li></a>
                     <a href="./about-noke.html" role='link'><li>ABOUT NOKĒ</li></a>
-                    <a href="./success-stories.html" role='link'><li>SUCCESS STORIES</li></a>
+                    <a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
                     <a href="./demo.html" role='link'><li>REQUEST INFO</li></a>
                     <a href="https://nokepro.com/login" role='link'><li id='side-last'>LOGIN</li></a>
                 </ul>
@@ -70,7 +70,7 @@
                 <button role='button' id='nav-button' onclick="location.href='./demo.html'" type="button" class='buttonBlue'>Request Info</button>
             </div>
             <div class='nav-left'>
-                <a href="./home.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
+                <a href="./index.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
                 <ul class='nav-links'>
                     <li class='menu-item'><a href="./products.html" role='link'>PRODUCTS</a>
                         <ul class='submenu'>
@@ -138,6 +138,7 @@
             <div>
                 <div>
                     <h2 class='home-headerTitle'><span>EVERY LOCK CONNECTED AND KEYLESS</span></h2>
+                    <h2 class="home-headerTitleMobile"><span>EVERY LOCK</br>CONNECTED AND KEYLESS</span></h2>
                     <h2 id='home-subTitle'>NO MATTER WHERE YOU RUN YOUR BUSINESS</h2>
                 </div>
                 <div class='home-headerBottom'>
@@ -146,6 +147,10 @@
                         <h6>INTRODUCING <span>NOKĒ SMART ACCESS CONTROL</span></h6>
                         <p class='home-headerText'>With all your locks and door controllers connected, sharing data in real-time, sending you updates and keeping valuable assets safe, imagine what's possible.</p>
                         <a href='#video-popup' onclick="playVid()" class='home-headerVideo'>
+                            <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
+                            <h4>WATCH VIDEO</h4>
+                        </a>
+                        <a href='#' onclick="playVid()" class='home-headerVideoMobile'>
                             <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
                             <h4>WATCH VIDEO</h4>
                         </a>
@@ -167,7 +172,38 @@
         </div>
         <div class='home-products'>
             <div class='home-productsMobile'>
-                <img src="./assets/New collage.jpg" alt="Nokē Smart Lock Products">
+                <div class='home-productsMobileText'>
+                    <h6><span>INTRODUCING NOKĒ SMART ACCESS CONTROL</span></h6>
+                    <p>With all your locks and door controllers connected, sharing data in real-time, sending you updates and keeping valuable assets safe, imagine what's possible.</p>
+                </div>
+                <div class='products-rowMobile'>
+                    <a href="./standard-padlock.html" class='home-productMobile'>
+                        <img data-src="./assets/Optimized-standard padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth Padlock" id="product1" data-aos="fade-up">
+                    </a>
+                    <a href="./hd-smart-padlocks.html" class='home-productMobile'>
+                        <img src='./assets/HD Padlock_opt.png' data-src="./assets/HD Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD Padlock" id="product2" data-aos="fade-up" data-aos-delay="15">
+                    </a>
+                    <a href="./hd-smart-padlocks.html" class='home-productMobile'>
+                        <img src='./assets/HD+ Padlock_opt.png' data-src="./assets/HD+ Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD+ Plus Padlock" id="product3" data-aos="fade-up" data-aos-delay="30">
+                    </a>
+                    <a href="./loto-smart-lockout-tagout.html" class='home-productMobile'>
+                        <img src='./assets/Noke LOTO locks.engraved.shadow-min.png' data-src="./assets/Noke LOTO locks.engraved.shadow.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth LOTO Padlock" id="product4" data-aos="fade-up" data-aos-delay="45">
+                    </a>
+                </div>
+                <div class='products-rowMobile'>
+                    <a href="./u-lock.html" class='home-productMobile'>
+                        <img src='./assets/u-lock_opt.png' data-src="./assets/u-lock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth U-Lock Padlock" id="product5" data-aos="fade-up" data-aos-delay="60">
+                    </a>
+                    <a href="./in-wall-door-controllers.html" class='home-productMobile'>
+                        <img src='./assets/eliptic door controller_opt.png' data-src="./assets/eliptic door controller.png" class='home-productImgMobile lazyload' alt="Nokē In Wall Bluetooth Door Controller" id="product6" data-aos="fade-up" data-aos-delay="75">
+                    </a>
+                    <a href="./on-wall-door-controllers.html" class='home-productMobile'>
+                        <img src='./assets/bar controller_opt.png' data-src="./assets/bar controller.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product7" data-aos="fade-up" data-aos-delay="90">
+                    </a>
+                    <a href="./custom-locking-solutions.html" class='home-productMobile'>
+                        <img src='./assets/lightbulb_opt.png' data-src="./assets/lightbulb.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product8" data-aos="fade-up" data-aos-delay="105">
+                    </a>
+                </div>
             </div>
             <div class='home-productsTop'>
                 <a href="./standard-padlock.html"><div class='home-product'> 
@@ -206,6 +242,12 @@
             <div class='home-productsBottom'>
                 <a href='./products.html' data-aos="fade-up">
                     <h4>LEARN ABOUT OUR PRODUCTS</h4>
+                    <img src="./assets/Blue Arrow.png" class='text-arrow' alt="navigation arrow">
+                </a>
+            </div>
+            <div class='home-productsBottomMobile'>
+                <a href='./products.html' data-aos="fade-up">
+                    <h4>SEE OUR PRODUCTS</h4>
                     <img src="./assets/Blue Arrow.png" class='text-arrow' alt="navigation arrow">
                 </a>
             </div>
@@ -404,7 +446,7 @@
         </div>
         <footer>
             <div class='footer-wrapper'>
-                <input id='products' type="checkbox">
+                <input id='products' type="checkbox" aria-label="menu">
                 <label for="products">
                     <p>PRODUCTS</p>
                     <div class='lil_arrow'></div>
@@ -431,7 +473,7 @@
                         </ul>
                     </div>
                 </label>
-                <input id='software' type="checkbox">
+                <input id='software' type="checkbox" aria-label="menu">
                 <label for="software">
                     <p>SOFTWARE</p>
                     <div class='lil_arrow'></div>
@@ -458,7 +500,7 @@
                         </ul>
                     </div>
                 </label>
-                <input id='company' type="checkbox">
+                <input id='company' type="checkbox" aria-label="menu">
                 <label for="company">
                     <p>COMPANY</p>
                     <div class='lil_arrow'></div>
@@ -485,7 +527,7 @@
                         </ul>
                     </div>
                 </label>
-                <input id='support' type="checkbox">
+                <input id='support' type="checkbox" aria-label="menu">
                 <label for="support">
                     <p>SUPPORT</p>
                     <div class='lil_arrow'></div>
@@ -515,7 +557,7 @@
             </div>
             <div class='footer-top'>
                 <div class='footer-column'>
-                    <a href="./home.html"id="logo-footer"><img src="./assets/noke_logo_white.png" alt="Nokē logo With Tag Line White"></a>
+                    <a href="./index.html"id="logo-footer"><img src="./assets/noke_logo_white.png" alt="Nokē logo With Tag Line White"></a>
                 </div>
                 <div class='footer-column'>
                     <a href="./products.html">PRODUCTS</a>
