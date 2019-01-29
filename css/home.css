@@ -1974,5 +1974,10 @@ h6 {
         height: 110px;
     }
 
+    .padlock-play {
+        max-width: 35%;
+        margin-bottom: 50px;
+    }
+
 }
 

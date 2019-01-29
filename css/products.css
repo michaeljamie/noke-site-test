@@ -104,6 +104,12 @@
     font-size: 17px;
 }
 
+.home-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .home-text img {
     -webkit-transition-duration: 0.1s;
     transition-duration: 0.1s;
@@ -1157,7 +1163,6 @@
 
     .hardware-bar h4 {
         font-size: 14px;
-        width: 100%;
     }
 
     .hardware-LOTO {
@@ -1224,7 +1229,7 @@
 
     #blue-arrowFob {
         margin-top: 19px;
-        margin-left: -20px;
+        margin-left: -13px;
     }
 
 }
