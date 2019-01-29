@@ -821,7 +821,7 @@ footer a {
 
     .menu li {
         text-align: left;
-        padding-bottom: 15px;
+        padding-bottom: 12px;
         border-bottom: .05px solid whitesmoke;
     }
 
@@ -910,8 +910,8 @@ footer a {
 
     body .footer-wrapper .lil_arrow {
         color: white;
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
         transition: -webkit-transform 0.2s;
         transition: transform 0.2s;
         transition: transform 0.2s, -webkit-transform 0.2s;
@@ -919,8 +919,8 @@ footer a {
         border-top: 2px solid white;
         border-right: 2px solid white;
         position: relative;
-        top: -16px;
-        left: 100px;
+        top: -14px;
+        left: 88px;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
     }
