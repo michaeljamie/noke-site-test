@@ -415,7 +415,7 @@ h6 {
 
 .text-arrow {
     height: 10px;
-    margin: 5px;
+    margin: 3px 5px;
 }
 
 .home-text {
@@ -431,6 +431,11 @@ h6 {
     color: white;
 }
 
+.home-text h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
 .home-textRight {
     width: auto;
     display: flex;
@@ -444,6 +449,11 @@ h6 {
     color: white;
 }
 
+.home-textRight h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
 .home-textGrey {
     width: auto;
     display: flex;
@@ -453,6 +463,11 @@ h6 {
     align-items: center;
     margin: 5px 0;
     color: #808285;
+}
+
+.home-textGrey h4 {
+    display: flex;
+    align-items: flex-end;
 }
 
 .home-textRightGrey {
@@ -466,6 +481,11 @@ h6 {
     font-family: var(--main-text);
     font-size: 17px;
     color: #808285;
+}
+
+.home-textRightGrey h4 {
+    display: flex;
+    align-items: flex-end;
 }
 
 .home-app {

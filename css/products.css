@@ -119,6 +119,11 @@
     transition-timing-function: ease-out;
 }
 
+.home-text h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
 .hardware-barLocks {
     width: 50%;
     height: 100%;
@@ -514,10 +519,6 @@
 
 #home-textGray {
     color: var(--main-dark-gray);
-}
-
-#blue-arrowFob {
-    margin-top: 23px;
 }
 
 .hardware-durable {
@@ -1225,11 +1226,6 @@
 
     .product-bladeFob>div h4 {
         width: 70%;
-    }
-
-    #blue-arrowFob {
-        margin-top: 19px;
-        margin-left: -13px;
     }
 
 }
