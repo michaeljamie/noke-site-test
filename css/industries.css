@@ -118,10 +118,6 @@
     height: 25vh;
 }
 
-#ovalIndustry {
-    min-width: 240px;
-}
-
 .industries-findCard>h4 {
     font-size: 18px;
     width: 100%;
@@ -437,9 +433,6 @@
         height: 14vh;
     }
 
-    #ovalIndustry {
-        min-width: auto;
-    }
 }
 
 @media (max-width: 768px) {
@@ -662,10 +655,6 @@
     .industries-benefitsText h3 {
         font-size: 14px;
         width: 100%;
-    }
-
-    #ovalIndustry {
-        min-width: 40px;
     }
 
 }
