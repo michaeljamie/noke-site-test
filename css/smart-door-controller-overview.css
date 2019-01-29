@@ -831,6 +831,8 @@
 
     .inSeries-products>div {
         width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .onSeries-products {
@@ -841,10 +843,44 @@
 
     .onSeries-products>div {
         width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #dc4-img {
+        margin: 0;
     }
 
     #circuitboard img {
         padding-right: 20%;
         max-width: 80%;
     }
+
+    .on-wallSeries h3 {
+        margin-left: 8vh;
+    }
+    
+    .on-wallSeries h4 {
+        margin-left: 8vh;
+    }
+    
+    .on-wallSeries p {
+        margin-left: 8vh;
+    }
+
+    .door-controllerView img {
+        max-height: auto;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .controller-boxImg {
+        width: 12%;
+        margin-right: 18px;
+    }
+
+    .controller-boxImg img {
+        max-width: 90%;
+    }
+
 }

@@ -1190,6 +1190,7 @@
     }
 
     .product-bladePadlock>div {
+        width: 93%;
         padding: 3.5vw;
         display: flex;
         flex-direction: column;
@@ -1199,6 +1200,7 @@
     }
 
     .product-bladeController>div {
+        width: 93%;
         padding: 3.5vw;
         display: flex;
         flex-direction: column;
@@ -1208,6 +1210,7 @@
     }
 
     .product-bladeUlock>div {
+        width: 93%;
         padding: 3.5vw;
         display: flex;
         flex-direction: column;
@@ -1217,6 +1220,7 @@
     }
 
     .product-bladeFob>div {
+        width: 93%;
         padding: 3.5vw;
         display: flex;
         flex-direction: column;
@@ -1226,6 +1230,7 @@
     }
 
     .product-bladeLoto>div {
+        width: 93%;
         padding: 3.5vw;
         display: flex;
         flex-direction: column;
