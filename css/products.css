@@ -419,8 +419,7 @@
 }
 
 .product-bladeFob>div h4 {
-    width: 63%;
-    margin-left: 37%;
+    width: 100%;
 }
 
 .hardware-barFob:hover .hardware-barFobBG {
@@ -1182,50 +1181,53 @@
         padding: 0;
     }
 
-    .product-bladePadlock>div {
-        padding: 3.5vw 0 0 3.5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+    .home-text {
+        justify-content: flex-end;
     }
 
-
-
-    .product-bladeController>div {
-        padding: 3.5vw 0 0 3.5vw;
+    .product-bladePadlock>div {
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
+    }
+
+    .product-bladeController>div {
+        padding: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeUlock>div {
-        padding: 3.5vw 0 0 3.5vw;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeFob>div {
-        padding: 3.5vw 0 0 3.5vw;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeLoto>div {
-        padding: 3.5vw 0 0 3.5vw;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-
-    .product-bladeFob>div h4 {
-        width: 70%;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
 }
