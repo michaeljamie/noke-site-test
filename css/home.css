@@ -1904,6 +1904,22 @@ h6 {
         font-size: 15px;
     }
 
+    .home-text {
+        width: 100%;
+    }
+
+    .home-textGrey {
+        width: 100%;
+    }
+
+    .home-textRight {
+        width: 100%;
+    }
+
+    .home-textRightGrey {
+        width: 100%;
+    }
+
     .home-headerText {
         display: none;
     }
@@ -1921,18 +1937,23 @@ h6 {
         display: none;
     }
 
-    /* .home-headerVideo {
+    #video-popup {
         display: none;
         height: 0;
+    }
+
+    .home-headerVideo {
+        display: none;
     }
 
     .home-headerVideoMed {
         display: none;
         height: 0;
-    } */
+    }
 
-    .home-headerVideo {
+    .video-overlayMed {
         display: none;
+        height: 0;
     }
 
     .home-headerVideoMobile {
@@ -1943,6 +1964,10 @@ h6 {
         font-weight: 700;
         color: var(--main-blue);
         font-size: 17px;
+    }
+
+    .home-headerVideoMobile h4 {
+        font-size: 14px;
     }
 
     .products-rowMobile {
