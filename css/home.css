@@ -419,6 +419,7 @@ h6 {
 }
 
 .home-text {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -431,6 +432,7 @@ h6 {
 }
 
 .home-textRight {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -443,6 +445,7 @@ h6 {
 }
 
 .home-textGrey {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -453,6 +456,7 @@ h6 {
 }
 
 .home-textRightGrey {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

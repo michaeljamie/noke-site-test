@@ -617,6 +617,10 @@ footer a {
         height: 4.5vh;
         font-size: 17px;
     }
+
+    .noke-logo {
+        padding: 0 0 2vh 1vw;
+    }
 }
 
 /* Tablet View */
