@@ -242,6 +242,20 @@
     margin-left: .2%;
 }
 
+@media (max-width: 1106px) {
+    .hardware-compare h4 {
+        font-size: 16px;
+    }
+
+    .tablerow1 {
+        width: 90%;
+    }
+
+    .tablerow2 {
+        width: 90%;
+    }
+}
+
 @media (max-width: 1025px) {
     #smartlock1 {
         height: 450px;
@@ -257,6 +271,19 @@
     .smart-locksCard {
         height: auto;
     }
+
+    .hardware-compare h4 {
+        font-size: 15px;
+    }
+
+    .tablerow1 {
+        width: 100%;
+    }
+
+    .tablerow2 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -383,5 +410,9 @@
 
     .tablerow2 img {
         max-height: 2vh;
+    }
+
+    @media (min-height: 770px) and (min-width: 770px) {
+
     }
 }

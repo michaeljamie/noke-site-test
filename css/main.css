@@ -601,6 +601,24 @@ footer a {
     }
 }
 
+/* Mac Laptops */
+
+@media (max-width: 1225px) {
+    .nav-top>a {
+        font-size: 15px;
+    }
+
+    .nav-top>button {
+        font-size: 14px;
+        margin-top: 1.8px;
+    }
+
+    .menu-item {
+        height: 4.5vh;
+        font-size: 17px;
+    }
+}
+
 /* Tablet View */
 
 @media (max-width: 768px) { 
