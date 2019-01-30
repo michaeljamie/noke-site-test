@@ -16,15 +16,21 @@ if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
 }
 }
 
+// Hide Address Bar on Scroll
 
-
-// Shrink Address Bar on Scroll
-
-window.addEventListener("load", function() {
-    setTimeout(function() {
-      var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      if (scrollPos < 1) {
-        window.scrollTo(0,1);
+function hideAddressBar()
+{
+  if(!window.location.hash)
+  {
+      if(document.height < window.outerHeight)
+      {
+          document.body.style.height = (window.outerHeight + 50) + 'px';
       }
-    }, 0);
-  });
+
+      setTimeout( function(){ window.scrollTo(0, 1); }, 50 );
+  }
+}
+
+window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddressBar(); } } );
+window.addEventListener("orientationchange", hideAddressBar );
+
