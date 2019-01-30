@@ -15,3 +15,16 @@ if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     // document.getElementById("menu-links").className = "nav-links";
 }
 }
+
+
+
+// Shrink Address Bar on Scroll
+
+window.addEventListener("load", function() {
+    setTimeout(function() {
+      var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollPos < 1) {
+        window.scrollTo(0,1);
+      }
+    }, 0);
+  });
