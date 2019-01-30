@@ -30,3 +30,7 @@
         background-repeat: none;
     }
 }
+
+.buttonBlue {
+    display: none;
+}

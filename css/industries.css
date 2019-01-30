@@ -263,7 +263,7 @@
 }
 
 .industries-case p {
-    margin-bottom: 30px;
+    margin: 15px;
     width: 74%;
     font-weight: 400;
 }
@@ -623,6 +623,22 @@
 }
 
 @media (max-width: 479px) {
+
+    .industries-case img {
+        margin: 0;
+        align-self: flex-start;
+    }
+
+    .industries-case p {
+        margin: 0; 
+        padding: 0;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    /* .industries-case button {
+        margin: 15px 0;
+    } */
 
     .industries-successCards {
         width: 80vw;

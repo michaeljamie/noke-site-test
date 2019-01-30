@@ -15,3 +15,7 @@
       -o-animation: fadein 2s;
          animation: fadein 2s;
 }
+
+.buttonBlue {
+    display: none;
+}
