@@ -10,6 +10,10 @@
     -webkit-overflow-scrolling: touch;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     --main-blue: #0072CE;
     --main-blue-dark: #005AB2;
@@ -23,6 +27,7 @@ body {
     --main-font: 'Poppins', sans-serif;
     --main-text: 'Roboto', sans-serif;
     width: 100%;
+    min-height: 100%;
     font-family: var(--main-font);
     box-sizing: border-box;
     background-repeat: no-repeat;
