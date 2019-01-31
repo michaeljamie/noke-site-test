@@ -712,13 +712,17 @@ footer a {
         .noke-logo {
             margin: 0;
             margin-right: auto;
-            padding: 0 0 2px 20px;
+            padding: 0 2px 0 6vw;
         }
     
         .noke-logo>img {
             width: 21vw;
             margin: 0;
             padding: 0;
+        }
+
+        #logo {
+            padding-bottom: 3px;
         }
 
     }
@@ -728,7 +732,7 @@ footer a {
     .menuToggle {
         display: block;
         position: absolute;
-        top: 30%;
+        top: 32%;
         right: 6vw;
         z-index: 1;
         -webkit-user-select: none;
@@ -750,12 +754,12 @@ footer a {
 
     .menuToggle>span {
         display: block;
-        width: 33px;
-        height: 4px;
-        margin-bottom: 5px;
+        width: 30px;
+        height: 2px;
+        margin-bottom: 6px;
         position: relative;
         background: var(--main-gray);
-        border-radius: 3px;
+        border-radius: 1px;
         z-index: 1;
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -765,10 +769,12 @@ footer a {
 
     .menuToggle>span:first-child {
         transform-origin: 0% 0%;
+        margin-bottom: 5px;
     }
 
     .menuToggle>span:nth-last-child(2) {
         transform-origin: 0% 100%;
+        margin-bottom: 5px;
     }
 
     .menuToggle input:checked ~ span {
