@@ -20,6 +20,10 @@
     width: 50%;
 }
 
+.industries-case .buttonBlue {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .industries-header {
         height: 92vh;
@@ -39,8 +43,4 @@
         height: 600px;
         width: 80vw;
     }
-}
-
-.buttonBlue {
-    display: none;
 }

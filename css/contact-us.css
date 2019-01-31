@@ -122,7 +122,7 @@
 }
 
 .cr-top {
-    margin-bottom: 3.5px;
+    margin-bottom: 7px;
     background: #D1E8F7;
     height: auto;
     height: 50%;
@@ -146,19 +146,19 @@
 .cr-bottom {
     padding: 0;
     margin: 0;
-    margin-top: 3.5px;
+    margin-bottom: 7px;
     background: url(./../assets/Optimized-woman\ with\ bike\ lock\ and\ phone.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    height: 50%;
+    height: 48.5%;
     width: 100%;
 }
 
 @media (max-width: 768px) {
 
     .contact-body {
-        height: 70vh;
+        height: 72vh;
     }
 
     .contact-info img {
@@ -182,8 +182,17 @@
         padding-right: 3vw;
     }
 
+    #contactLeft {
+        margin: 0;
+    }
+
+    #contactRight {
+        margin: 0;
+    }
+
     .contact-infoMid {
         flex-direction: column;
+        max-height: none;
         height: auto;
     }
 
@@ -205,5 +214,14 @@
 
     .contact-infoMid input::placeholder {
         font-size: 18px;
+    }
+
+    .cr-top {
+        margin: 0;
+        margin-top: 7px;
+    }
+
+    .cr-bottom {
+        display: none;
     }
 }
