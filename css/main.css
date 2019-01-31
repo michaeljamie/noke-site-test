@@ -728,7 +728,7 @@ footer a {
     .menuToggle {
         display: block;
         position: absolute;
-        top: 27%;
+        top: 30%;
         right: 6vw;
         z-index: 1;
         -webkit-user-select: none;

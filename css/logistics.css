@@ -16,6 +16,21 @@
          animation: fadein 2s;
 }
 
+.industries-successCards {
+    width: 50%;
+}
+
+@media (max-width: 479px) {
+    .industries-header {
+        height: 92vh;
+    }
+
+    .industries-successCards {
+        height: 600px;
+        width: 80vw;
+    }
+}
+
 .buttonBlue {
     display: none;
 }
