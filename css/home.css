@@ -1911,7 +1911,8 @@ h6 {
     }
 
     .home-header>div {
-        padding: 2vh 3vh;
+        padding: 2vh 0 0 3vh;
+        width: 100%;
     }
 
     .home-headerTitle {
@@ -2002,8 +2003,8 @@ h6 {
     }
 
     .padlock-play {
-        max-width: 35%;
-        margin-bottom: 50px;
+        max-width: 30vw;
+        margin-bottom: 30px;
     }
 
 }

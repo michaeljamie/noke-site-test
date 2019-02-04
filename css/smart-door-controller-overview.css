@@ -713,6 +713,10 @@
         margin-top: 8px;
     }
 
+    .padlock-play {
+        margin-bottom: 70px;
+    }
+
     #dc1-img {
         margin-top: 60px;
     }
@@ -822,6 +826,11 @@
 }
 
 @media (max-width: 479px) {
+
+    .padlock-play {
+        max-width: 30%;
+        margin-bottom: 100px;
+    }
 
     .inSeries-products {
         flex-direction: column;
