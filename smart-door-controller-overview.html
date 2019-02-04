@@ -156,14 +156,15 @@
                 <div class='popupJanus'>
                     <a class="close" href="#door-types" onclick="pauseVideo()">&times;</a>
                     <div class="vid-contentJanus">
-                        <video id='janusVideo' controls height='550' loop preload="none" playsinline>
+                        <!-- <video id='janusVideo' controls height='550' loop preload="none" playsinline>
                             <source src='./assets/Noke_Smart_Entry.mp4' type='video/mp4'>
                             Sorry, your browser does not support this video player.
-                        </video>
+                        </video> -->
+                        <iframe id='janusVideo' width="970" height="550" src="https://www.youtube.com/embed/-x7K2UO09n0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <a href='#video-popupJanus' onclick="playVideo()" class='door-mall lazyload' data-bg='./assets/Optimized-New janis tile for doorcontroller page.jpg' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
+            <a href='#video-popupJanus' class='door-mall lazyload' data-bg='./assets/Optimized-New janis tile for doorcontroller page.jpg' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div>
                     <h2>MODERNIZING</h2>
                     <h2><span>THE SELF-STORAGE INDUSTRY</span></h2>
@@ -988,13 +989,10 @@
     </div>
 <script type="text/javascript">
     var video = document.getElementById("janusVideo"); 
-    
-    function playVideo() { 
-        video.play(); 
-    } 
-    
+        
     function pauseVideo() { 
-        video.pause(); 
+        var video = document.getElementById("janusVideo");
+        video.src = video.src;
     }
 </script>
 <!-- Fade in Animation -->

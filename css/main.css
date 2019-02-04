@@ -699,6 +699,10 @@ footer a {
         font-size: 15px;
     }
 
+    .loginLink {
+        font-size: 15px;
+    }
+
     .nav-top>button {
         font-size: 14px;
         margin-top: 1.8px;
@@ -745,6 +749,10 @@ footer a {
     .nav-top>a {
         display: none;
         margin: 0px;
+    }
+
+    .loginLink {
+        display: none;
     }
 
     .nav-top>button {

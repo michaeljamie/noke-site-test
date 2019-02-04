@@ -152,11 +152,11 @@
                     <div>
                         <h6>INTRODUCING <span>NOKĒ SMART ACCESS CONTROL</span></h6>
                         <p class='home-headerText'>With all your locks and door controllers connected, sharing data in real-time, sending you updates and keeping valuable assets safe, imagine what's possible.</p>
-                        <a href='#video-popup' onclick="playVid()" class='home-headerVideo'>
+                        <a href='#video-popup' class='home-headerVideo'>
                             <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
                             <h4>WATCH VIDEO</h4>
                         </a>
-                        <a href='https://www.youtube.com/watch?v=4CAcx7R-VlY' onclick="playVid()" class='home-headerVideoMobile'>
+                        <a href='https://www.youtube.com/watch?v=4CAcx7R-VlY' class='home-headerVideoMobile'>
                             <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
                             <h4>WATCH VIDEO</h4>
                         </a>
@@ -167,11 +167,12 @@
                 <div class='popup'>
                     <a class="close" href="#" onclick="pauseVid()">&times;</a>
                     <div class="vid-content">
-                        <video id='homeVideo' controls height='550' loop preload="none" playsinline>
+                        <!-- <video id='homeVideo' controls height='550' loop preload="none" playsinline>
                             <source src='./assets/Noke_Brand_180925_1080p.mp4' type='video/mp4'>
                             <source src='./assets/Noke_Brand_180925A_1080p.webm' type='video/webm'>
                             Sorry, your browser does not support this video player.
-                        </video>
+                        </video> -->
+                        <iframe id='homeVideo' width="970" height="550" src="https://www.youtube.com/embed/4CAcx7R-VlY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -264,11 +265,12 @@
                     <div class='popupMed'>
                         <a class="close" href="#home-app" onclick="pauseVideo()">&times;</a>
                         <div class="vid-contentMed">
-                            <video id='medcoVideo' controls height='550' loop preload="none" playsinline>
+                            <!-- <video id='medcoVideo' controls height='550' loop preload="none" playsinline>
                                 <source src='./assets/Noke_Medco_180718_720p.mp4' type='video/mp4'>
                                 <source src='./assets/Noke_Medco_180718_1.webm' type='video/webm'>
                                 Sorry, your browser does not support this video player.
-                            </video>
+                            </video> -->
+                            <iframe id='medcoVideo' width="970" height="550" src="https://www.youtube.com/embed/c__oequjIzU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -285,7 +287,7 @@
                     </div>
                 </div>
             </a>
-            <a href='#video-popupMed' onclick="playVideo()" class='home-success' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
+            <a href='#video-popupMed' class='home-success' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div class='home-successBG lazyload' data-bg="./assets/Optimized-Medco video image.homepage.jpg">
 
                 </div>
@@ -611,23 +613,17 @@
 <script type="text/javascript">
     var vid = document.getElementById("homeVideo"); 
     
-    function playVid() { 
-        vid.play(); 
-    } 
-    
     function pauseVid() { 
-        vid.pause(); 
+        var vid = document.getElementById("homeVideo");
+        vid.src = vid.src;
     }
 </script>
 <script type="text/javascript">
     var video = document.getElementById("medcoVideo"); 
-    
-    function playVideo() { 
-        video.play(); 
-    } 
-    
+        
     function pauseVideo() { 
-        video.pause(); 
+        var video = document.getElementById("medcoVideo");
+        video.src = video.src;
     }
 </script>
 
