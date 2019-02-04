@@ -45,7 +45,7 @@
         gtag('config', 'UA-66722710-1');
     </script>
 </head>
-<body onresize="resized()">
+<body>
     <div class='inner-site'>
         <nav id='navbar' class='navbar'>
             <div class='menuToggle'>
@@ -632,26 +632,6 @@
 <script>
     AOS.init({ disable: 'mobile' });
 </script>
-
-<!-- Resize body on scroll -->
-
-<script>
-    function resized() {
-      var console = document.getElementById('console');
-      console.innerHTML += "*Resize! window.innerHeight: " + window.innerHeight + ",  documentElement.clientHeight: " + document.documentElement.clientHeight + "<br>";
-    }
-    var fullscreen = false;
-    addEventListener("load", function() {
-      document.documentElement.addEventListener("click", function() {
-        if (fullscreen)
-          document.webkitExitFullscreen();
-        else
-          document.documentElement.webkitRequestFullscreen();
-
-        fullscreen = !fullscreen;
-      });
-    });
-  </script>
 
 </body>
 </html>
