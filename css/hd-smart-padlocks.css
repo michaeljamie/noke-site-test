@@ -307,7 +307,8 @@ h5 span {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 105vh;
+    height: auto;
+    overflow: hidden;
 }
 
 .hd-appTilesLower {
@@ -321,7 +322,7 @@ h5 span {
 }
 
 .hd-applicationsFirst {
-    height: 35vh;
+    height: 328.3px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 7px;
@@ -387,7 +388,7 @@ h5 span {
 
 .hd-applicationsSecond {
     width: 35%;
-    height: 70vh;
+    height: 656.53px;
     margin-right: 7px;
     overflow: hidden;
     position: relative;
@@ -452,7 +453,7 @@ h5 span {
 
 .hd-applicationsThird {
     width: 46.85%;
-    height: 35vh;
+    height: 328.3px;
     margin-right: 7px;
     overflow: hidden;
     position: relative;
@@ -517,7 +518,7 @@ h5 span {
 
 .hd-applicationsFourth {
     width: 100%;
-    height: 34vh;
+    height: 321px;
     margin-top: 7px;
     overflow: hidden;
     position: relative;
@@ -582,7 +583,7 @@ h5 span {
 
 .hd-applications2 {
     width: 34%;
-    height: 67.30%;
+    height: 663px;
     margin-left: 7px;
     margin-bottom: 7px;
     overflow: hidden;
@@ -644,6 +645,10 @@ h5 span {
 
 .hd-applications2:hover .lock-textBox {
     background-color: rgba(253, 253, 253, 0.93);
+}
+
+.lock-applications {
+    height: auto;
 }
 
 #extendedMostText {
@@ -821,6 +826,7 @@ h5 span {
     .hd-lockTiles {
         flex-direction: column;
         height: auto;
+        overflow: hidden;
     }
 
     .hd-applications1 {
