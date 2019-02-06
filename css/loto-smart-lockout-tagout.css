@@ -1,3 +1,24 @@
+.banner {
+    min-height: 19px;
+    width: 100%;
+    background: var(--main-blue);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.banner:hover {
+    background: #007de2;
+}
+
 .hardware-header {
     background: url('./../assets/LOTO\ for\ new\ web\ header.jpg');
     background-position: right bottom;
@@ -5,7 +26,7 @@
     background-repeat: none;
 }
 
-.hardware-headerTitle>div {
+.loto-headerTitle {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,6 +43,73 @@
     margin: 0;
     font-size: 31.76px;
     width: auto;
+}
+
+.loto-headerCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 62%;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.loto-headerCard:hover {
+    box-shadow: 0 7.5px 9px 0 rgba(0, 0, 0, 0.32), 0 6px 9px 0 rgba(0, 0, 0, 0.29);
+    -webkit-transform: scale(1.0287, 1.0287) translate(-3.5px, -4px);
+    transform: scale(1.0287, 1.0287) translate(-3.5px, -4px);
+}
+
+.loto-headerCard:hover .loto-headerCardTop {
+    background: #007de2;
+}
+
+.loto-headerCard:hover .loto-headerCardBottom {
+    background: #ebebec;
+}
+
+.loto-headerCardTop {
+    background: var(--main-blue);
+    width: 100%;
+}
+
+.loto-headerCardTop>div {
+    padding: 15px;
+}
+
+.loto-headerCardTop h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.loto-headerCardBottom {
+    background: var(--main-light-gray);
+}
+
+.loto-headerCardBottom>div {
+    padding: 15px;
+}
+
+.loto-headerCardBottom h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--main-blue);
+}
+
+#loto-cardText {
+    font-size: 14px;
+    width: 100%;
+    margin: 8px 0 12px 0;
+    color: var(--main-gray);
 }
 
 .loto-tm {
