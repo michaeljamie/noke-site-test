@@ -6,7 +6,7 @@
 }
 
 .lb-conquer {
-    background: var(--main-blue);
+    background: linear-gradient(to right bottom, var(--main-blue), var(--main-blue-dark));
     color: white;
     margin-top: 7px;
 }
@@ -130,7 +130,7 @@
 }
 
 .lb-brains {
-    background: #E6E7E8;
+    background:linear-gradient(to right bottom, #e7e8e9, #CBCCCD);;
 }
 
 .lb-brains h2 {
