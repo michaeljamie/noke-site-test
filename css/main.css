@@ -10,16 +10,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	background-color: #FFF;
-	background-image: linear-gradient(to bottom, var(--main-blue), var(--main-blue-dark));
-    }
-
 html {
     width: 100%;
     height: 100%;
@@ -46,6 +36,16 @@ body {
     display: block;
     line-height: 1;
     background: var(--main-lightest-gray);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: linear-gradient(to bottom, var(--main-blue), var(--main-blue-dark));
 }
 
 .inner-site {
@@ -820,6 +820,10 @@ footer a {
     
         h2 {
             font-size: 30px;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
         }
 
         .noke-logo {
