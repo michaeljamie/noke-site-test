@@ -3,4 +3,9 @@
     background-position: left;
     background-size: cover;
     background-repeat: none;
+    height: 80%;
+}
+
+.formLeftTop {
+    height: 20%;
 }

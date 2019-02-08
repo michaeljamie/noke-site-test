@@ -5,14 +5,22 @@ if (window.innerWidth > 1024) {
 }
 
 function scrollFunction() {
-if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("navbar").className = "navbarScroll";
-    document.getElementById("logo").style.width = "5.5vw";
-    // document.getElementById("menu-links").className = "nav-linksScroll";
-} else {
-    document.getElementById("navbar").className = "navbar";
-    document.getElementById("logo").style.width = "6.5vw";
-    // document.getElementById("menu-links").className = "nav-links";
-}
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("navbar").className = "navbarScroll";
+        // document.getElementById("logo").style.width = "4vw";
+        document.getElementById("logo-scroll").className = "noke-logoScroll";
+        var items = document.getElementsByClassName("menu-item");
+        for (var i = items.length-1; i >=0; i--) {
+            items[i].className = "menu-itemScroll";
+        }
+    } else {
+        document.getElementById("navbar").className = "navbar";
+        // document.getElementById("logo").style.width = "6.5vw";
+        document.getElementById("logo-scroll").className = "noke-logo";
+        var items = document.getElementsByClassName("menu-item");
+        for (var i = items.length-1; i >=0; i--) {
+            items[i].className = "menu-item";
+        }
+    }
 }
 

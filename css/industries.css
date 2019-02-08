@@ -31,6 +31,10 @@
     font-size: 30px;
 }
 
+.industries-homeHeader h4 {
+    display: none;
+}
+
 .industries-find {
     height: auto;
     padding: 10vh 0;
@@ -623,6 +627,24 @@
 }
 
 @media (max-width: 479px) {
+
+    .industries-homeHeader {
+        background: url('./../assets/industries.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
+        align-items: flex-start;
+    }
+
+    .industries-homeHeader h3 {
+        display: none;
+    }
+
+    .industries-homeHeader h4 {
+        display: block;
+        font-size: 26px;
+        margin-top: 15px;
+    }
 
     .industries-case img {
         margin: 0;

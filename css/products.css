@@ -1132,10 +1132,23 @@
 @media (max-width: 479px) {
 
     .hardware-header {
-        background: url('./../assets/test\ collage-mobile.jpg');
+        background: url('./../assets/products\ homepage.jpg');
         background-position: bottom right;
         background-size: cover;
         background-repeat: none;
+    }
+
+    .hardware-headerTitle h4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .hardware-headerTitle h3 {
+        font-size: 17px;
+    } 
+
+    .hardware-headerTitle h2 {
+        font-size: 26px;
     }
 
     .hardware-durable>div {
@@ -1269,6 +1282,33 @@
     .hardware-durable>h5 {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .hardware-softwareTitle {
+        text-align: left;
+        padding: 3.5vw;
+        align-items: flex-start;
+    }
+
+    .hardware-softwareTitle h2 {
+        font-size: 26px;
+    }
+
+    .hardware-softwareTitle h2 span {
+        display: block;
+        width: 90%;
+    }
+
+    .hardware-softwareTitle p {
+        width: 80%;
+    }
+
+    .hardware-softwareList {
+        order: 1;
+    }
+
+    .hardware-softwareLock img {
+        max-width: 75%;
     }
 
 }

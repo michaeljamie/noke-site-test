@@ -54,9 +54,8 @@ h6 {
 }
 
 .home-headerLocks {
-    height: 19vh;
-    max-height: 18vh;
-    margin-bottom: 2.75vh;
+    max-height: 210px;
+    margin-top: 20px;
 }
 
 .home-header>div {
@@ -1555,6 +1554,14 @@ h6 {
 .home-industryThreat:hover img {
     -webkit-transform: translateX(4px);
     transform: translateX(4px);
+}
+
+@media (max-width: 1440px) {
+    .home-headerLocks {
+        max-height: 190px;
+        margin-top: 25px;
+    }
+    
 }
 
 /* Mobile View */

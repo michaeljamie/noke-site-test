@@ -43,6 +43,10 @@
     margin: 30px 0 0 0;
 }
 
+.software-headerTitle h4 {
+    display: none;
+}
+
 .software-headerTitle>p {
     color: var(--main-gray);
     font-size: 16px;
@@ -663,11 +667,33 @@
     }
 
     .software-header {
-        background: url('./../assets/SOFTWARE\ HOMEPAGE\ HEADER-mobile.jpg');
+        background: url('./../assets/software\ homepage.jpg');
         background-position: right bottom;
         background-size: cover;
         background-repeat: none;
         background-repeat: no-repeat;
+        justify-content: flex-start;
+    }
+
+    .software-headerTitle h2 {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    .software-headerTitle h1 {
+        font-size: 26px;
+    }
+
+    .software-headerTitle h3 {
+        display: none;
+    }
+
+    .software-headerTitle h4 {
+        display: block;
+        color: var(--main-blue);
+        font-size: 17px;
+        font-weight: 800;
+        margin: 30px 0 0 0;
     }
 
     .software-headerTitle>p {
