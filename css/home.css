@@ -1943,6 +1943,10 @@ h6 {
         width: 100%;
     }
 
+    .home-headerLocks {
+        max-height: 125px;
+    }
+
     .home-textGrey {
         width: 100%;
     }
