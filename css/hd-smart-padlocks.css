@@ -904,8 +904,16 @@ h5 span {
         max-height: 230px;
     }
 
+    .hd-meet>div {
+        padding: 10vw;
+    }
+
     .hd-meetTop h6 {
         text-align: left;
+    }
+
+    .hd-meetTop {
+        align-items: flex-start;
     }
 
     .hd-meetMid {
@@ -916,16 +924,36 @@ h5 span {
         width: 100%;
     }
 
+    #shackle-textBox {
+        margin: 22.5px 0;
+    }
+
+    #shackle-right {
+        margin-top: 40px;
+    }
+
+    #hd-textBlock {
+        margin-top: 22.5px;
+    }
+
     .shroud-box img {
-        max-width: 30px;
+        max-width: 33px;
+    }
+
+    .hd-shackle>div {
+        padding: 10vw;
     }
 
     .hd-shackle p {
-        width: 80%;
+        width: 85%;
     }
 
     .hd-shackle img {
         max-width: 80vw;
+    }
+
+    .shackle-lower {
+        margin-top: 40px;
     }
 
     .shackle-thickness {
@@ -942,7 +970,7 @@ h5 span {
     }
 
     .shackle-height p {
-        width: 70%;
+        width: 80%;
     }
 
     .shackle-height img {
@@ -950,8 +978,24 @@ h5 span {
         max-height: auto;
     }
 
+    .hd-accessories h5 {
+        font-size: 24px;
+    }
+
+    .hd-accessories h5 span {
+        font-size: 24px;
+    }
+
+    .hd-lockBlock>div {
+        padding: 10vw;
+    }
+
     .hd-lockBlock p {
         font-size: 16px;
+    }
+
+    .hd-sleeve>div {
+        padding: 10vw;
     }
 
     .hd-sleeve p {
@@ -986,6 +1030,19 @@ h5 span {
 
     .lock-textBox {
         width: 100vw;
+    }
+
+    .lock-covered>div {
+        padding: 8vw;
+        text-align: left;
+    }
+
+    .lock-covered>div>p {
+        width: 80%;
+    }
+
+    #mobileApplicationHD {
+        width: 75%;
     }
 
 }

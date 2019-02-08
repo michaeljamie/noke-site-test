@@ -646,6 +646,10 @@
         margin-top: 15px;
     }
 
+    .industries-find {
+        padding: 8vw;
+    }
+
     .industries-case img {
         margin: 0;
         align-self: flex-start;
@@ -694,6 +698,8 @@
         font-size: 14px;
         width: 100%;
     }
+
+
 
 }
 

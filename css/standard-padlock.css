@@ -942,6 +942,10 @@
         min-height: 320px;
     }
 
+    .stats-box {
+        align-items: center;
+    }
+
     .stats-box>img {
         max-width: 15vh;
         margin: 0 5% 0 0;
@@ -984,6 +988,11 @@
         flex-direction: column;
     }
 
+    .lock-coveredColumn>div {
+        align-items: flex-start;
+        text-align: left;
+    }
+
     .stats-specImg {
         margin: 5vh 0;
     }
@@ -995,6 +1004,10 @@
 
     .lock-textBox {
         width: 100vw;
+    }
+
+    .lock-textBox {
+        height: 10vh;
     }
 
 }

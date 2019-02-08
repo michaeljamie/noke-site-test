@@ -1472,7 +1472,7 @@ h6 {
 .home-industryThreatBG {
     height: 100%;
     width: 100%;
-    background: url('./../assets/NEW\ LOTO\ TILE_opt-min.jpg');
+    background: url('./../assets/NEWEST\ loto\ tile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -2016,6 +2016,10 @@ h6 {
     .padlock-play {
         max-width: 30vw;
         margin-bottom: 30px;
+    }
+
+    .home-businessLock {
+        background-position: bottom;
     }
 
 }

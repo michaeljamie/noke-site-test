@@ -403,7 +403,7 @@
 
     .smart-locks>div {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         height: auto;
         width: 100%;
     }
@@ -411,7 +411,8 @@
     .smart-locksCard {
         width: 60%;
         margin: 0;
-        align-items: center;
+        align-items: flex-start;
+        margin-left: 10vw;
     }
 
     .smart-locks img {

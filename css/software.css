@@ -700,6 +700,57 @@
         display: none;
     }
 
+    .software-portal {
+        padding: 8vw;
+    }
+
+    .software-portal>h2 {
+        margin: 0;
+    }
+
+    .software-app {
+        padding: 8vw;
+    }
+
+    .software-app>h2 {
+        margin: 0;
+    }
+
+    .software-tech h2 {
+        margin: 0;
+    }
+
+    .tech-text {
+        text-align: left;
+    }
+
+    .software-techLower>div {
+        align-items: flex-start;
+        min-height: auto;
+    }
+
+    .software-title {
+        margin: 15px 0;
+    }
+
+    .software-api>div {
+        padding: 8vw;
+        height: auto;
+    }
+
+    .software-cloud>div {
+        padding: 8vw;
+        height: auto;
+    }
+
+    .software-everywhere {
+        padding: 8vw;
+    }
+
+    .software-data {
+        padding: 8vw;
+    }
+
     .software-data>div {
         width: 100%;
         height: auto;
@@ -709,6 +760,19 @@
 
     .software-secure>div {
         width: 100%;
+    }
+
+    .software-everywhereCard {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .software-everywhereCard h5 {
+        padding-bottom: 0;
+    }
+
+    .software-everywhereCard img {
+        margin-top: 20px;
     }
 
 }

@@ -1156,7 +1156,6 @@
         align-items: center;
     }
 
-
     .hardware-headerTitle {
         margin: 0;
     }
@@ -1170,7 +1169,7 @@
     }
 
     .hardware-card {
-        width: 85%;
+        width: 75%;
         height: auto;
         padding: 5vh;
         margin: 1.5vh 0;
@@ -1180,6 +1179,24 @@
         max-height: 20%;
         max-width: 80%;
         margin: 4vh 0;
+    }
+
+    .hardware-card p {
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    #wide-cardText {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .prod-cardImg {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
     .hardware-softwareLock {
@@ -1282,11 +1299,12 @@
     .hardware-durable>h5 {
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 15px;
     }
 
     .hardware-softwareTitle {
         text-align: left;
-        padding: 3.5vw;
+        padding: 3vh;
         align-items: flex-start;
     }
 
