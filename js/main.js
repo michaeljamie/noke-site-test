@@ -13,6 +13,8 @@ function scrollFunction() {
         for (var i = items.length-1; i >=0; i--) {
             items[i].className = "menu-itemScroll";
         }
+        document.getElementById("bannerText").className = "bannerTextScroll";
+        document.getElementById("banner").className = "bannerScroll";
     } else {
         document.getElementById("navbar").className = "navbar";
         // document.getElementById("logo").style.width = "6.5vw";
@@ -21,6 +23,8 @@ function scrollFunction() {
         for (var i = items.length-1; i >=0; i--) {
             items[i].className = "menu-item";
         }
+        document.getElementById("bannerText").className = "bannerText";
+        document.getElementById("banner").className = "banner";
     }
 }
 
