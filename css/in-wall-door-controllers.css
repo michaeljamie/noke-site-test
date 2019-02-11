@@ -18,6 +18,10 @@
     width: 70%;
 }
 
+.controller-mobile {
+    display: none;
+}
+
 .controller-series {
     display: flex;
     flex-direction: row;
@@ -272,7 +276,7 @@
     }
 
     .hardware-header {
-        height: 90vh;
+        height: 92vh;
     }
 
     .controller-series>img {
@@ -395,7 +399,7 @@
 @media (max-width: 479px) {
 
     .hardware-header {
-        background: url('./../assets/NEW\ eliptic\ header-mobile.jpg');
+        background: url('./../assets/inwall\ mobile.jpg');
         background-position: right top;
         background-size: cover;
         background-repeat: none;
@@ -403,6 +407,51 @@
 
     .hardware-headerTitle {
         margin-bottom: 10vh;
+    }
+
+    .hardware-header h2 {
+        display: block;
+    }
+
+    .hardware-header h3 {
+        display: block;
+    }
+
+    .hardware-header h4 {
+        display: block;
+    }
+
+    .controller-mobile {
+        display: flex;
+    }
+
+    .controller-web {
+        display: none;
+    }
+
+    #dc1inwall {
+        max-width: 170px;
+    }
+
+    .controller-meet img {
+        margin: 0;
+    }
+
+    .controller-series {
+        align-items: flex-start;
+    }
+
+    .controller-series>div {
+        margin-left: 7vh;
+    }
+
+    .controller-series>img {
+        max-width: 50vw;
+        margin: 7vh;
+    }
+
+    .controller-series h5 {
+        margin-bottom: 7px;
     }
 
     .controller-seriesLower {
@@ -415,9 +464,27 @@
         height: auto;
     }
 
+    .controller-meetLower>div {
+        align-items: flex-start;
+        height: auto;
+        margin: 4vh 0;
+    }
+
+    #controller-meetBottom {
+        margin: 0;
+    }
+
+    #battery-typeInWall {
+        width: 85%;
+    }
+
     #controller-right {
         width: 85%;
         height: auto;
+    }
+
+    #stats-tableSpace {
+        margin: 0;
     }
 }
 

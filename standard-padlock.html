@@ -61,18 +61,24 @@
                     <a href="./software.html" role='link'><li>SOFTWARE</li></a>
                     <a href="./industries.html" role='link'><li>INDUSTRIES</li></a>
                     <a href="./about-noke.html" role='link'><li>ABOUT NOKĒ</li></a>
-                    <a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
+                    <a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
                     <a href="./demo.html" role='link'><li>REQUEST INFO</li></a>
                     <a href="https://nokepro.com/login" role='link'><li id='side-last'>LOGIN</li></a>
                 </ul>
             </div>
             <div class='nav-top'>
-                <a href="https://nokepro.com/login" role='link'>Login</a>
+                <div class='loginLink'><a href="https://nokepro.com/login" role='link'>Login</a>
+                    <ul class='submenuLogin'>
+                        <li class='nav-submenuItemLogin'><a href="https://nokepro.com/login">Nokē Pro</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://safety.noke.com/#/signin">Smart LOTO&trade;</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://janus.nokepro.com/">SecurGuard</a></li>
+                    </ul>
+                </div>
                 <a href="https://nokepro.zendesk.com/hc/en-us" role='link'>Support</a>
                 <button role='button' id='nav-button' onclick="location.href='./demo.html'" type="button" class='buttonBlue'>Request Info</button>
             </div>
             <div class='nav-left'>
-                <a href="./index.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
+                <a href="./index.html" class='noke-logo' id='logo-scroll'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
                 <ul class='nav-links'>
                     <li class='menu-item'><a href="./products.html" role='link'>PRODUCTS</a>
                         <ul class='submenu'>
@@ -123,7 +129,7 @@
                                 <li class='nav-submenuItem'><a href="./awards.html">Awards</a></li>
                         </ul>
                     </li>
-                    <li class='menu-item'><a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
+                    <li class='menu-item'><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
                         <ul class='submenu'>
                             <li class='nav-submenuItem'><a href="https://www.youtube.com/channel/UCoOqd0RXWyxrx87RLhVFEyw">Videos</a></li>
                             <li class='nav-submenuItem'><a href="./case-studies.html">Case Studies</a></li>
@@ -145,98 +151,101 @@
             </div>
         </div>
         <div class='padlock-video' id='padlock-vid'>
-            <div class='padlock-videoText' data-aos="fade-up">
+            <div class='padlock-videoText' data-aos="fade-up" data-aos-offset="90">
                 <div>
                     <h2>LEBANON BASED OIL AND GAS COMPANY USES NOKĒ TO</h2>
-                    <h2><span>LOCK DOWN THEIR ASSET CONTROL</span></h2>
+                    <h2 class='asset-controlWeb'><span>LOCK DOWN THEIR ASSET CONTROL</span></h2>
+                    <h2 class='asset-controlMobile'><span>LOCK DOWN</br>THEIR ASSET CONTROL</span></h2>
                     <p>Medco was experiencing fuel pilferage by truck drivers transporting gas and oil.  With no visibility it became quite challenging for Medco to mitigate the losses.</p>
                 </div>
-
             </div>
-            <a href="#video-popup" onclick="playVid()" role='link' class='padlock-videoBox lazyload' data-bg='./assets/Optimized-New case study Medco image.jpg' data-aos="fade-up" data-aos-delay="150">
-                <img data-src="./assets/play-vid-white.png" class='padlock-play lazyload' alt="play button">
+            <a href="#video-popup" role='link' class='padlock-videoBox lazyload' data-bg='./assets/Optimized-New case study Medco image.jpg' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
+                <img data-src="./assets/play-vid-white.png" src="./assets/play-vid-white-min.png" class='padlock-play lazyload' alt="play button">
             </a>
             <div class='padlock-videoBoxMobile lazyload' data-bg='./assets/Optimized-New case study Medco image.jpg'>
-
+                <a href='https://www.youtube.com/watch?v=c__oequjIzU&'>
+                    <img data-src="./assets/play-vid-white.png" src="./assets/play-vid-white-min.png" class='padlock-playMobile lazyload' alt="play button">
+                </a>
             </div>
         </div>
         <div id="video-popup" class='video-overlay vid-bkgd'>
             <div class='popup'>
                 <a class="close" href="#padlock-vid" onclick="pauseVid()">&times;</a>
                 <div class="vid-content">
-                    <video id='homeVideo' controls height='550' loop preload="none" playsinline>
+                    <!-- <video id='homeVideo' controls height='550' loop preload="none" playsinline>
                         <source src='./assets/Noke_Medco_180718_720p.mp4' type='video/mp4'>
                         <source src='./assets/Noke_Brand_180925A_1080p.webm' type='video/webm'>
                         Sorry, your browser does not support this video player.
-                    </video>
+                    </video> -->
+                    <iframe id='homeVideo' width="970" height="550" src="https://www.youtube.com/embed/c__oequjIzU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
         <div class='lock-stats'>
             <div>
                 <div class='stats-title'>
-                    <h2 data-aos="fade-up">THE <span>SPECS</span></h2>
-                    <p data-aos="fade-up">Crafted with durable materials, rigorously tested, and certified, the Nokē Standard padlock is made to simplify access control</p>
+                    <h2 data-aos="fade-up" data-aos-offset="90">THE <span>SPECS</span></h2>
+                    <p data-aos="fade-up" data-aos-offset="90">Crafted with durable materials, rigorously tested, and certified, the Nokē Standard padlock is made to simplify access control</p>
                 </div>
                 <div class='stats-table'>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats1.png" alt="Nokē Shackle Thickness" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats1.png" src="./assets/stats1-min.png" alt="Nokē Shackle Thickness" class='lazyload'>
                             <div>
                                 <h5>SHACKLE THICKNESS</h5>
                                 <p>8mm</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats2.png" alt="Nokē Shackle Material" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats2.png" src="./assets/stats2-min.png" alt="Nokē Shackle Material" class='lazyload'>
                             <div>
                                 <h5>SHACKLE MATERIAL</h5>
                                 <p>Boron-hardened steel</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats3.png" alt="Nokē Strength Tested" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats3.png" src="./assets/stats3-min.png" alt="Nokē Strength Tested" class='lazyload'>
                             <div>
                                 <h5>STRENGTH TESTED</h5>
                                 <p>CEN Level 1</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats4.png" alt="Nokē Certifications" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats4.png" src="./assets/stats4-min.png" alt="Nokē Certifications" class='lazyload'>
                             <div>
                                 <h5>CERTIFICATIONS</h5>
                                 <div class='stats-certs'>
-                                    <img data-src="./assets/cert1.png" alt="CE Compliance/Certification" class='lazyload'>
-                                    <img data-src="./assets/cert2.png" alt="FCC Certification" class='lazyload'>
-                                    <img data-src="./assets/cert3.png" alt="Ex Certification" class='lazyload'>
+                                    <img data-src="./assets/cert1.png" src="./assets/cert1-min.png" alt="CE Compliance/Certification" class='lazyload'>
+                                    <img data-src="./assets/cert2.png" src="./assets/cert2-min.png" alt="FCC Certification" class='lazyload'>
+                                    <img data-src="./assets/cert3.png" src="./assets/cert3-min.png" alt="Ex Certification" class='lazyload'>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats5.png" alt="Nokē Lock Weights" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats5.png" src="./assets/stats5-min.png" alt="Nokē Lock Weights" class='lazyload'>
                             <div>
                                 <h5>WEIGHT</h5>
                                 <p>319g / 11.25oz / .7lbs</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats6.png" alt="Nokē Lock Battery Life" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats6.png" src="./assets/stats6-min.png" alt="Nokē Lock Battery Life" class='lazyload'>
                             <div>
                                 <h5>BATTERY LIFE</h5>
                                 <p>1+ Years</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats7.png" alt="Nokē Lock Battery Type" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats7.png" src="./assets/stats7-min.png" alt="Nokē Lock Battery Type" class='lazyload'>
                             <div>
                                 <h5>BATTERY TYPE</h5>
                                 <p>2032 Coin Cell Battery</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats8.png" alt="Nokē Compatibility" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats8.png" src="./assets/stats8-min.png" alt="Nokē Compatibility" class='lazyload'>
                             <div>
                                 <h5>COMPATIBILITY</h5>
                                 <p>iOS: iPhone 4s or newer </p>
@@ -245,29 +254,29 @@
                         </div>
                     </div>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats9.png" alt="Nokē Lock Operating Temperature" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats9.png" src="./assets/stats9-min.png" alt="Nokē Lock Operating Temperature" class='lazyload'>
                             <div>
                                 <h5>OPERATING TEMPERATURE</h5>
                                 <p>-10°f to 150°f / -23°c to 65°c</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats10.png" alt="Nokē Lock Body" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats10.png" src="./assets/stats10-min.png" alt="Nokē Lock Body" class='lazyload'>
                             <div>
                                 <h5>BODY</h5>
                                 <p>Zinc Alloy</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats11.png" alt="Nokē Water Resistance Rating" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats11.png" src="./assets/stats11-min.png" alt="Nokē Water Resistance Rating" class='lazyload'>
                             <div>
                                 <h5>WATER RESISTANCE RATING</h5>
                                 <p>IP66</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats12.png" alt="Nokē Silicon Cover" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats12.png" src="./assets/stats12-min.png" alt="Nokē Silicon Cover" class='lazyload'>
                             <div>
                                 <h5>SILICONE COVER</h5>
                                 <p>Can be added for extra layer of protection against heavy and continuous impact</p>
@@ -275,13 +284,13 @@
                         </div>
                     </div>
                 </div>
-                <div class='stats-divider' data-aos="fade-up">
+                <div class='stats-divider' data-aos="fade-up" data-aos-offset="90">
                     <h4>DIMENSIONS</h4>
                     <div class='stats-dividerLine'></div>
                     <h3>STANDARD SMART PADLOCK</h3>
 
                 </div>
-                <div class='stats-lower' data-aos="fade-up">
+                <div class='stats-lower' data-aos="fade-up" data-aos-offset="90">
                     <div>
                         <img data-src="./assets/standardspecs1.png" src="./assets/standardspecs1-min.png" alt="Nokē In Wall Specs Graphic" class='stats-specImg lazyload'>
                     </div>
@@ -293,10 +302,10 @@
         </div>
         <div class='lock-covered'>
             <div>
-                <h2 data-aos="fade-up">JUST IN-CASE...</h2>
-                <h2 data-aos="fade-up"><span>WE'VE GOT YOU COVERED</span></h2>
-                <p data-aos="fade-up">We've designed some clever features to not only provide you <br/>with one smart lock, but to give you some extra peace of mind, if needed.</p>
-                <div class='lock-coveredColumn' data-aos="fade-up">
+                <h2 data-aos="fade-up" data-aos-offset="90">JUST IN-CASE...</h2>
+                <h2 data-aos="fade-up" data-aos-offset="90"><span>WE'VE GOT YOU COVERED</span></h2>
+                <p data-aos="fade-up" data-aos-offset="90">We've designed some clever features to not only provide you <br/>with one smart lock, but to give you some extra peace of mind, if needed.</p>
+                <div class='lock-coveredColumn' data-aos="fade-up" data-aos-offset="90">
                     <div>
                         <img data-src="./assets/covered1.png" src="./assets/covered1-min.png" alt="Nokē Jump Start Feature" class='lazyload'>
                         <h5>WITHOUT LOCK POWER?</h5>
@@ -314,12 +323,12 @@
         </div>
         <div class='lock-applications'>
             <div class='lock-applicationsTitle'>
-                <h2 data-aos="fade-up">THE <span>APPLICATIONS</span></h2>
-                <p data-aos="fade-up">The Nokē Standard Smart Padlock is used in an infinite number of industries and applications.</p>
+                <h2 data-aos="fade-up" data-aos-offset="90">THE <span>APPLICATIONS</span></h2>
+                <p data-aos="fade-up" data-aos-offset="90">The Nokē Standard Smart Padlock is used in an infinite number of industries and applications.</p>
             </div>
             <div class='lock-applicationTiles'>
                 <div class='lock-applicationColumn1'>
-                    <a href="./self-storage.html" class='lock-applicationStorage' data-aos="fade-up">
+                    <a href="./self-storage.html" class='lock-applicationStorage' data-aos="fade-up" data-aos-offset="90">
                         <div class='lock-applicationStorageBG lazyload' data-bg='./assets/Optimized-storage door.jpg'>
                         </div>
                         <div class='stbg-1'>
@@ -329,7 +338,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./transportation.html" class='lock-applicationTrailer' data-aos="fade-up">
+                    <a href="./transportation.html" class='lock-applicationTrailer' data-aos="fade-up" data-aos-offset="90">
                         <div class='lock-applicationTrailerBG lazyload' data-bg='./assets/Optimized-box trailer for industry page.jpg'>
                         </div>
                         <div class='stbg-2'>
@@ -341,7 +350,7 @@
                     </a>
                 </div>
                 <div class='lock-applicationColumn2'>
-                    <a href="./utilities.html" class='lock-applicationGas' data-aos="fade-up" data-aos-delay="150">
+                    <a href="./utilities.html" class='lock-applicationGas' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                         <div class='lock-applicationGasBG lazyload' data-bg='./assets/Optimized-lock on chhain and valve.jpg'>
                         </div>
                         <div class='stbg-3'>
@@ -352,7 +361,7 @@
                         </div>
                     </a>
                     <div class='lock-applicationRow'>
-                        <a href="./industries.html" class='lock-applicationGates' data-aos="fade-up" data-aos-delay="150">
+                        <a href="./industries.html" class='lock-applicationGates' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                             <div class='lock-applicationGatesBG lazyload' data-bg='./assets/Optimized-Noke locked to fence.jpg'>
                             </div>
                             <div class='stbg-4'>
@@ -362,7 +371,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="./industries.html" class='lock-applicationTools' data-aos="fade-up">
+                        <a href="./industries.html" class='lock-applicationTools' data-aos="fade-up" data-aos-offset="90">
                             <div class='lock-applicationToolsBG lazyload' data-bg='./assets/Optimized-Noke on tool box with phone 2.jpg'>
                             </div>
                             <div class='stbg-5'>
@@ -520,8 +529,9 @@
                             
                             <li><a href="./why-noke.html" class='footer-item'><span>Why Nokē</span></a></li>                        
                             <li><a href="./our-team.html" class='footer-item'><span>Our Team</span></a></li>
-                            <li><a href="https://noke.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
+                            <li><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
                             <li><a href="./awards.html" class='footer-item'><span>Awards</span></a></li>
+                            <li><a href="./in-the-media.html" class='footer-item'><span>Media</span></a></li>
                         </ul>
                 </div>
                 <div class='footer-column'>
@@ -549,14 +559,11 @@
 
 <script type="text/javascript">
     var vid = document.getElementById("homeVideo"); 
-
-    function playVid() { 
-        vid.play(); 
-} 
-
-function pauseVid() { 
-    vid.pause(); 
-}
+    
+    function pauseVid() { 
+        var vid = document.getElementById("homeVideo");
+        vid.src = vid.src;
+    }
 </script>
 <!-- Fade in Animation -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -16,6 +16,10 @@
          animation: fadein 2s;
 }
 
+.industries-case .buttonBlue {
+    display: none;
+}
+
 @media (max-width: 479px) {
     .industries-header {
         background-position: center;

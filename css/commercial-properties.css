@@ -20,13 +20,17 @@
     width: 50%;
 }
 
+.industries-case .buttonBlue {
+    display: none;
+}
+
 @media (max-width: 479px) {
     .industries-header {
         background: url('./../assets/Commercial\ construction\ header-mobile.jpg');
         background-position: right bottom;
         background-size: cover;
         background-repeat: none;
-        height: 90vh;
+        height: 92vh;
     }
 
     .industries-successCards {

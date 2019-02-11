@@ -239,7 +239,7 @@
     }
 
     .u-header {
-        height: 90vh;
+        height: 92vh;
         background: url('./../assets/u-lock\ header\ image-mobile.jpg');
         background-position: right;
         background-size: cover;
@@ -305,19 +305,23 @@
 @media (max-width: 479px) { 
 
     .u-header {
-        background: url('./../assets/u-lock\ header\ image-mobile.jpg');
+        background: url('./../assets/ulock\ mobile.jpg');
         background-position: right;
         background-size: cover;
         background-repeat: none;
         justify-content: flex-start;
     }
 
-    .hardware-headerTitle {
-        margin-top: 40vh;
+    .padlock-videoText {
+        order: 1;
     }
 
-    .hardware-headerTitle h4 {
-        color: white;
+    #SecureBoxFix {
+        margin-top: 0;
+    }
+
+    .maximumSecure {
+        margin-top: 7px;
     }
 
     .maximumSecure h5 {

@@ -255,6 +255,10 @@
     margin-top: 18px;
 }
 
+.controller-mobile {
+    display: none;
+}
+
 .on-wallSeries {
     border-left: 1.5px solid whitesmoke;
     width: 37%;
@@ -713,6 +717,10 @@
         margin-top: 8px;
     }
 
+    .padlock-play {
+        margin-bottom: 70px;
+    }
+
     #dc1-img {
         margin-top: 60px;
     }
@@ -823,28 +831,177 @@
 
 @media (max-width: 479px) {
 
-    .inSeries-products {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .hardware-header {
+        background: url('./../assets/open\ sesame.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
+        justify-content: flex-start;
     }
 
-    .inSeries-products>div {
+    .hardware-header h2 {
+        display: block;
+        font-size: 26px;
+    }
+
+    .hardware-header h3 {
+        display: block;
+        font-size: 17px;
+    }
+
+    .hardware-headerTitle h4 {
+        display: block;
+        margin-top: 0;
+    }
+
+    .padlock-play {
+        max-width: 30%;
+        margin-bottom: 100px;
+    }
+
+    .controller-mobile {
+        display: flex;
+    }
+
+    .controller-web {
+        display: none;
+    }
+
+    .inSeries-products {
+        flex-direction: column;
+        align-items: flex-start;
         width: 100%;
+        margin: 0;
+    }
+
+    .in-wallSeries {
+        padding-bottom: 10vh;
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    #dc1-img {
+        margin-top: 5vh;
+    }
+
+    .inSeries-products>div {   
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .inSeries-products h5 {
+        padding-left: 8vh;
+    }
+
+    .inSeries-products img {
+        padding-left: 8vh;
     }
 
     .onSeries-products {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
+        text-align: left;
     }
 
     .onSeries-products>div {
-        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .onSeries-products h5 {
+        padding-left: 8vh;
+    }
+
+    .onSeries-products img {
+        padding-left: 8vh;
+    }
+
+    #dc4-img {
+        margin: 0;
     }
 
     #circuitboard img {
         padding-right: 20%;
         max-width: 80%;
     }
+
+    .on-wallSeries h3 {
+        margin-left: 8vh;
+    }
+    
+    .on-wallSeries h4 {
+        margin-left: 8vh;
+    }
+    
+    .on-wallSeries p {
+        margin-left: 8vh;
+    }
+
+    .door-controllerView img {
+        max-height: auto;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .controller-boxImg {
+        width: 12%;
+        margin-right: 18px;
+    }
+
+    .controller-boxImg img {
+        max-width: 90%;
+    }
+
+    .controller-installLower>div {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .controller-connected>div {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .controller-connected h2 {
+        margin-bottom: 7px;
+        margin-left: 7vh;
+    }
+
+    .controller-connected>div>p {
+        margin-left: 7vh;
+    }
+
+    .controller-connectedBox {
+        align-items: flex-start;
+    }
+
+    #secure-list {
+        order: 1;
+    }
+
+    #secure-listTop {
+        margin-top: 0;
+    }
+
+    .controller-connectedList {
+        align-items: flex-start;
+        margin-left: 7vw;
+        width: 86vw;
+    }
+
+    #circuitboard {
+        width: 40%;
+    }
+
+    #circuitboard img {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .controller-connected button {
+        margin-left: 7vw;
+    }
+
 }

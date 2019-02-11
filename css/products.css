@@ -28,6 +28,10 @@
     line-height: 1.05;
 }
 
+.hardware-headerTitlehmobile {
+    display: none;
+}
+
 .hardware-headerTitle h2 {
     color: var(--main-blue);
     font-size: 47px;
@@ -104,6 +108,12 @@
     font-size: 17px;
 }
 
+.home-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .home-text img {
     -webkit-transition-duration: 0.1s;
     transition-duration: 0.1s;
@@ -111,6 +121,15 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+}
+
+.home-text h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
+#badguysMobile {
+    display: none;
 }
 
 .hardware-barLocks {
@@ -405,11 +424,10 @@
 
 .product-bladeFob>div {
     padding: 2.3vw;
-}
-
-.product-bladeFob>div h4 {
-    width: 63%;
-    margin-left: 37%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .hardware-barFob:hover .hardware-barFobBG {
@@ -508,10 +526,6 @@
 
 #home-textGray {
     color: var(--main-dark-gray);
-}
-
-#blue-arrowFob {
-    margin-top: 23px;
 }
 
 .hardware-durable {
@@ -880,7 +894,7 @@
     }
 
     .hardware-header {
-        height: 90vh;
+        height: 92vh;
         justify-content: flex-start;
         background-position: bottom right;
         overflow: hidden;
@@ -1118,10 +1132,23 @@
 @media (max-width: 479px) {
 
     .hardware-header {
-        background: url('./../assets/test\ collage-mobile.jpg');
+        background: url('./../assets/products\ homepage.jpg');
         background-position: bottom right;
         background-size: cover;
         background-repeat: none;
+    }
+
+    .hardware-headerTitle h4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .hardware-headerTitle h3 {
+        font-size: 17px;
+    } 
+
+    .hardware-headerTitle h2 {
+        font-size: 26px;
     }
 
     .hardware-durable>div {
@@ -1129,13 +1156,20 @@
         align-items: center;
     }
 
-
     .hardware-headerTitle {
         margin: 0;
     }
 
+    .hardware-headerTitleh {
+        display: none;
+    }
+
+    .hardware-headerTitlehmobile {
+        display: block;
+    }
+
     .hardware-card {
-        width: 85%;
+        width: 75%;
         height: auto;
         padding: 5vh;
         margin: 1.5vh 0;
@@ -1145,6 +1179,24 @@
         max-height: 20%;
         max-width: 80%;
         margin: 4vh 0;
+    }
+
+    .hardware-card p {
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    #wide-cardText {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .prod-cardImg {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
     .hardware-softwareLock {
@@ -1157,7 +1209,6 @@
 
     .hardware-bar h4 {
         font-size: 14px;
-        width: 100%;
     }
 
     .hardware-LOTO {
@@ -1176,55 +1227,106 @@
         padding: 0;
     }
 
-    .product-bladePadlock>div {
-        padding: 3.5vw 0 0 3.5vw;
+    .home-text {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
     }
 
+    #badguys {
+        display: none;
+    }
 
+    #badguysMobile {
+        display: flex;
+    }
 
-    .product-bladeController>div {
-        padding: 3.5vw 0 0 3.5vw;
+    .text-arrow {
+        margin: 1px 5px;
+    }
+
+    .product-bladePadlock>div {
+        width: 93%;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
+    }
+
+    .product-bladeController>div {
+        width: 93%;
+        padding: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeUlock>div {
-        padding: 3.5vw 0 0 3.5vw;
+        width: 93%;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeFob>div {
-        padding: 3.5vw 0 0 3.5vw;
+        width: 93%;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
     }
 
     .product-bladeLoto>div {
-        padding: 3.5vw 0 0 3.5vw;
+        width: 93%;
+        padding: 3.5vw;
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: flex-end;
+    }
+
+    .hardware-durable>h5 {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .hardware-softwareTitle {
+        text-align: left;
+        padding: 3vh;
         align-items: flex-start;
-        justify-content: flex-start;
     }
 
-    .product-bladeFob>div h4 {
-        width: 70%;
+    .hardware-softwareTitle h2 {
+        font-size: 26px;
     }
 
-    #blue-arrowFob {
-        margin-top: 19px;
-        margin-left: -20px;
+    .hardware-softwareTitle h2 span {
+        display: block;
+        width: 90%;
+    }
+
+    .hardware-softwareTitle p {
+        width: 80%;
+    }
+
+    .hardware-softwareList {
+        order: 1;
+    }
+
+    .hardware-softwareLock img {
+        max-width: 75%;
     }
 
 }

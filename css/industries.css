@@ -31,6 +31,10 @@
     font-size: 30px;
 }
 
+.industries-homeHeader h4 {
+    display: none;
+}
+
 .industries-find {
     height: auto;
     padding: 10vh 0;
@@ -263,7 +267,7 @@
 }
 
 .industries-case p {
-    margin-bottom: 30px;
+    margin: 15px;
     width: 74%;
     font-weight: 400;
 }
@@ -446,7 +450,7 @@
     }
 
     .industries-homeHeader {
-        height: 90vh;
+        height: 92vh;
     }
 
     .industries-homeHeader>div {
@@ -542,7 +546,7 @@
     /* CSS Page Template for Sub-pages */
 
     .industries-header {
-        height: 90vh;
+        height: 92vh;
     }
 
     .industries-header>div {
@@ -624,6 +628,44 @@
 
 @media (max-width: 479px) {
 
+    .industries-homeHeader {
+        background: url('./../assets/industries.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
+        align-items: flex-start;
+    }
+
+    .industries-homeHeader h3 {
+        display: none;
+    }
+
+    .industries-homeHeader h4 {
+        display: block;
+        font-size: 26px;
+        margin-top: 15px;
+    }
+
+    .industries-find {
+        padding: 8vw;
+    }
+
+    .industries-case img {
+        margin: 0;
+        align-self: flex-start;
+    }
+
+    .industries-case p {
+        margin: 0; 
+        padding: 0;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    /* .industries-case button {
+        margin: 15px 0;
+    } */
+
     .industries-successCards {
         width: 80vw;
         margin: 2vh;
@@ -656,6 +698,8 @@
         font-size: 14px;
         width: 100%;
     }
+
+
 
 }
 

@@ -159,7 +159,7 @@
 @media (max-width: 768px) {
     .cloud-header {
         overflow: hidden;
-        height: 90vh;
+        height: 92vh;
         flex-direction: column;
     }
 
@@ -242,7 +242,7 @@
     }
 
     .cloud-header {
-        height: 90vh;
+        height: 92vh;
         background-position: center;
     }
 

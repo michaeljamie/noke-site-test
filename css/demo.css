@@ -35,14 +35,14 @@
 }
 
 .formLeftTop {
-    height: 20%;
+    height: 25%;
     border-bottom: 7px solid white;
 }
 
 .formLeftBottom {
     padding: 0;
-    height: 80%;
-    background: url('./../assets/SOFTWARE\ HOMEPAGE\ HEADER.jpg');
+    height: 75%;
+    background: url('./../assets/demo-contact.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: none;

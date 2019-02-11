@@ -310,7 +310,7 @@
 
 .api-unhack {
     min-height: 400px;
-    /* background: url('./../assets/api\ bkgd\ placeholder.png'); */
+    background: url('./../assets/api-bkgd-placeholder.png');
     background-position: bottom left;
     background-size: cover;
     background-repeat: none;
@@ -383,7 +383,7 @@
     }
 
     .api-header {
-        height: 90vh;
+        height: 92vh;
         overflow: hidden;
     }
 

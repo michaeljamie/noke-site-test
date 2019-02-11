@@ -300,7 +300,7 @@
     }
 
     .hardware-header {
-        height: 90vh;
+        height: 92vh;
     }
 
     .hardware-header p {
@@ -432,6 +432,19 @@
 
     .about-who img {
         max-width: 35vw;
+    }
+
+    .industries-global {
+        padding: 5vh;
+    }
+
+    .industries-stats>div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .industries-global img {
+        width: 100%;
     }
 
     .about-teamNum {

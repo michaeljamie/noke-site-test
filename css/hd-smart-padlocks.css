@@ -307,7 +307,8 @@ h5 span {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 105vh;
+    height: auto;
+    overflow: hidden;
 }
 
 .hd-appTilesLower {
@@ -321,7 +322,7 @@ h5 span {
 }
 
 .hd-applicationsFirst {
-    height: 35vh;
+    height: 328.3px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 7px;
@@ -387,7 +388,7 @@ h5 span {
 
 .hd-applicationsSecond {
     width: 35%;
-    height: 70vh;
+    height: 656.53px;
     margin-right: 7px;
     overflow: hidden;
     position: relative;
@@ -452,7 +453,7 @@ h5 span {
 
 .hd-applicationsThird {
     width: 46.85%;
-    height: 35vh;
+    height: 328.3px;
     margin-right: 7px;
     overflow: hidden;
     position: relative;
@@ -517,7 +518,7 @@ h5 span {
 
 .hd-applicationsFourth {
     width: 100%;
-    height: 34vh;
+    height: 321px;
     margin-top: 7px;
     overflow: hidden;
     position: relative;
@@ -582,7 +583,7 @@ h5 span {
 
 .hd-applications2 {
     width: 34%;
-    height: 67.30%;
+    height: 663.5px;
     margin-left: 7px;
     margin-bottom: 7px;
     overflow: hidden;
@@ -646,6 +647,10 @@ h5 span {
     background-color: rgba(253, 253, 253, 0.93);
 }
 
+.lock-applications {
+    height: auto;
+}
+
 #extendedMostText {
     width: 420px;
 }
@@ -687,7 +692,7 @@ h5 span {
     }
 
     .hd-header {
-        height: 90vh;
+        height: 92vh;
         background-position: left;
     }
 
@@ -821,6 +826,7 @@ h5 span {
     .hd-lockTiles {
         flex-direction: column;
         height: auto;
+        overflow: hidden;
     }
 
     .hd-applications1 {
@@ -888,18 +894,27 @@ h5 span {
 @media (max-width: 479px) { 
 
     .hd-header {
-        background: url('./../assets/HD\ and\ HD+\ PAGE\ header_1-mobile.jpg');
+        background: url('./../assets/HD\ and\ HD+.jpg');
         background-position: right;
         background-size: cover;
         background-repeat: none;
+        justify-content: flex-start;
     }
 
     .hd-meet img {
         max-height: 230px;
     }
 
+    .hd-meet>div {
+        padding: 10vw;
+    }
+
     .hd-meetTop h6 {
         text-align: left;
+    }
+
+    .hd-meetTop {
+        align-items: flex-start;
     }
 
     .hd-meetMid {
@@ -910,16 +925,36 @@ h5 span {
         width: 100%;
     }
 
+    #shackle-textBox {
+        margin: 22.5px 0;
+    }
+
+    #shackle-right {
+        margin-top: 40px;
+    }
+
+    #hd-textBlock {
+        margin-top: 22.5px;
+    }
+
     .shroud-box img {
-        max-width: 30px;
+        max-width: 33px;
+    }
+
+    .hd-shackle>div {
+        padding: 10vw;
     }
 
     .hd-shackle p {
-        width: 80%;
+        width: 85%;
     }
 
     .hd-shackle img {
         max-width: 80vw;
+    }
+
+    .shackle-lower {
+        margin-top: 40px;
     }
 
     .shackle-thickness {
@@ -936,7 +971,7 @@ h5 span {
     }
 
     .shackle-height p {
-        width: 70%;
+        width: 80%;
     }
 
     .shackle-height img {
@@ -944,8 +979,24 @@ h5 span {
         max-height: auto;
     }
 
+    .hd-accessories h5 {
+        font-size: 24px;
+    }
+
+    .hd-accessories h5 span {
+        font-size: 24px;
+    }
+
+    .hd-lockBlock>div {
+        padding: 10vw;
+    }
+
     .hd-lockBlock p {
         font-size: 16px;
+    }
+
+    .hd-sleeve>div {
+        padding: 10vw;
     }
 
     .hd-sleeve p {
@@ -980,6 +1031,19 @@ h5 span {
 
     .lock-textBox {
         width: 100vw;
+    }
+
+    .lock-covered>div {
+        padding: 8vw;
+        text-align: left;
+    }
+
+    .lock-covered>div>p {
+        width: 80%;
+    }
+
+    #mobileApplicationHD {
+        width: 75%;
     }
 
 }

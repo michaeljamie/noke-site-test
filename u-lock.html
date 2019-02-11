@@ -61,18 +61,24 @@
                     <a href="./software.html" role='link'><li>SOFTWARE</li></a>
                     <a href="./industries.html" role='link'><li>INDUSTRIES</li></a>
                     <a href="./about-noke.html" role='link'><li>ABOUT NOKĒ</li></a>
-                    <a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
+                    <a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
                     <a href="./demo.html" role='link'><li>REQUEST INFO</li></a>
                     <a href="https://nokepro.com/login" role='link'><li id='side-last'>LOGIN</li></a>
                 </ul>
             </div>
             <div class='nav-top'>
-                <a href="https://nokepro.com/login" role='link'>Login</a>
+                <div class='loginLink'><a href="https://nokepro.com/login" role='link'>Login</a>
+                    <ul class='submenuLogin'>
+                        <li class='nav-submenuItemLogin'><a href="https://nokepro.com/login">Nokē Pro</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://safety.noke.com/#/signin">Smart LOTO&trade;</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://janus.nokepro.com/">SecurGuard</a></li>
+                    </ul>
+                </div>
                 <a href="https://nokepro.zendesk.com/hc/en-us" role='link'>Support</a>
                 <button role='button' id='nav-button' onclick="location.href='./demo.html'" type="button" class='buttonBlue'>Request Info</button>
             </div>
             <div class='nav-left'>
-                <a href="./index.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
+                <a href="./index.html" class='noke-logo' id='logo-scroll'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
                 <ul class='nav-links'>
                     <li class='menu-item'><a href="./products.html" role='link'>PRODUCTS</a>
                         <ul class='submenu'>
@@ -123,7 +129,7 @@
                                 <li class='nav-submenuItem'><a href="./awards.html">Awards</a></li>
                         </ul>
                     </li>
-                    <li class='menu-item'><a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
+                    <li class='menu-item'><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
                         <ul class='submenu'>
                             <li class='nav-submenuItem'><a href="https://www.youtube.com/channel/UCoOqd0RXWyxrx87RLhVFEyw">Videos</a></li>
                             <li class='nav-submenuItem'><a href="./case-studies.html">Case Studies</a></li>
@@ -138,34 +144,34 @@
         </div>
         <div class='u-header'>
             <div class='hardware-headerTitle'>
-                <h4>EASY TO GET AROUND,</h4>
+                <h4>EASY TO GET AROUND</h4>
                 <h2><span>EASIER TO SECURE</span></h2>
                 <h3>NOKĒ U-LOCK</h3>
                 <p>This keyless, tamper-resistant u-lock provides extreme security for bikes, scooters, or motorcycles and opens via a mobile app.  This gives you control over who, when, and where your lock is being used, from anywhere.  With a 16mm hardened steel shackle, designed for use in harsh weather conditions, and equipped with a powerful security alarm, now you can lock up with complete confidence.</p>
             </div>
         </div>
         <div class='padlock-video'>
-            <div class='padlock-videoText' data-aos="fade-up" data-aos-delay="150">
+            <div class='padlock-videoText' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div data-bg='./assets/Optimized-woman with bike lock and phone.jpg' class='lazyload'>
                     
                 </div>
 
             </div>
-            <div class='maximumSecure' data-aos="fade-up">
+            <div class='maximumSecure' data-aos="fade-up" data-aos-offset="90">
                 <div>
                     <h2><span>MAXIMUM PERFORMANCE SECURITY</span></h2>
                     <p>From a short stop to an overnight stay, we've got your wheels covered</p>
                     <div class='maximumSecureColumn'>
                         <div>
                             <div class='maximumSecureBox'>
-                                <img data-src="./assets/security1.png" alt="Alarm Graphic" class='lazyload'>
+                                <img data-src="./assets/security1.png" src="./assets/security1-min.png" alt="Alarm Graphic" class='lazyload'>
                                 <div>
                                     <h5>POWERFUL 105DB ALARM</h5>
                                     <p>Sounds if lock shakes for more than three seconds or an incorrect quick-click code is entered more than four times</p>
                                 </div>
                             </div>
                             <div class='maximumSecureBox'>
-                                <img data-src="./assets/security2.png" alt="Heavy Duty Rubber Jacket Graphic" class='lazyload'>
+                                <img data-src="./assets/security2.png" src="./assets/security2-min.png" alt="Heavy Duty Rubber Jacket Graphic" class='lazyload'>
                                 <div>
                                     <h5>HEAVY-DUTY RUBBER JACKET</h5>
                                     <p>Encloses entire lock to absorb shock and protect your bike from scratches</p>
@@ -173,15 +179,15 @@
                             </div>
                         </div>
                         <div>
-                            <div class='maximumSecureBox'>
-                                <img data-src="./assets/security3.png" alt="Silicone O Rings Graphic" class='lazyload'>
+                            <div class='maximumSecureBox' id='SecureBoxFix'>
+                                <img data-src="./assets/security3.png" src="./assets/security3-min.png" alt="Silicone O Rings Graphic" class='lazyload'>
                                 <div>
                                     <h5>SILICONE O-RINGS</h5>
                                     <p>Keep water and mud from penetrating into the electronics and protect against environmental conditions</p>
                                 </div>
                             </div>
                             <div class='maximumSecureBox'>
-                                <img data-src="./assets/security4.png" alt="Tamper Resistant Graphic" class='lazyload'>
+                                <img data-src="./assets/security4.png" src="./assets/security4-min.png" alt="Tamper Resistant Graphic" class='lazyload'>
                                 <div>
                                     <h5>TAMPER RESISTANT</h5>
                                     <p>U-lock is pick, cut, and drill resistant</p>
@@ -195,68 +201,68 @@
         <div class='lock-stats'>
             <div>
                 <div class='stats-title'>
-                    <h2 data-aos="fade-up">THE <span>SPECS</span></h2>
-                    <p data-aos="fade-up">Crafted with durable materials, rigorously tested, and certified, the Nokē U-Lock is designed to keep your bike safe</p>
+                    <h2 data-aos="fade-up" data-aos-offset="90">THE <span>SPECS</span></h2>
+                    <p data-aos="fade-up" data-aos-offset="90">Crafted with durable materials, rigorously tested, and certified, the Nokē U-Lock is designed to keep your bike safe</p>
                 </div>
                 <div class='stats-table'>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats1.png" alt="Shackle Thickness Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats1.png" src="./assets/stats1-min.png" alt="Shackle Thickness Graphic" class='lazyload'>
                             <div>
                                 <h5>SHACKLE THICKNESS</h5>
                                 <p>16mm</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats2.png" alt="Shackle Material Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats2.png" src="./assets/stats2-min.png" alt="Shackle Material Graphic" class='lazyload'>
                             <div>
                                 <h5>SHACKLE MATERIAL</h5>
                                 <p>Hardened steel</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats3.png" alt="Strength Tested Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats3.png" src="./assets/stats3-min.png" alt="Strength Tested Graphic" class='lazyload'>
                             <div>
                                 <h5>STRENGTH TESTED</h5>
                                 <p>CEN Level 2</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats4.png" alt="Certifications Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats4.png" src="./assets/stats4-min.png" alt="Certifications Graphic" class='lazyload'>
                             <div>
                                 <h5>CERTIFICATIONS</h5>
                                 <div class='stats-certs'>
-                                    <img data-src="./assets/cert1.png" alt="CE Certification" class='lazyload'>
-                                    <img data-src="./assets/cert2.png" alt="FCC Certification" class='lazyload'>
-                                    <img data-src="./assets/cert4.png" alt="Certification" class='lazyload'>
+                                    <img data-src="./assets/cert1.png" src="./assets/cert1-min.png" alt="CE Certification" class='lazyload'>
+                                    <img data-src="./assets/cert2.png" src="./assets/cert2-min.png" alt="FCC Certification" class='lazyload'>
+                                    <img data-src="./assets/cert4.png" src="./assets/cert4-min.png" alt="Certification" class='lazyload'>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats5.png" alt="Weight Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats5.png" src="./assets/stats5-min.png" alt="Weight Graphic" class='lazyload'>
                             <div>
                                 <h5>WEIGHT</h5>
                                 <p>1474g / 52oz / 3.25lbs</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats6.png" alt="Battery Life Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats6.png" src="./assets/stats6-min.png" alt="Battery Life Graphic" class='lazyload'>
                             <div>
                                 <h5>BATTERY LIFE</h5>
                                 <p>1+ Years</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats15.png" alt="Battery Type Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats15.png" src="./assets/stats15-min.png" alt="Battery Type Graphic" class='lazyload'>
                             <div>
                                 <h5>BATTERY TYPE</h5>
                                 <p>Lithium AA</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats8.png" alt="Compatibility Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats8.png" src="./assets/stats8-min.png" alt="Compatibility Graphic" class='lazyload'>
                             <div>
                                 <h5>COMPATIBILITY</h5>
                                 <p>iOS: iPhone 4s or newer </p>
@@ -265,29 +271,29 @@
                         </div>
                     </div>
                     <div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats9.png" alt="Operating Temperature Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats9.png" src="./assets/stats9-min.png" alt="Operating Temperature Graphic" class='lazyload'>
                             <div>
                                 <h5>OPERATING TEMPERATURE</h5>
                                 <p>-20°f to 140°f / -30°c to 60°c</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats10.png" alt="Body Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats10.png" src="./assets/stats10-min.png" alt="Body Graphic" class='lazyload'>
                             <div>
                                 <h5>BODY</h5>
                                 <p>Hardened steel</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats11.png" alt="Water Resistance Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats11.png" src="./assets/stats11-min.png" alt="Water Resistance Graphic" class='lazyload'>
                             <div>
                                 <h5>WATER RESISTANCE RATING</h5>
                                 <p>IP66</p>
                             </div>
                         </div>
-                        <div class='stats-box' data-aos="fade-up">
-                            <img data-src="./assets/stats17.png" alt="Mounting Bracket Graphic" class='lazyload'>
+                        <div class='stats-box' data-aos="fade-up" data-aos-offset="90">
+                            <img data-src="./assets/stats17.png" src="./assets/stats17-min.png" alt="Mounting Bracket Graphic" class='lazyload'>
                             <div>
                                 <h5>MOUNTING BRACKET</h5>
                                 <p id='on-bikeSecure'>Provides convenient and secure on bike u-lock transport</p>
@@ -295,12 +301,12 @@
                         </div>
                     </div>
                 </div>
-                <div class='stats-divider' data-aos="fade-up">
+                <div class='stats-divider' data-aos="fade-up" data-aos-offset="90">
                     <h4>DIMENSIONS</h4>
                     <div class='stats-dividerLine'></div>
                     <h3>U-LOCK</h3>
                 </div>
-                <div class='stats-lower' data-aos="fade-up">
+                <div class='stats-lower' data-aos="fade-up" data-aos-offset="90">
                     <div>
                         <img data-src="./assets/u-lockspecsimg.png" src="./assets/u-lockspecsimg-min.png" alt="Nokē U Lock Specs" class='stats-specImg lazyload'>
                     </div>
@@ -311,17 +317,17 @@
         </div>
         <div class='lock-covered'>
             <div>
-                <h2 data-aos="fade-up">JUST IN-CASE...</h2>
-                <h2 data-aos="fade-up"><span>WE'VE GOT YOU COVERED</span></h2>
-                <p data-aos="fade-up">We've designed some clever features to not only provide you <br/>with one smart lock, but to give you some extra peace of mind, if needed.</p>
+                <h2 data-aos="fade-up" data-aos-offset="90">JUST IN-CASE...</h2>
+                <h2 data-aos="fade-up" data-aos-offset="90"><span>WE'VE GOT YOU COVERED</span></h2>
+                <p data-aos="fade-up" data-aos-offset="90">We've designed some clever features to not only provide you <br/>with one smart lock, but to give you some extra peace of mind, if needed.</p>
                 <div class='lock-coveredColumn'>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up" data-aos-offset="90">
                         <img data-src="./assets/covered5.png" src="./assets/covered5-min.png" alt="Nokē Jump Start Graphic" class='lazyload'>
                         <h5>WITHOUT LOCK POWER?</h5>
                         <p><span>Nokē Jump-start Feature:</span></p>
                         <p>In the rare event that you lose lock power, this allows you to touch an external 9V battery to the base of the lock to give your lock a jump-start.  Once you're jumped, lift the shackle to open the lock.</p>
                     </div>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up" data-aos-offset="90">
                         <img data-src="./assets/covered6.png" src="./assets/covered6-min.png" alt="Nokē Quick Click Graphic" id='coveredlock' class='lazyload'>
                         <h5>PHONE DIE OR WITHOUT ONE?</h5>
                         <p><span>Nokē Quick-Click Feature:</span></p>
@@ -332,18 +338,18 @@
         </div>
         <div class='lock-applications'>
             <div class='lock-applicationsTitle'>
-                <h2 data-aos="fade-up">THE <span>APPLICATIONS</span></h2>
-                <p data-aos="fade-up">The Nokē Standard Smart Padlock is used in an infinite number of industries and applications.</p>
+                <h2 data-aos="fade-up" data-aos-offset="90">THE <span>APPLICATIONS</span></h2>
+                <p data-aos="fade-up" data-aos-offset="90">The Nokē Standard Smart Padlock is used in an infinite number of industries and applications.</p>
             </div>
             <div class='lock-applicationsTiles'>
-                <div class='lock-applicationsMotor' data-aos="fade-up">
+                <div class='lock-applicationsMotor' data-aos="fade-up" data-aos-offset="90">
                     <div class='lock-applicationsMotorBG lazyload' data-bg='./assets/Optimized-u-lock on scooter.jpg'></div>
                 </div>
                 <div class='lock-applicationsRight'>
-                    <div class='lock-applicationsBike'data-aos="fade-up" data-aos-delay="150">
+                    <div class='lock-applicationsBike'data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                         <div class='lock-applicationsBikeBG lazyload' data-bg='./assets/Optimized-U-lock on bike with pole.jpg' ></div>
                     </div>
-                    <div class='lock-applicationsScooter' data-aos="fade-up">
+                    <div class='lock-applicationsScooter' data-aos="fade-up" data-aos-offset="90">
                         <div class='lock-applicationsScooterBG lazyload' data-bg='./assets/Optimized-ulock on electric scooter.jpg' ></div>
                     </div>
                 </div>
@@ -494,8 +500,9 @@
                             <li><a href="./why-noke.html" class='footer-item'><span>Why Nokē</span></a></li>
                             
                             <li><a href="./our-team.html" class='footer-item'><span>Our Team</span></a></li>
-                            <li><a href="https://noke.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
+                            <li><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
                             <li><a href="./awards.html" class='footer-item'><span>Awards</span></a></li>
+                            <li><a href="./in-the-media.html" class='footer-item'><span>Media</span></a></li>
                         </ul>
                 </div>
                 <div class='footer-column'>

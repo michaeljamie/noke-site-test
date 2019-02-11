@@ -10,6 +10,18 @@
          animation: fadein 2s;
 }
 
+.hardware-headerMobile h2 {
+    display: none;
+}
+
+.hardware-headerMobile h4 {
+    display: none;
+}
+
+.hardware-headerMobile h3 {
+    display: none;
+}
+
 .smart-locks {
     height: auto;
 	display: flex;
@@ -295,7 +307,7 @@
         background-repeat: none;
         display: flex;
         overflow: hidden;
-        height: 90vh;
+        height: 92vh;
     }
 
     .smart-headerTitle {
@@ -333,17 +345,50 @@
 
 @media (max-width: 479px) {
 
-    .smart-headerTitle h2 {
-        font-size: 25px;
+    .hardware-header {
+        background: url('./../assets/padlocks\ homepage.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: none;
     }
 
-    .smart-headerTitle h4 {
-        font-size: 20px;
+    .hardware-header h2 {
+        display: none;
     }
 
-    .smart-headerTitle p {
-        font-size: 18px;
+    .hardware-header h4 {
+        display: none;
     }
+
+    .hardware-header h3 {
+        display: none;
+    }
+
+    .hardware-headerMobile {
+        padding: 2vh;
+    }
+
+    .hardware-headerMobile h2 {
+        display: block;
+        font-size: 26px;
+        line-height: .95;
+        color: var(--main-blue);
+    }
+
+    .hardware-headerMobile h4 {
+        display: block;
+        font-size: 26px;
+    }
+
+    .hardware-headerMobile h3 {
+        display: block;
+        font-weight: 800;
+        line-height: 1.2;
+        font-size: 17px;
+        color: var(--main-blue);
+        margin-top: 30px;
+    }
+
 
     .smart-locks {
         flex-direction: column;
@@ -358,7 +403,7 @@
 
     .smart-locks>div {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         height: auto;
         width: 100%;
     }
@@ -366,7 +411,8 @@
     .smart-locksCard {
         width: 60%;
         margin: 0;
-        align-items: center;
+        align-items: flex-start;
+        margin-left: 10vw;
     }
 
     .smart-locks img {
@@ -412,7 +458,4 @@
         max-height: 2vh;
     }
 
-    @media (min-height: 770px) and (min-width: 770px) {
-
-    }
 }

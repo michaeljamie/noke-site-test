@@ -16,9 +16,17 @@
          animation: fadein 2s;
 }
 
+.industries-successCards {
+    width: 50%;
+}
+
+.industries-case .buttonBlue {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .industries-header {
-        height: 90vh;
+        height: 92vh;
     }
 }
 
@@ -28,5 +36,11 @@
         background-position: right;
         background-size: cover;
         background-repeat: none;
+        height: 92vh;
+    }
+
+    .industries-successCards {
+        height: 600px;
+        width: 80vw;
     }
 }

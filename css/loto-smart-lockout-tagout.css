@@ -1,3 +1,45 @@
+.banner {
+    height: 20px;
+    width: 100%;
+    background: var(--main-blue);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.bannerScroll {
+    display: none;
+    height: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#bannerText {
+    font-size: 14px;
+}
+
+.bannerText {
+    font-size: 14px;
+}
+
+.bannerTextScroll {
+    display: none;
+}
+
+.banner:hover {
+    background: #007de2;
+}
+
 .hardware-header {
     background: url('./../assets/LOTO\ for\ new\ web\ header.jpg');
     background-position: right bottom;
@@ -5,7 +47,7 @@
     background-repeat: none;
 }
 
-.hardware-headerTitle>div {
+.loto-headerTitle {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,6 +64,77 @@
     margin: 0;
     font-size: 31.76px;
     width: auto;
+}
+
+.loto-headerCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 62%;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.loto-headerCard:hover {
+    box-shadow: 0 7.5px 9px 0 rgba(0, 0, 0, 0.32), 0 6px 9px 0 rgba(0, 0, 0, 0.29);
+    -webkit-transform: scale(1.0287, 1.0287) translate(-3.5px, -4px);
+    transform: scale(1.0287, 1.0287) translate(-3.5px, -4px);
+}
+
+.loto-headerCard:hover .loto-headerCardTop {
+    background: #007de2;
+}
+
+.loto-headerCard:hover .loto-headerCardBottom {
+    background: #ebebec;
+}
+
+.loto-headerCardTop {
+    background: var(--main-blue);
+    width: 100%;
+}
+
+.loto-headerCardTop>div {
+    padding: 15px;
+}
+
+.loto-headerCardTop h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.loto-headerCardBottom {
+    background: var(--main-light-gray);
+}
+
+.loto-headerCardBottom>div {
+    padding: 15px;
+}
+
+.loto-headerCardBottom h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--main-blue);
+}
+
+.loto-textMobile {
+    display: none;
+}
+
+#loto-cardText {
+    font-size: 14px;
+    width: 100%;
+    margin: 8px 0 12px 0;
+    color: var(--main-gray);
 }
 
 .loto-tm {
@@ -77,11 +190,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
-.loto-card:hover {
+/* .loto-card:hover {
     box-shadow: 0 6px 8.5px 0 rgba(0, 0, 0, 0.28), 0 4.5px 8.5px 0 rgba(0, 0, 0, 0.24);
     -webkit-transform: scale(1.01, 1.01);
     transform: scale(1.01, 1.01);
-}
+} */
 
 #loto-card1 {
     width: 50%;
@@ -676,7 +789,7 @@
     }
 
     .hardware-header {
-        height: 90vh;
+        height: 92vh;
     }
 
     .hardware-headerTitle {
@@ -685,6 +798,10 @@
 
     .loto-procedures>div {
         padding: 8vh 3vh;
+    }
+
+    .banner {
+        display: none;
     }
 
     .loto-card {
@@ -741,44 +858,61 @@
         width: 100%;
     }
 
+    .loto-procedures>div {
+        padding: 7vh 5.5vh;;
+    }
+
     .loto-procedures p {
         width: 100%;
     }
+
+    .loto-textWeb {
+        display: none;
+    }
+
+    .loto-textMobile {
+        display: block;
+    }
+
     .loto-card {
         flex-direction: column;
         padding: 25px;
     }
 
+    .loto-headerCard {
+        display: none;
+    }
+
     #loto-card1 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-bottom: 3.5px;
     }
 
     #loto-card2 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-top: 3.5px;
     }
 
     #loto-card3 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-bottom: 3.5px;
     }
 
     #loto-card4 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-top: 3.5px;
     }
 
     .loto-protectText>div {
-        padding: 14px;
+        padding: 7vh 5.5vh;
     }
 
     .loto-protectText h2 {
@@ -791,6 +925,10 @@
 
     .loto-protectText p {
         width: 100%;
+    }
+
+    .loto-featuresTitle {
+        padding: 7vh 5.5vh;
     }
 
     .loto-featuresTitle p {

@@ -59,18 +59,24 @@
                     <a href="./software.html" role='link'><li>SOFTWARE</li></a>
                     <a href="./industries.html" role='link'><li>INDUSTRIES</li></a>
                     <a href="./about-noke.html" role='link'><li>ABOUT NOKĒ</li></a>
-                    <a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
+                    <a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'><li>SUCCESS STORIES</li></a>
                     <a href="./demo.html" role='link'><li>REQUEST INFO</li></a>
                     <a href="https://nokepro.com/login" role='link'><li id='side-last'>LOGIN</li></a>
                 </ul>
             </div>
             <div class='nav-top'>
-                <a href="https://nokepro.com/login" role='link'>Login</a>
+                <div class='loginLink'><a href="https://nokepro.com/login" role='link'>Login</a>
+                    <ul class='submenuLogin'>
+                        <li class='nav-submenuItemLogin'><a href="https://nokepro.com/login">Nokē Pro</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://safety.noke.com/#/signin">Smart LOTO&trade;</a></li>
+                        <li class='nav-submenuItemLogin'><a href="https://janus.nokepro.com/">SecurGuard</a></li>
+                    </ul>
+                </div>
                 <a href="https://nokepro.zendesk.com/hc/en-us" role='link'>Support</a>
                 <button role='button' id='nav-button' onclick="location.href='./demo.html'" type="button" class='buttonBlue'>Request Info</button>
             </div>
             <div class='nav-left'>
-                <a href="./index.html" class='noke-logo'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
+                <a href="./index.html" class='noke-logo' id='logo-scroll'><img src="./assets/Noke logo w tag.png" alt="Nokē logo With Tag Line" id='logo'></a>
                 <ul class='nav-links'>
                     <li class='menu-item'><a href="./products.html" role='link'>PRODUCTS</a>
                         <ul class='submenu'>
@@ -121,7 +127,7 @@
                                 <li class='nav-submenuItem'><a href="./awards.html">Awards</a></li>
                         </ul>
                     </li>
-                    <li class='menu-item'><a href="https://noke.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
+                    <li class='menu-item'><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" role='link'>SUCCESS STORIES</a>
                         <ul class='submenu'>
                             <li class='nav-submenuItem'><a href="https://www.youtube.com/channel/UCoOqd0RXWyxrx87RLhVFEyw">Videos</a></li>
                             <li class='nav-submenuItem'><a href="./case-studies.html">Case Studies</a></li>
@@ -146,11 +152,11 @@
                     <div>
                         <h6>INTRODUCING <span>NOKĒ SMART ACCESS CONTROL</span></h6>
                         <p class='home-headerText'>With all your locks and door controllers connected, sharing data in real-time, sending you updates and keeping valuable assets safe, imagine what's possible.</p>
-                        <a href='#video-popup' onclick="playVid()" class='home-headerVideo'>
+                        <a href='#video-popup' class='home-headerVideo'>
                             <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
                             <h4>WATCH VIDEO</h4>
                         </a>
-                        <a href='#' onclick="playVid()" class='home-headerVideoMobile'>
+                        <a href='https://www.youtube.com/watch?v=4CAcx7R-VlY' class='home-headerVideoMobile'>
                             <img data-src="./assets/play button.png" class = 'home-play lazyload' alt="Play button for video player">
                             <h4>WATCH VIDEO</h4>
                         </a>
@@ -161,11 +167,12 @@
                 <div class='popup'>
                     <a class="close" href="#" onclick="pauseVid()">&times;</a>
                     <div class="vid-content">
-                        <video id='homeVideo' controls height='550' loop preload="none" playsinline>
+                        <!-- <video id='homeVideo' controls height='550' loop preload="none" playsinline>
                             <source src='./assets/Noke_Brand_180925_1080p.mp4' type='video/mp4'>
                             <source src='./assets/Noke_Brand_180925A_1080p.webm' type='video/webm'>
                             Sorry, your browser does not support this video player.
-                        </video>
+                        </video> -->
+                        <iframe id='homeVideo' width="970" height="550" src="https://www.youtube.com/embed/4CAcx7R-VlY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -178,75 +185,75 @@
                 </div>
                 <div class='products-rowMobile'>
                     <a href="./standard-padlock.html" class='home-productMobile'>
-                        <img data-src="./assets/Optimized-standard padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth Padlock" id="product1" data-aos="fade-up">
+                        <img data-src="./assets/Optimized-standard padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth Padlock" id="product1" data-aos="fade-up" data-aos-offset="90">
                     </a>
                     <a href="./hd-smart-padlocks.html" class='home-productMobile'>
-                        <img src='./assets/HD Padlock_opt.png' data-src="./assets/HD Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD Padlock" id="product2" data-aos="fade-up" data-aos-delay="15">
+                        <img src='./assets/HD Padlock_opt.png' data-src="./assets/HD Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD Padlock" id="product2" data-aos="fade-up" data-aos-offset="90" data-aos-delay="15">
                     </a>
                     <a href="./hd-smart-padlocks.html" class='home-productMobile'>
-                        <img src='./assets/HD+ Padlock_opt.png' data-src="./assets/HD+ Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD+ Plus Padlock" id="product3" data-aos="fade-up" data-aos-delay="30">
+                        <img src='./assets/HD+ Padlock_opt.png' data-src="./assets/HD+ Padlock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth HD+ Plus Padlock" id="product3" data-aos="fade-up" data-aos-offset="90" data-aos-delay="30">
                     </a>
                     <a href="./loto-smart-lockout-tagout.html" class='home-productMobile'>
-                        <img src='./assets/Noke LOTO locks.engraved.shadow-min.png' data-src="./assets/Noke LOTO locks.engraved.shadow.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth LOTO Padlock" id="product4" data-aos="fade-up" data-aos-delay="45">
+                        <img src='./assets/Noke LOTO locks.engraved.shadow-min.png' data-src="./assets/Noke LOTO locks.engraved.shadow.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth LOTO Padlock" id="product4" data-aos="fade-up" data-aos-offset="90" data-aos-delay="45">
                     </a>
                 </div>
                 <div class='products-rowMobile'>
                     <a href="./u-lock.html" class='home-productMobile'>
-                        <img src='./assets/u-lock_opt.png' data-src="./assets/u-lock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth U-Lock Padlock" id="product5" data-aos="fade-up" data-aos-delay="60">
+                        <img src='./assets/u-lock_opt.png' data-src="./assets/u-lock.png" class='home-productImgMobile lazyload' alt="Nokē Bluetooth U-Lock Padlock" id="product5" data-aos="fade-up" data-aos-offset="90" data-aos-delay="60">
                     </a>
                     <a href="./in-wall-door-controllers.html" class='home-productMobile'>
-                        <img src='./assets/eliptic door controller_opt.png' data-src="./assets/eliptic door controller.png" class='home-productImgMobile lazyload' alt="Nokē In Wall Bluetooth Door Controller" id="product6" data-aos="fade-up" data-aos-delay="75">
+                        <img src='./assets/eliptic door controller_opt.png' data-src="./assets/eliptic door controller.png" class='home-productImgMobile lazyload' alt="Nokē In Wall Bluetooth Door Controller" id="product6" data-aos="fade-up" data-aos-offset="90" data-aos-delay="75">
                     </a>
                     <a href="./on-wall-door-controllers.html" class='home-productMobile'>
-                        <img src='./assets/bar controller_opt.png' data-src="./assets/bar controller.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product7" data-aos="fade-up" data-aos-delay="90">
+                        <img src='./assets/bar controller_opt.png' data-src="./assets/bar controller.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product7" data-aos="fade-up" data-aos-offset="90" data-aos-delay="90">
                     </a>
                     <a href="./custom-locking-solutions.html" class='home-productMobile'>
-                        <img src='./assets/lightbulb_opt.png' data-src="./assets/lightbulb.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product8" data-aos="fade-up" data-aos-delay="105">
+                        <img src='./assets/lightbulb_opt.png' data-src="./assets/lightbulb.png" class='home-productImgMobile lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product8" data-aos="fade-up" data-aos-offset="90" data-aos-delay="105">
                     </a>
                 </div>
             </div>
             <div class='home-productsTop'>
                 <a href="./standard-padlock.html"><div class='home-product'> 
-                    <img data-src="./assets/Optimized-standard padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth Padlock" id="product1" data-aos="fade-up">
-                    <div data-aos="fade-up"><h5>Standard<br/>Padlock</h5></div>
+                    <img data-src="./assets/Optimized-standard padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth Padlock" id="product1" data-aos="fade-up" data-aos-offset="90">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>Standard<br/>Padlock</h5></div>
                 </div></a>
                 <a href="./hd-smart-padlocks.html"><div class='home-product'> 
-                    <img src='./assets/HD Padlock_opt.png' data-src="./assets/HD Padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth HD Padlock" id="product2" data-aos="fade-up" data-aos-delay="15">
-                    <div data-aos="fade-up"><h5>Heavy Duty<br/>Padlock</h5></div>
+                    <img src='./assets/HD Padlock_opt.png' data-src="./assets/HD Padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth HD Padlock" id="product2" data-aos="fade-up" data-aos-offset="90" data-aos-delay="15">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>Heavy Duty<br/>Padlock</h5></div>
                 </div></a>
                 <a href="./hd-smart-padlocks.html"><div class='home-product'> 
-                    <img src='./assets/HD+ Padlock_opt.png' data-src="./assets/HD+ Padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth HD+ Plus Padlock" id="product3" data-aos="fade-up" data-aos-delay="30">
-                    <div data-aos="fade-up"><h5>Heavy Duty<br/>Shrouded Padlock</h5></div>
+                    <img src='./assets/HD+ Padlock_opt.png' data-src="./assets/HD+ Padlock.png" class='home-productImg lazyload' alt="Nokē Bluetooth HD+ Plus Padlock" id="product3" data-aos="fade-up" data-aos-offset="90" data-aos-delay="30">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>Heavy Duty<br/>Shrouded Padlock</h5></div>
                 </div></a>
                 <a href="./loto-smart-lockout-tagout.html"><div class='home-product'> 
-                    <img src='./assets/Noke LOTO locks.engraved.shadow-min.png' data-src="./assets/Noke LOTO locks.engraved.shadow.png" class='home-productImg lazyload' alt="Nokē Bluetooth LOTO Padlock" id="product4" data-aos="fade-up" data-aos-delay="45">
-                    <div data-aos="fade-up"><h5>Smart LOTO™<br/>Lockout Tagout</h5></div>
+                    <img src='./assets/Noke LOTO locks.engraved.shadow-min.png' data-src="./assets/Noke LOTO locks.engraved.shadow.png" class='home-productImg lazyload' alt="Nokē Bluetooth LOTO Padlock" id="product4" data-aos="fade-up" data-aos-offset="90" data-aos-delay="45">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>Smart LOTO™<br/>Lockout Tagout</h5></div>
                 </div></a>
                 <a href="./u-lock.html"><div class='home-product'> 
-                    <img src='./assets/u-lock_opt.png' data-src="./assets/u-lock.png" class='home-productImg lazyload' alt="Nokē Bluetooth U-Lock Padlock" id="product5" data-aos="fade-up" data-aos-delay="60">
-                    <div data-aos="fade-up"><h5>U-Lock</h5></div>
+                    <img src='./assets/u-lock_opt.png' data-src="./assets/u-lock.png" class='home-productImg lazyload' alt="Nokē Bluetooth U-Lock Padlock" id="product5" data-aos="fade-up" data-aos-offset="90" data-aos-delay="60">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>U-Lock</h5></div>
                 </div></a>
                 <a href="./in-wall-door-controllers.html"><div class='home-product'> 
-                    <img src='./assets/eliptic door controller_opt.png' data-src="./assets/eliptic door controller.png" class='home-productImg lazyload' alt="Nokē In Wall Bluetooth Door Controller" id="product6" data-aos="fade-up" data-aos-delay="75">
-                    <div data-aos="fade-up"><h5>In-Wall<br/>Door Controllers</h5></div>
+                    <img src='./assets/eliptic door controller_opt.png' data-src="./assets/eliptic door controller.png" class='home-productImg lazyload' alt="Nokē In Wall Bluetooth Door Controller" id="product6" data-aos="fade-up" data-aos-offset="90" data-aos-delay="75">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>In-Wall<br/>Door Controllers</h5></div>
                 </div></a>
                 <a href="./on-wall-door-controllers.html"><div class='home-product'> 
-                    <img src='./assets/bar controller_opt.png' data-src="./assets/bar controller.png" class='home-productImg lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product7" data-aos="fade-up" data-aos-delay="90">
-                    <div data-aos="fade-up"><h5>On-Wall<br/>Door Controllers</h5></div>
+                    <img src='./assets/bar controller_opt.png' data-src="./assets/bar controller.png" class='home-productImg lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product7" data-aos="fade-up" data-aos-offset="90" data-aos-delay="90">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>On-Wall<br/>Door Controllers</h5></div>
                 </div></a>
                 <a href="./custom-locking-solutions.html"><div class='home-product'> 
-                    <img src='./assets/lightbulb_opt.png' data-src="./assets/lightbulb.png" class='home-productImg lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product8" data-aos="fade-up" data-aos-delay="105">
-                    <div data-aos="fade-up"><h5>Need A<br/>Customized Lock?</h5></div>
+                    <img src='./assets/lightbulb_opt.png' data-src="./assets/lightbulb.png" class='home-productImg lazyload' alt="Nokē On Wall Bluetooth Door Controller" id="product8" data-aos="fade-up" data-aos-offset="90" data-aos-delay="105">
+                    <div data-aos="fade-up" data-aos-offset="90"><h5>Need A<br/>Customized Lock?</h5></div>
                 </div></a>
             </div>
             <div class='home-productsBottom'>
-                <a href='./products.html' data-aos="fade-up">
+                <a href='./products.html' data-aos="fade-up" data-aos-offset="90">
                     <h4>LEARN ABOUT OUR PRODUCTS</h4>
                     <img src="./assets/Blue Arrow.png" class='text-arrow' alt="navigation arrow">
                 </a>
             </div>
             <div class='home-productsBottomMobile'>
-                <a href='./products.html' data-aos="fade-up">
+                <a href='./products.html' data-aos="fade-up" data-aos-offset="90">
                     <h4>SEE OUR PRODUCTS</h4>
                     <img src="./assets/Blue Arrow.png" class='text-arrow' alt="navigation arrow">
                 </a>
@@ -258,15 +265,16 @@
                     <div class='popupMed'>
                         <a class="close" href="#home-app" onclick="pauseVideo()">&times;</a>
                         <div class="vid-contentMed">
-                            <video id='medcoVideo' controls height='550' loop preload="none" playsinline>
+                            <!-- <video id='medcoVideo' controls height='550' loop preload="none" playsinline>
                                 <source src='./assets/Noke_Medco_180718_720p.mp4' type='video/mp4'>
                                 <source src='./assets/Noke_Medco_180718_1.webm' type='video/webm'>
                                 Sorry, your browser does not support this video player.
-                            </video>
+                            </video> -->
+                            <iframe id='medcoVideo' width="970" height="550" src="https://www.youtube.com/embed/c__oequjIzU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-        <a href='./mobile-app.html' class='home-phone' data-aos="fade-up">
+        <a href='./mobile-app.html' class='home-phone' data-aos="fade-up" data-aos-offset="90">
                 <div class='home-phoneBG lazyload' data-bg='./assets/Optimized-phone is key tile new concept tile 1.jpg' >
 
                 </div>
@@ -274,13 +282,12 @@
                     <div>
                         <h2><span>YOUR PHONE</span><br/>IS KEY</h2>
                         <div class='home-text'>
-                            <h4>See our mobile app</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See our mobile app<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='#video-popupMed' onclick="playVideo()" class='home-success' data-aos="fade-up" data-aos-delay="150">
+            <a href='#video-popupMed' class='home-success' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div class='home-successBG lazyload' data-bg="./assets/Optimized-Medco video image.homepage.jpg">
 
                 </div>
@@ -288,8 +295,7 @@
                     <div class='home-successText'>
                         <h2>PUTTING A LOCK ON<br/><span>FUEL PILFERAGE</span></h2>
                         <div class='home-text'>
-                            <h4>Watch how Nokē is helping</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>Watch how Nokē is helping<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                     <div id='home-successLower'>
@@ -301,8 +307,7 @@
                 <div class='home-successText'>
                     <h2>PUTTING A LOCK ON<br/><span>FUEL PILFERAGE</span></h2>
                     <div class='home-text'>
-                        <h4>Watch how Nokē is helping</h4>
-                        <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                        <h4>Watch how Nokē is helping<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                     </div>
                 </div>
                 <div id='home-successLower'>
@@ -311,7 +316,7 @@
             </a>
         </div>
         <div class='home-business'>
-            <a href='./smart-padlock-overview.html' class='home-businessLock' data-aos="fade-up" data-aos-delay="150">
+            <a href='./smart-padlock-overview.html' class='home-businessLock' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div class="home-businessLockBG lazyload" data-bg='./assets/Optimized-new hardware block.jpg'>
 
                 </div>
@@ -319,13 +324,12 @@
                     <div>
                         <h2><span>KEYLESS, TOUGH</span><br/>AND SMART</h2>
                         <div class='home-text'>
-                            <h4>See our smart padlocks</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See our smart padlocks<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='./software.html' class='home-businessPlatform' data-aos="fade-up">
+            <a href='./software.html' class='home-businessPlatform' data-aos="fade-up" data-aos-offset="90">
                 <div class="home-businessPlatformBG lazyload" data-bg='./assets/Optimized-Software grid block.jpg'>
 
                 </div>
@@ -333,15 +337,14 @@
                     <div>
                         <h2><span>THOUSANDS OF LOCKS</span><br/>ONE PLATFORM</h2>
                         <div class='home-textGrey'>
-                            <h4>See our software</h4>
-                            <img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See our software<img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
         <div class='home-cloud'>
-            <a href='./smart-door-controller-overview.html' class='home-cloudDoor'data-aos="fade-up">
+            <a href='./smart-door-controller-overview.html' class='home-cloudDoor'data-aos="fade-up" data-aos-offset="90">
                 <div class="home-cloudDoorBG lazyload" data-bg='./assets/Optimized-Grid block for door controller.jpg' >
 
                 </div>
@@ -349,13 +352,12 @@
                     <div>
                         <h2><span>MANAGE EVERY DOOR</span><br/>FROM ANYWHERE</h2>
                         <div class='home-textRight'>
-                            <h4>See our smart door controllers</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See our smart door controllers<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='./u-lock.html' class='home-cloudCyclist' data-aos="fade-up" data-aos-delay="150">
+            <a href='./u-lock.html' class='home-cloudCyclist' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div class="home-cloudCyclistBG lazyload" data-bg='./assets/Optimized-NEWU-LOCK TILE.jpg'>
 
                 </div>
@@ -363,14 +365,13 @@
                     <div>
                         <h2>NOW,<br/>YOUR BIKE<span><br/>ISN'T GOING<br/>ANYWHERE</span></h2>
                         <div class='home-textGrey'>
-                            <h4>See our U-lock</h4>
-                            <img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See our U-lock<img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-        <a href='./api-integration.html' class='home-solutions'data-aos="fade-up">
+        <a href='./api-integration.html' class='home-solutions'data-aos="fade-up" data-aos-offset="90">
             <div class='home-solutionsBG lazyload' data-bg='./assets/Optimized-API integration tile.HIGH RES.jpg'>
 
             </div>
@@ -378,14 +379,13 @@
                 <div>
                     <h2>OUR API GIVES YOU<span><br/>A SYSTEM OF YOUR OWN</span></h2>
                     <div class='home-textRight'>
-                        <h4>Learn about our API integration</h4>
-                        <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                        <h4>Learn about our API integration<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                     </div>
                 </div>
             </div>
         </a>
         <div class='home-benefits'>
-            <a href='./why-noke.html' class='home-benefitsGenius' data-aos="fade-up" data-aos-delay="150">
+            <a href='./why-noke.html' class='home-benefitsGenius' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                 <div class='home-benefitsGeniusBG lazyload' data-bg='./assets/Optimized-NEW genius tile.jpg'>
 
                 </div>
@@ -393,13 +393,12 @@
                     <div>
                         <h2>THIS PLATFORM'S SMART<span><br/>AND IT MAKES YOU<br/>LOOK LIKE A GENIUS</span></h2>
                         <div class='home-textRight'>
-                            <h4>Discover the benefits</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>Discover the benefits<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='./cloud-technology.html' class='home-benefitsNoke' data-bg='./assets/Optimized-cloud_technology.png' data-aos="fade-up">
+            <a href='./cloud-technology.html' class='home-benefitsNoke' data-bg='./assets/Optimized-cloud_technology.png' data-aos="fade-up" data-aos-offset="90">
                 <div class='home-benefitsNokeBG lazyload' data-bg='./assets/Optimized-cloud_technology.png'>
 
                 </div>
@@ -407,15 +406,14 @@
                     <div>
                         <h2><span>OUR CLOUD TECHNOLOGY<br/></span>HELPS BUSINESSES RISE ABOVE</h2>
                         <div class='home-text'>
-                            <h4>Why Nokē</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>Why Nokē<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
         <div class='home-industry'>
-            <a href='./industries.html' class='home-industryTech lazyload' data-bg='./assets/Optimized-Final industries tile.jpg' data-aos="fade-up">
+            <a href='./industries.html' class='home-industryTech lazyload' data-bg='./assets/Optimized-Final industries tile.jpg' data-aos="fade-up" data-aos-offset="90">
                 <div class='home-industryTechBG lazyload' data-bg='./assets/Optimized-Final industries tile.jpg'>
 
                 </div>
@@ -423,22 +421,20 @@
                     <div>
                         <h2><span>IN ANY BUSINESS ANYWHERE<br/></span>NOKĒ IS AT THE CENTER<br/>OF LOCKING TECHNOLOGY</h2>
                         <div class='home-text'>
-                            <h4>See Nokē in your industry</h4>
-                            <img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>See Nokē in your industry<img src="./assets/White Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='./loto-smart-lockout-tagout.html' class='home-industryThreat' data-aos="fade-up" data-aos-delay="150">
-                <div class='home-industryThreatBG lazyload' data-bg='./assets/Optimized-NEW LOTO TILE.jpg'>
+            <a href='./loto-smart-lockout-tagout.html' class='home-industryThreat' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
+                <div class='home-industryThreatBG lazyload' data-bg='./assets/NEWEST loto tile-min.jpg'>
 
                 </div>
                 <div class='home-bladeLOTO'>
                     <div>
-                        <h2><span>NOKĒ SMART LOTO™ MAKES</span><br/>LIFE-SAVING PROCEDURES<br/>EVEN SMARTER</h2>
+                        <h2><span>NOKĒ SMART LOTO<span>™</span>&nbsp;MAKES</span><br/>LIFE-SAVING PROCEDURES<br/>EVEN SMARTER</h2>
                         <div class='home-textRightGrey'>
-                            <h4>Learn more</h4>
-                            <img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow">
+                            <h4>Learn more<img src="./assets/Gray Arrow.png" class='text-arrow' alt="navigation arrow"></h4>
                         </div>
                     </div>
                 </div>
@@ -585,8 +581,9 @@
                             
                             <li><a href="./why-noke.html" class='footer-item'><span>Why Nokē</span></a></li>
                             <li><a href="./our-team.html" class='footer-item'><span>Our Team</span></a></li>
-                            <li><a href="https://noke.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
+                            <li><a href="https://nokelocks.myshopify.com/blogs/no-key-blog-by-noke" class='footer-item'><span>Success Stories</span></a></li>
                             <li><a href="./awards.html" class='footer-item'><span>Awards</span></a></li>
+                            <li><a href="./in-the-media.html" class='footer-item'><span>Media</span></a></li>
                         </ul>
                 </div>
                 <div class='footer-column'>
@@ -616,23 +613,17 @@
 <script type="text/javascript">
     var vid = document.getElementById("homeVideo"); 
     
-    function playVid() { 
-        vid.play(); 
-    } 
-    
     function pauseVid() { 
-        vid.pause(); 
+        var vid = document.getElementById("homeVideo");
+        vid.src = vid.src;
     }
 </script>
 <script type="text/javascript">
     var video = document.getElementById("medcoVideo"); 
-    
-    function playVideo() { 
-        video.play(); 
-    } 
-    
+        
     function pauseVideo() { 
-        video.pause(); 
+        var video = document.getElementById("medcoVideo");
+        video.src = video.src;
     }
 </script>
 
@@ -641,5 +632,6 @@
 <script>
     AOS.init({ disable: 'mobile' });
 </script>
+
 </body>
 </html>

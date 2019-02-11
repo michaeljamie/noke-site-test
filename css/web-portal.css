@@ -13,6 +13,10 @@
          animation: fadein 2s;
 }
 
+.software-headerTitle p {
+    width: 75%;
+}
+
 .webportal-header img {
     max-width: 50%;
     margin-right: 8%;
@@ -491,7 +495,7 @@
     }
 
     .webportal-header {
-        height: 90vh;
+        height: 92vh;
         background-position: bottom;
         overflow: hidden;
     }

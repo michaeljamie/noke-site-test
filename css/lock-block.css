@@ -1,0 +1,415 @@
+.hardware-header {
+    background: url('./../assets/New\ Lock\ Block\ header.jpg');
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.lb-conquer {
+    background: linear-gradient(to right bottom, var(--main-blue), var(--main-blue-dark));
+    color: white;
+    margin-top: 7px;
+}
+
+.lb-conquer p {
+    font-family: var(--main-text);
+    color: var(--main-light-gray);
+    font-size: 17px;
+}
+
+.lb-conquer h2 {
+    margin-bottom: 7px;
+}
+
+.lb-conquer h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lb-conquer>div {
+    padding: 5vh;
+}
+
+.lb-conquer>div>p {
+    width: 38%;
+}
+
+.lb-conquerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.lb-conquerCard {
+    width: 43%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lb-conquerCard p {
+    width: 65%;
+}
+
+.lb-conquerCard h4 {
+    margin: 28px 0 13px 0;
+}
+
+.lb-conquerCard>div {
+    max-height: 350px;
+}
+
+.lb-conquerCard img {
+    max-height: 350px;
+}
+
+.lb-innovation p {
+    font-family: var(--main-text);
+    font-size: 17px;  
+}
+
+.lb-innovation h2 {
+    margin-bottom: 7px;
+}
+
+.lb-innovation h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lb-innovation>div {
+    padding: 5vh;
+}
+
+.lb-innovation>div>p {
+    width: 31%;
+}
+
+.lb-innovation h2 {
+    color: var(--main-blue);
+}
+
+.lb-innovation h4 {
+    color: var(--main-blue);
+}
+
+.lb-innovationRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lb-innovationCard {
+    width: 45%;
+    margin: 20px 0;
+}
+
+.lb-innovationCard p {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.lb-innovationCard>div {
+    max-width: 530px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.lb-innovationCard img {
+    max-width: 530px;
+    max-height: 300px;
+}
+
+#lb-h4 {
+    margin: 30px 0;
+}
+
+.lb-brains {
+    background:linear-gradient(to right bottom, #e7e8e9, #CBCCCD);;
+}
+
+.lb-brains h2 {
+    color: var(--main-blue);
+    margin-bottom: 7px;
+}
+
+.lb-brains>div {
+    padding: 5vh;
+}
+
+.lb-brains>div>p {
+    width: 45%;
+}
+
+.lb-brainsLower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh 0;
+}
+
+.lb-brainsList {
+    width: 30%;
+}
+
+.lb-brainsPic {
+    width: 67%;
+}
+
+.lb-brains h5 {
+    margin: 45px 0 20px 0;
+    color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lb-brains li {
+    padding: 4px;
+    margin: 8px 0;
+}
+
+.stats-table {
+    margin-top: 40px;
+}
+
+.stats-table>div {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+}
+
+.stats-box {
+    align-items: center;
+}
+
+.stats-box p {
+    font-size: 15px;
+}
+
+
+#stats-short {
+    width: 20%
+}
+
+@media (max-width: 1025px) {
+    .hardware-header {
+        background-position: left;
+    }
+
+    .lb-conquerCard img {
+        max-height: 270px;
+    }
+
+    .lb-conquer>div>p {
+        width: 40%;
+    }
+
+    .lb-innovation>div>p {
+        width: 45%;
+    }
+
+    .lb-innovationCard>div {
+        max-width: 350px;
+        height: 220px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    
+    .lb-innovationCard img {
+        max-width: 350px;
+        max-height: 300px;
+    }
+
+    .lb-brainsPic {
+        width: 67%;
+    }
+
+    .lb-brainsPic img {
+        max-width: 80%;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .lb-conquerCard>div {
+        max-height: 250px;
+    }
+    
+    .lb-conquerCard img {
+        max-height: 250px;
+    }
+
+    .hardware-header {
+        background-position: left;
+        overflow: hidden;
+    }
+
+    .lb-conquer {
+        overflow: hidden;
+    }
+
+    .lb-conquer>div>p {
+        width: 50%;
+    }
+
+    .lb-conquerCard p {
+        width: 85%;
+    }
+
+    .lb-innovation {
+        overflow: hidden;
+    }
+
+    .lb-innovationRow {
+        overflow: hidden;
+    }
+
+    .lb-innovation>div>p {
+        width: 55%;
+    }
+
+    .lb-innovationCard p {
+        width: 70%;
+        margin-left: 19.5px;
+    }
+
+    .lb-innovationCard>div {
+        max-width: 270px;
+        height: 220px;
+    }
+    
+    .lb-innovationCard img {
+        max-width: 270px;
+        max-height: 300px;
+    }
+
+    .lb-brains {
+        overflow: hidden;
+    }
+
+    .lock-stats {
+        overflow: hidden;
+    }
+
+    .stats-table>div {
+        width: 80%;
+    }
+
+    #stats-short {
+        width: 80%
+    }
+
+    .stats-lower{
+        overflow: hidden;
+    }
+
+    #lb-specs1 {
+        max-width: 40%;
+    }
+
+    #lb-specs2 {
+        max-width: 20%;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .lb-conquer>div>p {
+        width: 95%;
+    }
+
+    .lb-conquerRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lb-conquerCard {
+        width: 95%;
+    }
+
+    .lb-conquerCard p {
+        width: 85%;
+    }
+
+    .lb-innovation>div>p {
+        width: 95%;
+    }
+
+    .lb-innovationRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lb-innovationCard {
+        width: 85%;
+    }
+
+    .lb-innovationCard p {
+        width: 80%;
+    }
+
+    .lb-innovationCard>div {
+        max-width: 230px;
+        height: 170px;
+    }
+    
+    .lb-innovationCard img {
+        max-width: 230px;
+        max-height: 170px;
+    }
+
+    .lb-brains>div>p {
+        width: 90%;
+    }
+
+    .lb-brainsLower {
+        flex-direction: column;
+    }
+
+    .lb-brainsList {
+        width: 85%;
+    }
+    
+    .lb-brainsPic {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stats-table>div {
+        width: 100%;
+    }
+
+    .stats-lower {
+        align-items: center;
+    }
+
+    #stats-short {
+        width: 100%
+    }
+
+    #lb-specs1 {
+        max-width: 70%;
+    }
+
+    #lb-specs2 {
+        max-width: 30%;
+    }
+
+}

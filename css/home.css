@@ -54,9 +54,8 @@ h6 {
 }
 
 .home-headerLocks {
-    height: 19vh;
-    max-height: 18vh;
-    margin-bottom: 2.75vh;
+    max-height: 210px;
+    margin-top: 20px;
 }
 
 .home-header>div {
@@ -414,8 +413,9 @@ h6 {
 }
 
 .text-arrow {
-    height: 10px;
-    margin: 5px;
+    max-height: 10px;
+    margin: 3px 5px;
+    display: inline;
 }
 
 .home-text {
@@ -431,6 +431,11 @@ h6 {
     color: white;
 }
 
+.home-text h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
 .home-textRight {
     width: auto;
     display: flex;
@@ -444,6 +449,11 @@ h6 {
     color: white;
 }
 
+.home-textRight h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
 .home-textGrey {
     width: auto;
     display: flex;
@@ -453,6 +463,11 @@ h6 {
     align-items: center;
     margin: 5px 0;
     color: #808285;
+}
+
+.home-textGrey h4 {
+    display: flex;
+    align-items: flex-end;
 }
 
 .home-textRightGrey {
@@ -466,6 +481,11 @@ h6 {
     font-family: var(--main-text);
     font-size: 17px;
     color: #808285;
+}
+
+.home-textRightGrey h4 {
+    display: flex;
+    align-items: flex-end;
 }
 
 .home-app {
@@ -1452,7 +1472,7 @@ h6 {
 .home-industryThreatBG {
     height: 100%;
     width: 100%;
-    background: url('./../assets/NEW\ LOTO\ TILE_opt-min.jpg');
+    background: url('./../assets/NEWEST\ loto\ tile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -1504,6 +1524,12 @@ h6 {
 .home-bladeLOTO>div {
     padding: 2.3vw;
     text-align: right;
+    margin: 0;
+}
+
+.home-bladeLOTO>div>h2>span>span {
+    font-size: 12px;
+    vertical-align: top;
 }
 
 .home-industryThreat:hover .home-industryThreatBG {
@@ -1528,6 +1554,14 @@ h6 {
 .home-industryThreat:hover img {
     -webkit-transform: translateX(4px);
     transform: translateX(4px);
+}
+
+@media (max-width: 1440px) {
+    .home-headerLocks {
+        max-height: 190px;
+        margin-top: 25px;
+    }
+    
 }
 
 /* Mobile View */
@@ -1668,7 +1702,7 @@ h6 {
     }
 
     .home-header {
-        height: 90vh;
+        height: 92vh;
     }
 
     .home-headerTitle {
@@ -1884,7 +1918,8 @@ h6 {
     }
 
     .home-header>div {
-        padding: 2vh 3vh;
+        padding: 2vh 0 0 3vh;
+        width: 100%;
     }
 
     .home-headerTitle {
@@ -1904,6 +1939,26 @@ h6 {
         font-size: 15px;
     }
 
+    .home-text {
+        width: 100%;
+    }
+
+    .home-headerLocks {
+        max-height: 125px;
+    }
+
+    .home-textGrey {
+        width: 100%;
+    }
+
+    .home-textRight {
+        width: 100%;
+    }
+
+    .home-textRightGrey {
+        width: 100%;
+    }
+
     .home-headerText {
         display: none;
     }
@@ -1921,18 +1976,23 @@ h6 {
         display: none;
     }
 
-    /* .home-headerVideo {
+    #video-popup {
         display: none;
         height: 0;
+    }
+
+    .home-headerVideo {
+        display: none;
     }
 
     .home-headerVideoMed {
         display: none;
         height: 0;
-    } */
+    }
 
-    .home-headerVideo {
+    .video-overlayMed {
         display: none;
+        height: 0;
     }
 
     .home-headerVideoMobile {
@@ -1945,9 +2005,27 @@ h6 {
         font-size: 17px;
     }
 
+    .home-headerVideoMobile h4 {
+        font-size: 14px;
+    }
+
     .products-rowMobile {
         height: 110px;
     }
 
+    .padlock-play {
+        max-width: 30vw;
+        margin-bottom: 30px;
+    }
+
+    .home-businessLock {
+        background-position: bottom;
+    }
+
 }
 
+@media (max-width: 350px) {
+    .home-headerLocks {
+        max-height: 105px;
+    }
+}

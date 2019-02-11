@@ -43,6 +43,10 @@
     margin-right: .45%;
 }
 
+.asset-controlMobile {
+    display: none;
+}
+
 .padlock-videoText>div {
     padding: 8vh;
 }
@@ -720,7 +724,7 @@
 
     .standard-header {
         background-position: left;
-        height: 90vh;
+        height: 92vh;
         overflow: hidden;
     }
 
@@ -765,10 +769,9 @@
         background-size: cover;
         background-repeat: none;
         display: flex;
-    }
-
-    .padlock-play {
-        max-height: 13vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .stats-title p {
@@ -930,6 +933,22 @@
         display: none;
     }
 
+    .padlock-playMobile {
+        max-width: 30vw;
+    }
+
+    .padlock-videoText>div {
+        padding: 7vh;
+    }
+
+    .asset-controlWeb {
+        display: none;
+    }
+
+    .asset-controlMobile {
+        display: block;
+    }
+
     .padlock-videoText p {
         font-size: 14px;
     }
@@ -937,6 +956,10 @@
     .padlock-videoBoxMobile {
         width: 100%;
         min-height: 320px;
+    }
+
+    .stats-box {
+        align-items: center;
     }
 
     .stats-box>img {
@@ -981,6 +1004,11 @@
         flex-direction: column;
     }
 
+    .lock-coveredColumn>div {
+        align-items: flex-start;
+        text-align: left;
+    }
+
     .stats-specImg {
         margin: 5vh 0;
     }
@@ -992,6 +1020,10 @@
 
     .lock-textBox {
         width: 100vw;
+    }
+
+    .lock-textBox {
+        height: 10vh;
     }
 
 }
