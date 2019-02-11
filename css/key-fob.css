@@ -221,6 +221,14 @@
         padding: 5vh;
     }
 
+    .fob-secureBox {
+        margin: 6vh 0;
+    }
+
+    #fob-secureMargin {
+        margin-top: 0;
+    }
+
     .fob-secureLower {
         margin: 0;
     }

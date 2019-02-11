@@ -43,6 +43,10 @@
     margin-right: .45%;
 }
 
+.asset-controlMobile {
+    display: none;
+}
+
 .padlock-videoText>div {
     padding: 8vh;
 }
@@ -931,6 +935,18 @@
 
     .padlock-playMobile {
         max-width: 30vw;
+    }
+
+    .padlock-videoText>div {
+        padding: 7vh;
+    }
+
+    .asset-controlWeb {
+        display: none;
+    }
+
+    .asset-controlMobile {
+        display: block;
     }
 
     .padlock-videoText p {

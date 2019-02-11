@@ -66,6 +66,10 @@
     align-items: flex-start;
 }
 
+.button-customMobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     h2 {
         font-size: 20px;
@@ -96,14 +100,32 @@
 @media (max-width: 479px) { 
 
     .custom-header {
-        background: url('./../assets/CUSTOMIZED\ LOCK\ HEADER-mobile.jpg');
+        background: url('./../assets/customized\ mobile_1.jpg');
         background-position: bottom right;
         background-size: cover;
         background-repeat: none;
+        justify-content: flex-start;
+    }
+
+    .custom-header h3 {
+        width: 65%;
+    }
+
+    .custom-tailor {
+        text-align: left;
+    }
+
+    .custom-tailor h2 {
+        font-size: 20px;
+    }
+
+    .custom-tailor h2 span {
+        display: block;
     }
 
     .custom-lower {
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .custom-lower>div {
@@ -111,6 +133,15 @@
     }
 
     .custom-lower img {
-        max-width: 80%;
+        max-width: 70%;
+        margin-bottom: 5vh;
+    }
+
+    .button-customMobile {
+        display: block;
+    }
+
+    .button-customWeb {
+        display: none;
     }
 }

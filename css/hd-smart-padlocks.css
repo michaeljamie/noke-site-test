@@ -894,10 +894,11 @@ h5 span {
 @media (max-width: 479px) { 
 
     .hd-header {
-        background: url('./../assets/HD\ and\ HD+\ PAGE\ header_1-mobile.jpg');
+        background: url('./../assets/HD\ and\ HD+.jpg');
         background-position: right;
         background-size: cover;
         background-repeat: none;
+        justify-content: flex-start;
     }
 
     .hd-meet img {

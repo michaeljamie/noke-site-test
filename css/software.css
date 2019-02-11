@@ -644,7 +644,7 @@
     }
 
     .tech-icon {
-        height: 8vh;
+        width: 8vh;
     }
 
     .data-list {
@@ -755,7 +755,7 @@
         width: 100%;
         height: auto;
         margin-top: 10%;
-        padding: 0 3vh;
+        padding: 0;
     }
 
     .software-secure>div {

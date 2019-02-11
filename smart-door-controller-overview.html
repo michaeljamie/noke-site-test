@@ -160,7 +160,9 @@
                             <source src='./assets/Noke_Smart_Entry.mp4' type='video/mp4'>
                             Sorry, your browser does not support this video player.
                         </video> -->
-                        <iframe id='janusVideo' width="970" height="550" src="https://www.youtube.com/embed/-x7K2UO09n0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe id='janusVideo' width="970" height="550" src="https://www.youtube.com/embed/-x7K2UO09n0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <iframe src="https://fast.wistia.net/embed/iframe/5oa6s7ci7j" title="SecurGuard Smart Entry System Video" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="970" height="550"></iframe>
+                        <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
                     </div>
                 </div>
             </div>
@@ -214,19 +216,22 @@
                             <p>Used with any drillable surface</p>
                             <div class='inSeries-products'>
                                 <div>
-                                    <img src='./assets/DC1_opt.png' data-src="./assets/DC1.png" alt="Nokē In-Wall Hard-Wired Door Controller" class='lazyload' id='dc1-img'>
+                                    <img src='./assets/DC1_opt.png' data-src="./assets/DC1.png" alt="Nokē In-Wall Hard-Wired Door Controller" class='lazyload controller-web' id='dc1-img'>
+                                    <img src='./assets/DC1_optMobile.png' data-src="./assets/DC1_optMobile.png" alt="Nokē In-Wall Hard-Wired Door Controller" class='lazyload controller-mobile' id='dc1-img'>
                                     <div>
                                         <h5>In-Wall</h5>
                                         <h5>Hard-wired</h5>  
                                     </div>
                                 </div>
                                 <div>
-                                    <img src='./assets/DC2&3_opt.png' data-src="./assets/DC2&3.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload'>
-                                    <h5>On-Wall</h5>
+                                    <img src='./assets/DC2&3_opt.png' data-src="./assets/DC2&3.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload controller-web'>
+                                    <img src='./assets/DC2&3_optMobile.png' data-src="./assets/DC2&3_optMobile.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload controller-mobile'>
+                                    <h5>In-Wall</h5>
                                     <h5>Battery-Powered</h5>
                                 </div>
                                 <div id='optionalBattery'>
-                                    <img src='./assets/DC2&3_opt.png' data-src="./assets/DC2&3.png" alt="Nokē In-Wall Hard-Wired Door Controller With Battery Backup" class='lazyload'>
+                                    <img src='./assets/DC2&3_opt.png' data-src="./assets/DC2&3.png" alt="Nokē In-Wall Hard-Wired Door Controller With Battery Backup" class='lazyload controller-web'>
+                                    <img src='./assets/DC2&3_optMobile.png' data-src="./assets/DC2&3_optMobile.png" alt="Nokē In-Wall Hard-Wired Door Controller With Battery Backup" class='lazyload controller-mobile'>
                                     <h5>In-Wall / Hard-wired</h5>
                                     <h5>With Optional Battery Backup</h5>
                                 </div>
@@ -243,14 +248,16 @@
                             <p>Used with solid surfaces and block walls</p>
                             <div class='onSeries-products'>
                                 <div>
-                                    <img src='./assets/DC4_opt.png' data-src="./assets/DC4.png" alt="Nokē On-Wall Hard-Wired Door Controller" class='lazyload' id='dc4-img'>
+                                    <img src='./assets/DC4_opt.png' data-src="./assets/DC4.png" alt="Nokē On-Wall Hard-Wired Door Controller" class='lazyload controller-web' id='dc4-img'>
+                                    <img src='./assets/DC4_optMobile.png' data-src="./assets/DC4_optMobile.png" alt="Nokē On-Wall Hard-Wired Door Controller" class='lazyload controller-mobile' id='dc4-img'>
                                     <div>
                                         <h5>On-Wall</h5>
                                         <h5>Hard-wired</h5>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src='./assets/DC5_opt.png' data-src="./assets/DC5.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload'>
+                                    <img src='./assets/DC5_opt.png' data-src="./assets/DC5.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload controller-web'>
+                                    <img src='./assets/DC5_optMobile.png' data-src="./assets/DC5_optMobile.png" alt="Nokē On-Wall Battery-Powered Door Controller" class='lazyload controller-mobile'>
                                     <h5>On-Wall</h5>
                                     <h5>Battery-Powered</h5>
                                 </div>
@@ -376,7 +383,7 @@
                 <h2 data-aos="fade-up" data-aos-offset="90">WALK INTO YOUR<span> CONNECTED SECURITY PLATFORM</span></h2>
                 <p data-aos="fade-up" data-aos-offset="90">Nokē door controllers are engineered with the intelligence to elminate access control complexities, modernize physical security, get all your locks connected, on-line, and working together seamlessly.</p>
                 <div class='controller-connectedList'>
-                    <div>
+                    <div id='secure-list'>
                         <div class='controller-connectedBox' data-aos="fade-up" data-aos-offset="90">
                             <div class='controller-connectedImg'>
                                 <img data-src="./assets/connectedPlatform1.png" src="./assets/connectedPlatform1-min.png" alt="Nokē Bluetooth Graphic" class='lazyload'>
@@ -417,8 +424,8 @@
                     <div id='circuitboard' data-aos="fade-up" data-aos-offset="90">
                         <img data-src="./assets/circuitboard.png" src="./assets/circuitboard-min.png" alt="Nokē Circuitboard Graphic" class='lazyload'>
                     </div>
-                    <div>
-                        <div class='controller-connectedBox' data-aos="fade-up" data-aos-offset="90">
+                    <div id='secure-list'>
+                        <div class='controller-connectedBox' data-aos="fade-up" data-aos-offset="90" id='secure-listTop'>
                             <div class='controller-connectedImg'>
                                 <img data-src="./assets/connectedPlatform5.png" src="./assets/connectedPlatform5-min.png" alt="Nokē Mobile App Graphic" class='lazyload'>
                             </div>

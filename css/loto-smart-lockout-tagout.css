@@ -126,6 +126,10 @@
     color: var(--main-blue);
 }
 
+.loto-textMobile {
+    display: none;
+}
+
 #loto-cardText {
     font-size: 14px;
     width: 100%;
@@ -854,8 +858,20 @@
         width: 100%;
     }
 
+    .loto-procedures>div {
+        padding: 7vh 5.5vh;;
+    }
+
     .loto-procedures p {
         width: 100%;
+    }
+
+    .loto-textWeb {
+        display: none;
+    }
+
+    .loto-textMobile {
+        display: block;
     }
 
     .loto-card {
@@ -870,33 +886,33 @@
     #loto-card1 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-bottom: 3.5px;
     }
 
     #loto-card2 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-top: 3.5px;
     }
 
     #loto-card3 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-bottom: 3.5px;
     }
 
     #loto-card4 {
         width: 100%;
         margin: 0;
-        height: 200px;
+        height: 170px;
         margin-top: 3.5px;
     }
 
     .loto-protectText>div {
-        padding: 14px;
+        padding: 7vh 5.5vh;
     }
 
     .loto-protectText h2 {
@@ -909,6 +925,10 @@
 
     .loto-protectText p {
         width: 100%;
+    }
+
+    .loto-featuresTitle {
+        padding: 7vh 5.5vh;
     }
 
     .loto-featuresTitle p {

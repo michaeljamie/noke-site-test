@@ -2024,3 +2024,8 @@ h6 {
 
 }
 
+@media (max-width: 350px) {
+    .home-headerLocks {
+        max-height: 105px;
+    }
+}

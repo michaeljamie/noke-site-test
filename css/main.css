@@ -869,17 +869,22 @@ footer a {
     }
 }
 
-@media (max-width: 1025px) {
-    .noke-logo>img {
-        width: 120px;
-        margin-bottom: 15px;
-    }
-}
-
 @media (max-width: 1060px) {
     .nav-links {
         font-size: 14px;
     }
+}
+
+@media (max-width: 1025px) {
+    .noke-logo>img {
+        width: 120px;
+        margin-bottom: 16px;
+    }
+
+    .nav-links {
+        padding-left: 150px;
+    }
+
 }
 
 /* Tablet View */

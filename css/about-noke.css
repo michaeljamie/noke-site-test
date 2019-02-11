@@ -434,6 +434,19 @@
         max-width: 35vw;
     }
 
+    .industries-global {
+        padding: 5vh;
+    }
+
+    .industries-stats>div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .industries-global img {
+        width: 100%;
+    }
+
     .about-teamNum {
         width: 23%;
         margin-right: 0;

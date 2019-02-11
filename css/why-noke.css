@@ -240,15 +240,18 @@
     }
 
     .about-problems>div {
-        padding: 2vh;
+        padding: 7vw;
+        text-align: left;
     }
 
     .about-problems h1 {
         font-size: 25px;
+        text-align: left;
     }
 
     .about-problems h2 {
         font-size: 25px;
+        text-align: left;
     }
 
     .about-problemsLower {
@@ -258,33 +261,52 @@
 
     .about-problemsLower>div {
         width: 90%;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .about-problemsLower img {
-        width: 50vw;
-        padding: 0 0 5vh 8vh;
+        width: 15vw;
+        padding: 0;
+        margin-left: 15vw;
+    }
+
+    .about-problemsImg img {
+        min-width: 65%;
     }
 
     .about-problemsLower h4 {
         font-size: 20px;
+        margin-bottom: 0;
     }
 
     .about-problemsLower h5 {
         font-size: 18px;
         margin-bottom: 5%;
+        width: 85%;
+    }
+
+    .about-problemsList {
+        order: 1;
+        width: 100%;
+    }
+
+    .about-problemsList>div {
+        width: 100%;
     }
 
     .about-solutions>div {
-        padding: 2vh;
+        padding: 7vw;
+        text-align: left;
     }
 
     .about-solutions h1 {
         font-size: 25px;
+        text-align: left;
     }
 
     .about-solutions h2 {
         font-size: 25px;
+        text-align: left;
     }
 
     .about-solutionsLower {
@@ -302,6 +324,10 @@
 
     .about-solutionsLower img {
         width: 15vw;
+    }
+
+    .about-solutionsList {
+        align-items: flex-start;
     }
 
 }
