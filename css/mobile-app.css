@@ -287,6 +287,7 @@
         background-position: right;
         background-size: cover;
         background-repeat: none;
+        justify-content: flex-start;
     }
 
     .software-headerTitle {

@@ -699,8 +699,17 @@
         width: 100%;
     }
 
+    .industries-header>div {
+        align-self: flex-start;
+    }
 
+    .industries-header>div h2 {
+        font-size: 26px;
+    }
 
+    .industries-header>div h3 {
+        font-size: 18px;
+    }
 }
 
 

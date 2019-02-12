@@ -244,12 +244,28 @@
     .cloud-header {
         height: 92vh;
         background-position: center;
+        justify-content: flex-start;
     }
 
-    .cloud-header p {
-        width: 85%;
-        font-size: 15px;
+    .cloud-header h3 {
+        display: block;
+        font-size: 17px;
     }
+
+    .cloud-header h1 {
+        font-size: 26px;
+    }
+
+    .cloud-header h2 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .cloud-header img {
+        max-width: 90%;
+        margin-top: 8vh;
+    }
+
 
     .cloud-header>div {
         padding: 2vh;

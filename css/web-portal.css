@@ -620,6 +620,7 @@
 
     .webportal-header {
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .software-headerTitle {
@@ -627,8 +628,18 @@
         width: 90%;
     }
 
-    .software-headerTitle p {
-        font-size: 15px;
+    .software-headerTitle h2 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .software-headerTitle h1 {
+        font-size: 26px;
+    }
+
+    .software-headerTitle h3 {
+        display: block;
+        font-size: 17px;
     }
 
     .webportal-view {
@@ -637,8 +648,9 @@
     }
 
     .webportal-header img {
-        max-width: 60%;
-        margin-right: 8%;
+        max-width: 95%;
+        margin-top: 9vh;
+        margin-right: 18%;
     }
 
     .webportal-rule>div {
