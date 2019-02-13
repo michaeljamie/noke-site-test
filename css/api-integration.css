@@ -568,6 +568,21 @@
         background-position: right;
         background-size: cover;
         background-repeat: none;
+        justify-content: flex-start;
+    }
+
+    .api-header h3 {
+        display: block;
+        font-size: 17px;
+    }
+
+    .api-header h1 {
+        font-size: 26px;
+    }
+
+    .api-header h2 {
+        font-size: 18px;
+        margin-top: 0;
     }
 
     .api-platform {

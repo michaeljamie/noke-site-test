@@ -422,6 +422,10 @@
         font-size: 15px;
     }
 
+    .hardware-header {
+        justify-content: flex-start;
+    }
+
     .hardware-header p { 
         display: none;
     }

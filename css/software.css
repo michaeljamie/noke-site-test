@@ -762,13 +762,10 @@
         width: 100%;
     }
 
-    .software-everywhereCard {
-        align-items: flex-start;
-        text-align: left;
-    }
-
     .software-everywhereCard h5 {
         padding-bottom: 0;
+        font-weight: 800;
+        margin-bottom: 5px;
     }
 
     .software-everywhereCard img {
