@@ -185,19 +185,19 @@
     .fob-header {
         justify-content: flex-start;
         background-position: right;
+        background: url('./../assets/MOBILE\ FOB\ image.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
     }
 
-    .hardware-headerTitle {
-        margin: 5vh 0 0 15vh;
-    }
-
-    .hardware-headerTitle h2 {
-        color: white;
-    }
 
     .hardware-headerTitle h3 {
-        margin-top: 5px;
-        color: white;
+        margin-top: 30px;
+    }
+
+    .hardware-headerTitle h4 {
+        margin: 0;
     }
 
     .fob-access>div {

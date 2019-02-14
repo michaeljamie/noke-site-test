@@ -211,6 +211,11 @@
     margin: 0 4% 0 5%;
 }
 
+.about-teamFigures {
+    display: flex;
+    flex-direction: row;
+}
+
 .about-teamImg img {
     max-height: 50%;
 }
@@ -424,13 +429,13 @@
 
     .hardware-header {
         justify-content: flex-start;
+        background: url('./../assets/who\ is\ noke\ mobile.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
     }
 
     .hardware-header p { 
-        display: none;
-    }
-
-    .hardware-header h3 { 
         display: none;
     }
 
@@ -456,11 +461,23 @@
         margin-right: 0;
     }
 
+    .about-teamFigures {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
     .about-team h5 {
         font-size: 16px;
         font-family: var(--main-text);
-        width: 50%;
-        margin-left: 10vw;
+        width: 100%;
+    }
+
+    .about-teamImg {
+        margin-left: 30px;
+    }
+
+    .about-teamSplit>div {
+        margin: 20px 0;
     }
 
     .about-links {

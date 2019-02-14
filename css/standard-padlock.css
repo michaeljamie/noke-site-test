@@ -903,26 +903,19 @@
 @media (max-width: 479px) {
 
     .standard-header {
-        background: url('./../assets/new\ STPDL\ header\ image-mobile.jpg');
+        background: url('./../assets/MOBILE\ standard\ PL.jpg');
         background-position: left;
         background-size: cover;
         background-repeat: none;
         justify-content: flex-start;
     }
 
-    .hardware-headerTitle {
-        width: 72vw;
-        margin: 20vh 0 0px 27vw;
-    }
-
     .hardware-headerTitle h2 {
-        color: white;
-        font-size: 18px;
+        font-size: 26px;
     }
 
     .hardware-headerTitle h3 {
-        color: white;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .hardware-headerTitle h4 {

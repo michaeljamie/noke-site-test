@@ -47,6 +47,10 @@
     background-repeat: none;
 }
 
+.loto-headerMobile {
+    display: none;
+}
+
 .loto-headerTitle {
     display: flex;
     flex-direction: row;
@@ -848,7 +852,7 @@
 @media (max-width: 479px) {
 
     .hardware-header {
-        background: url('./../assets/LOTO\ for\ new\ web\ header-mobile.jpg');
+        background: url('./../assets/loto\ mobile\ header.jpg');
         background-position: right bottom;
         background-size: cover;
         background-repeat: none;
@@ -856,6 +860,23 @@
 
     .hardware-headerTitle {
         width: 100%;
+    }
+
+    .hardware-header h3 {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+
+    .loto-headerTitle {
+        display: none;
+    }
+
+    .loto-headerWeb {
+        display: none;
+    }
+
+    .loto-headerMobile {
+        display: block;
     }
 
     .loto-procedures>div {

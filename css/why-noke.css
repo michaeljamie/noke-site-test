@@ -22,8 +22,16 @@
     width: 100%;
 }
 
+.why-nokeheaderMobile {
+    display: none;
+}
+
 .hardware-header p {
     width: 30%;
+}
+
+#why-nokeHeaderMobile {
+    display: none;
 }
 
 .about-problems {
@@ -232,6 +240,10 @@
     }
 
     .hardware-header {
+        background: url('./../assets/business\ win.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: none;
         justify-content: flex-start;
     }
 
@@ -239,8 +251,18 @@
         display: none;
     }
 
-    .hardware-header h4 {
+    .why-nokeheaderMobile {
+        display: block;
         font-size: 18px;
+    }
+
+    .why-nokeheaderWeb {
+        display: none;
+    }
+
+    #why-nokeHeaderMobile {
+        font-size: 17px;
+        display: block;
     }
 
     .about-problems>div {
