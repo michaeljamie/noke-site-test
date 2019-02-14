@@ -895,6 +895,7 @@
 
     .inSeries-products img {
         padding-left: 8vh;
+        margin-bottom: 15px;
     }
 
     .onSeries-products {
@@ -915,10 +916,12 @@
 
     .onSeries-products img {
         padding-left: 8vh;
+        margin-bottom: 15px;
     }
 
     #dc4-img {
         margin: 0;
+        margin-bottom: 15px;
     }
 
     #circuitboard img {
