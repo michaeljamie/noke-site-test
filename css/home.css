@@ -2029,3 +2029,15 @@ h6 {
         max-height: 105px;
     }
 }
+
+@media (min-height: 1000px) and (min-width: 800px) {
+    .home-product {
+        height: 30vh;
+    }
+}
+
+@media (min-height: 1120px) and (min-width: 800px) {
+    .home-product {
+        height: 27vh;
+    }
+}

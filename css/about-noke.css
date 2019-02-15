@@ -174,10 +174,24 @@
     font-weight: 500;
 }
 
+.about-teamFigures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
 .about-teamNum {
-    width: 13%;
-    text-align: right;
+    width: 15%;
+    text-align: center;
     margin-right: 18px;
+}
+
+.about-teamFigures h5 {
+    color: #D1D3D4;
+    width: 85%;
+    font-family: var(--main-text);
+    font-size: 16px;
 }
 
 .about-team h2 {
@@ -197,13 +211,6 @@
 .about-team h3 {
     color: white;
     font-size: 21px;
-}
-
-.about-team h5 {
-    color: #D1D3D4;
-    width: 75%;
-    font-family: var(--main-text);
-    font-size: 16px;
 }
 
 .about-teamImg {
@@ -456,18 +463,29 @@
         width: 100%;
     }
 
-    .about-teamNum {
-        width: 23%;
-        margin-right: 0;
+    .about-team>div {
+        align-items: flex-start;
+        text-align: left;
+        padding: 7vw;
+    }
+
+    .about-team h4 {
+        text-align: left;
+        width: 90%;
     }
 
     .about-teamFigures {
         flex-direction: column;
+        align-items: flex-start;
         margin-left: 15px;
     }
 
-    .about-team h5 {
-        font-size: 16px;
+    .about-teamNum {
+        text-align: left;
+    }
+
+    .about-teamFigures h5 {
+        font-size: 15px;
         font-family: var(--main-text);
         width: 100%;
     }
