@@ -1280,7 +1280,7 @@ footer a {
     } */
 
     body .menu p {
-        font-size: 23px;
+        font-size: 21px;
         width: 75%;
         padding-bottom: 8px;
         padding-top: 8px;
@@ -1341,7 +1341,7 @@ footer a {
         border-top: 2px solid white;
         border-right: 2px solid white;
         position: relative;
-        top: -26.5px;
+        top: -24.5px;
         left: 2px;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
