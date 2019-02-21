@@ -1,0 +1,157 @@
+.hardware-header {
+    height: 87vh;
+    background: url('./../assets/HEADER.MEDIA.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+      -o-animation: fadein 2s;
+         animation: fadein 2s;
+}
+
+.hardware-header p {
+    width: 55%;
+}
+
+.media>div {
+    padding: 7vh 7vh 3vh 7vh;
+}
+
+.mediaRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.mediaRow>div {
+    width: 40%;
+}
+
+.mediaRow img {
+    max-height: 40px;
+}
+
+.mediaPic {
+    height: 60px;
+    margin: 5px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mediaRow p {
+    font-family: var(--main-text);
+    font-size: 16px;
+    width: 90%;
+    padding: 7px 0;
+    border-top: 1px solid whitesmoke;
+}
+
+#gizmodo {
+    max-height: 27px;
+}
+
+#gadgetreview {
+    max-height: 50px;
+}
+
+#gizmag {
+    max-height: 50px;
+}
+
+#ninefive {
+    max-height: 30px;
+}
+
+#mashable {
+    max-height: 33px;
+}
+
+#geekygadgets {
+    max-height: 38px;
+}
+
+.mediaBottom>div {
+    padding: 0 7vh 7vh 7vh;
+}
+
+.mediaBottom>div>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    min-height: 70px;
+}
+
+.mediaBottom img {
+    max-height: 60px;
+    margin: 0 20px;
+}
+
+#timelogo {
+    max-height: 53px;
+}
+
+#paste {
+    max-height: 40px;
+}
+
+#uncrate {
+    max-height: 45px;
+}
+
+@media (max-width: 768px) {
+    .hardware-header {
+        height: 92vh;
+    }
+
+    .mediaBottom>div>div {
+        flex-direction: column;
+    }
+
+    .mediaBottom img {
+        margin: 20px 0;
+    }
+
+    .mediaRow p {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .hardware-header {
+        background: url('./../assets/in\ the\ media\ mobile.jpg');
+        align-items: flex-start;
+    }
+
+    .hardware-header h4 {
+        margin: 0;
+    }
+
+    .mediaRow {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .mediaRow>div {
+        width: 100%;
+    }
+
+    .mediaRow p {
+        font-size: 14px;
+    }
+
+    .mediaBottom img {
+        max-height: 50px;
+    }
+}
