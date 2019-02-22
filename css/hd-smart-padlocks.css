@@ -311,6 +311,10 @@ h5 span {
     overflow: hidden;
 }
 
+#hdqc {
+    max-width: 55%;
+}
+
 .hd-appTilesLower {
     display: flex;
     flex-direction: row;
@@ -829,6 +833,10 @@ h5 span {
         overflow: hidden;
     }
 
+    #hdqc {
+        max-width: 40%;
+    }
+
     .hd-applications1 {
         width: 100%;
     }
@@ -1046,4 +1054,7 @@ h5 span {
         width: 75%;
     }
 
+    #hdqc {
+        max-width: 65%;
+    }
 }
