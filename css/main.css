@@ -124,6 +124,11 @@ button:hover {
     color: var(--main-blue);
 }
 
+sup {
+    vertical-align: super;
+    font-size: 70%;
+}
+
 /* .buttonBlue {
     background: white;
     background-image: -webkit-linear-gradient(30deg, var(--main-blue) 50%, transparent 50%);
