@@ -317,7 +317,7 @@
         <div class='api-platform'>
             <div>
                 <h2 data-aos="fade-up" data-aos-offset="90">A PLATFORM OF <span>YOUR OWN</span></h2>
-                <h5 data-aos="fade-up" data-aos-offset="90" id='api-platformSub'>Nokē API not only provides seemless integration but also offers the flexibility to manage your own system</h5>
+                <h5 data-aos="fade-up" data-aos-offset="90" id='api-platformSub'>Nokē API not only provides seemless integration but also offers the flexibility to build and manage your own system</h5>
                 <h4 data-aos="fade-up" data-aos-offset="90">API COMMUNICATION FEATURES:</h4>
             </div>
             <div class='api-platformLower'>
@@ -325,36 +325,76 @@
                     <div id='api-platformImg'>
                         <img data-src="./assets/platform1.png" class='lazyload' alt="Nokē Internal Management Tools">
                     </div>
-                    <h4>INTERNAL MANAGEMENT</h4>
-                    <h5>Nokē only manages the encrypted keys for locks.  All other user data is managed internally by client.</h5>
+                    <h4>INTERNAL</br>MANAGEMENT</h4>
+                    <h5>Nokē only manages the encrypted keys for locks.  All other user data managed internally by client.</h5>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="90" data-aos-delay="50">
                     <div id='api-platformImg'>
                         <img data-src="./assets/platform2.png" class='lazyload' alt="Nokē Data Access Limited">   
                     </div>
-                    <h4>NOKĒ DATA ACCESS LIMITED</h4>
-                    <h5 id="api-platformShort">Mobile app, server, and all user data, event history, and company information is not accessible to Nokē.</h5>
+                    <h4>DATA</br>PRIVACY</h4>
+                    <h5 id="api-platformShort">Mobile app, server, and all user data, event history, and company information accessible to Nokē.</h5>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="90" data-aos-delay="100">
                     <div id='api-platformImg'>
                         <img data-src="./assets/platform3.png" class='lazyload' alt="Nokē Server Access Limited">
                     </div>
-                    <h4>NOKĒ SERVER ACCESS LIMITED</h4>
-                    <h5>Communication with Nokē servers is limited to one-way requests for encrypted keys via a RESTful API and requires an API key.</h5>
+                    <h4>SERVER</br>COMMUNICATION</h4>
+                    <h5>Communication with Nokē servers is limited to one-way requests for encrypted keys via a RESTful API and requires API key.</h5>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="90" data-aos-delay="150">
                     <div id='api-platformImg'>
                         <img data-src="./assets/platform4.png" class='lazyload' alt="Nokē Bluetooth">
                     </div>
-                    <h4>BLUETOOTH</h4>
+                    <h4>BLUETOOTH</br>COMMUNICATION</h4>
                     <h5>All Bluetooth communication with locks is handled through the integrated Nokē mobile library for Android and iOS.</h5>
                 </div>
             </div>
             <div class='api-platformBottom'>
                 <h2 data-aos="fade-up" data-aos-offset="90">YOU CAN BUILD A BASIC OR COMPLEX SYSTEM <span></br>AND WHEN IT'S TIME TO OPEN YOUR LOCK, WE'LL PROVIDE THE KEY</span></h2>
                 <h4 data-aos="fade-up" data-aos-offset="90">HERE'S HOW THE NOKĒ CORE API WORKS:</h4>
-                <div data-aos="fade-up" data-aos-offset="90">
-                    <div class='api-platformBox' id='complexLock'>
+                <div class='api-graphics' data-aos="fade-up" data-aos-offset="90">
+                    <div class='api-graphicRow'>
+                        <div class='api-graphicItem'>
+                            <h4><span>1</span> LOCK</h4>
+                            <img src="./assets/api-lockGraphic.png" alt="Api Graphic">
+                        </div>
+                        <img class='api-arrow1' src="./assets/api-arrow1.png" alt="Api Arrow Graphic">
+                        <div class='api-graphicItem middleGraphic'>
+                            <h4><span>2</span> CLIENT APP WITH NOKĒ MOBILE LIBRARY</h4>
+                            <img src="./assets/api-phoneGraphic.png" alt="Api Graphic">
+                        </div>
+                        <img class='api-arrow2' src="./assets/api-arrow2.png" alt="Api Arrow Graphic">
+                        <div class='api-graphicItem'>
+                            <h4><span>3</span> CLIENT SERVER</h4>
+                            <img src="./assets/api-serverGraphic.png" alt="Api Graphic">
+                        </div>
+                        <img class='api-arrow3' src="./assets/api-arrow3.png" alt="Api Arrow Graphic">
+                    </div>
+                    <div class='api-graphicRowMid'>
+                        <div class='api-graphicItemMid'>
+                            <img src="./assets/api-cloudGraphic.png" alt="Api Cloud Graphic">
+                            <h4><span>4</span> NOKĒ CORE API</h4>
+                        </div>
+                    </div>
+                    <div class='api-graphicRowEnd'>
+                        <div class='api-graphicItem'>
+                            <img src="./assets/api-serverGraphic.png" alt="Api Graphic">
+                            <h4><span>7</span> LOCK</h4>
+                        </div>
+                        <img class='api-arrow6' src="./assets/api-arrow6.png" alt="Api Arrow Graphic">
+                        <div class='api-graphicItem middleGraphic'>
+                            <img src="./assets/api-phoneGraphic.png" alt="Api Graphic">
+                            <h4><span>6</span> CLIENT APP WITH NOKĒ MOBILE LIBRARY</h4>
+                        </div>
+                        <img class='api-arrow5' src="./assets/api-arrow5.png" alt="Api Arrow Graphic">
+                        <div class='api-graphicItem'>
+                            <img src="./assets/api-unlockGraphic.png" alt="Api Graphic">
+                            <h4><span>5</span> CLIENT SERVER</h4>
+                        </div>
+                        <img  class='api-arrow4' src="./assets/api-arrow4.png" alt="Api Arrow Graphic">
+                    </div>
+                    <!-- <div class='api-platformBox' id='complexLock'>
                         <img data-src="./assets/platform5.png" class='lazyload' alt="Nokē HD Lock">
                         <h5>LOCK</h5>
                     </div>
@@ -437,60 +477,63 @@
                     <div class='api-platformBox' id='complexLock'>
                         <img data-src="./assets/platform5.png" class='lazyload' alt="Nokē HD Lock">
                         <h5>LOCK</h5>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class='platform-veryBottom'>
                 <div class='platform-bottomRow' data-aos="fade-up" data-aos-offset="90">
                     <div>
-                        <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot1.png" class='lazyload' alt="Number 1">
-                        </div>
                         <div class='platform-bottomRowText'>
+                            <h5>1: LOCK</h5>
                             <h6>Nokē lock connects to Nokē Mobile app via Bluetooth and user requests unlock</h6>
                         </div>
                     </div>
                     <div>
-                        <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot2.png" class='lazyload' alt="Number 2">
-                        </div>
                         <div class='platform-bottomRowText'>
-                            <h6 id='platformBottomShort'>Mobile app sends lock and user data to the Nokē cloud</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot3.png"class='lazyload'  alt="Number 3">
-                        </div>
-                        <div class='platform-bottomRowText'>
-                            <h6>The cloud authenticates user and lock.  If user has permission to unlock the lock, cloud sends request to the Nokē Core API</h6>
+                            <h5>5. CLIENT SERVER</h5>
+                            <h6>Cloud receives unlock command from API and passes it to the mobile app</h6>
                         </div>
                     </div>
                 </div>
                 <div class='platform-bottomRow' data-aos="fade-up" data-aos-offset="90">
                     <div>
-                       <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot4.png" class='lazyload' alt="Number 4">
-                        </div>
                         <div class='platform-bottomRowText'>
-                            <h6>Nokē Core API generates and encrypts the unlock command using the lock's keys (stored on secure Nokē servers)</h6>
+                            <h5>2: CLIENT APP WITH NOKĒ MOBILE LIBRARY</h5>
+                            <h6 id='platformBottomShort'>Mobile app sends lock and user data to client server</h6>
                         </div>
                     </div>
                     <div>
-                        <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot5.png" class='lazyload' alt="Number 5">
-                        </div>
                         <div class='platform-bottomRowText'>
-                            <h6>Cloud receives unlock command from API and passes it to the mobile app</h6>
-                        </div>
-                    </div>
-                    <div>
-                        <div class='platform-bottomRowImage'>
-                            <img data-src="./assets/platformdot6.png" class='lazyload' alt="Number 6">
-                        </div>
-                        <div class='platform-bottomRowText'>
-                            <h6 id='platformBottomShort'>Mobile app sends command to the lock and the lock opens</h6>
+                            <h5>6. CLIENT APP WITH NOKĒ MOBILE LIBRARY</h5>
+                            <h6 id='platformBottomShort'>Mobile app sends command to lock</h6>
                         </div>  
+                    </div>
+                </div>
+                <div class='platform-bottomRow' data-aos="fade-up" data-aos-offset="90">
+                    <div>
+                        <div class='platform-bottomRowText'>
+                            <h5>3: CLIENT SERVER</h5>
+                            <h6>Client server authenticates user and lock.  If user has permission to unlock the lock, client server makes a request to Nokē Core API</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowText'>
+                            <h5>7. LOCK</h5>
+                            <h6 id='platformBottomShort'>Nokē lock connects to Nokē mobile app via Bluetooth and the lock opens</h6>
+                        </div>  
+                    </div>
+                </div>
+                <div class='platform-bottomRow' data-aos="fade-up" data-aos-offset="90">
+                    <div>
+                        <div class='platform-bottomRowText'>
+                            <h5>4. NOKĒ CORE API</h5>
+                            <h6>Nokē Core API generates and encrypts the unlock command using the lock's digital keys which are stored on secure Nokē servers</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <div class='platform-bottomRowText'>
+                           
+                        </div>
                     </div>
                 </div>
             </div>

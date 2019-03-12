@@ -104,7 +104,6 @@
 
 .api-platform {
     height: auto;
-    background: #f1f2f3;
     padding: 7.5vh;
     display: flex;
 	flex-direction: column;
@@ -122,13 +121,14 @@
     color: var(--main-blue);
     margin: 20px 0;
     font-size: 17px;
+    font-weight: 500;
 }
 
 .api-platform h5 {
     font-size: 16px;
     height: 30%;
     font-family: var(--main-text);
-    width: 90%;
+    width: 79%;
 }
 
 #api-platformSub {
@@ -170,16 +170,6 @@
 .api-platformBottom {
     margin-top: 100px;
     width: 100%;
-}
-
-.api-platformBottom>div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    height: auto;
-    min-height: 200px;
-    margin: 50px 0;
 }
 
 .api-platformBottom h5 {
@@ -263,8 +253,113 @@
     animation: spin 7s linear infinite;
 }
 
+.api-graphics {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0 7vh 0;
+}
+
+.api-graphics h4 {
+    color: var(--main-gray);
+}
+
+.api-graphics h4 span {
+    color: var(--main-blue);
+}
+
+.api-graphicRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    min-height: 20vh;
+}
+
+.api-graphicRowMid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh 0;
+}
+
+.api-graphicRowEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 20vh;
+}
+
+.api-graphicItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: 13vw;
+    margin: 0 2vw;
+}
+
+.api-graphicItemMid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30vw;
+}
+
+.api-graphicItemMid h4 {
+    width: 30%;
+    margin-left: 2.5vw;
+}
+
+.middleGraphic {
+    width: 15vw;
+}
+
+.middleGraphic h4 {
+    width: 90%;
+    margin-left: 20%;
+}
+
+.middleGraphic img {
+    align-self: center;
+}
+
+.api-arrow1 {
+    margin: 0 -6vw 1vw -9vw;
+    min-height: 5.5vh;
+}
+
+.api-arrow2 {
+    margin: 0 1vw 1vw -7vw;
+    min-height: 5.5vh;
+}
+
+.api-arrow3 {
+    margin: 0 0 0 -8vw;
+    min-height: 7vh;
+}
+
+.api-arrow4 {
+    margin: 0 1vw 0 -8vw;
+    min-height: 8vh;
+}
+
+.api-arrow5 {
+    margin: 2vh 0vw 0 -7vw;
+    min-height: 5.5vh;
+}
+
+.api-arrow6 {
+    margin: 2vh -6vw 0 -9vw;
+    min-height: 5.5vh;
+}
+
 .platform-veryBottom {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .platform-bottomRow {
@@ -273,20 +368,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5vh 0;
+    margin: 10px 0;
 }
 
 .platform-bottomRow>div {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 50%;
     align-items: center;
+}
+
+.platform-bottomRow h5 {
+    color: var(--main-blue);
+    font-weight: 500;
+    margin-bottom: 3px;
 }
 
 .platform-bottomRow h6 {
     font-size: 16px;
     font-family: var(--main-text);
     color: var(--main-gray);
+    width: 90%;
 }
 
 .platform-bottomRow img {
@@ -362,6 +464,40 @@
     100% {transform: rotate(360deg)}
 }
 
+@media (max-width: 1550px) {
+
+    .api-arrow1 {
+        margin: 0 -5vw 1vw -7vw;
+        min-height: auto;
+    }
+    
+    .api-arrow2 {
+        margin: 0 0 1vw -4vw;
+        min-height: auto;
+    }
+    
+    .api-arrow3 {
+        margin: 0 0 0 -7vw;
+        min-height: auto;
+    }
+    
+    .api-arrow4 {
+        margin: 0 1vw 6vw -7vw;
+        min-height: auto;
+    }
+    
+    .api-arrow5 {
+        margin: 2vh 0 0 -4vw;
+        min-height: auto;
+    }
+    
+    .api-arrow6 {
+        margin: 2vh -5vw 0 -7vw;
+        min-height: auto;
+    }
+
+}
+
 @media (max-width: 1025px) {
     .api-header p {
         color: white;
@@ -370,6 +506,7 @@
     .api-header h2 {
         color: white;
     }
+
 }
 
 @media (max-width: 768px) {
