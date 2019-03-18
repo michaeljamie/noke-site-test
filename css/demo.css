@@ -79,6 +79,11 @@
 .hs-form textarea {
     margin: 10px 0;
     color: var(--main-blue);
+    border: 1.5px solid whitesmoke;
+}
+
+.hs-form textarea:focus {
+    outline: none;
 }
 
 body .hs-button.primary,
@@ -136,7 +141,7 @@ body input[type="button"]:hover {
 }
 
 .form-left {
-    width: 50%;
+    width: 100%;
 }
 
 .form-left h3 {

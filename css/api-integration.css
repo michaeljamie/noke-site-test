@@ -573,7 +573,8 @@
 
     .api-platform {
         height: auto;
-        align-items: center;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .api-platform img {
@@ -601,8 +602,9 @@
 
     .api-platformLower>div {
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+        text-align: left;
     }
 
     .api-platformBox {
@@ -638,7 +640,7 @@
     }
 
     #api-platformImg {
-        text-align: center;
+        text-align: left;
         margin-bottom: 40px;
     }
 
@@ -663,17 +665,21 @@
 
     .api-platformBottom>div {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .platform-bottomRow {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin: 0;
     }
 
     .platform-bottomRow>div {
         width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
     }
 
     .platform-bottomRow h6 {
@@ -694,6 +700,9 @@
 
     #unhack2 {
         width: 70%;
+    }
+    .api-graphicItemMid {
+        margin-left: 60vw;
     }
 
 }
@@ -726,17 +735,12 @@
         padding: 7.5vh 5vh;
     }
 
-    .api-platform img {
-        /* width: 25vw; */
-        margin: 3vh 0 1vh 0;
-    }
-
     .api-integration h5 {
         font-size: 15px;
     }
 
     .api-integrationList {
-        min-height: 400px;
+        min-height: auto;
     }
 
     .api-integrationList h4 {
@@ -745,6 +749,10 @@
 
     .api-integrationList h5 {
         font-size: 14px;
+    }
+
+    .api-platformLower {
+        margin-top: 0;
     }
 
     .api-platformLower h5 {
@@ -762,11 +770,14 @@
     #unhack1 {
         max-width: 100%;
         width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
     }
 
     #unhack1 img {
         max-width: 40%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -791,4 +802,92 @@
         flex-direction: column;
     }
 
+    .api-platform img {
+        margin: 0;
+    }
+
+    #api-platformImg {
+        text-align: left;
+        margin-bottom: 0;
+        margin: 3vh 0 1vh 0;
+    }
+
+    #api-platformImg img {
+        width: auto;
+    }
+
+    .api-platformBottom {
+        display: none;
+    }
+
+    .platform-veryBottom {
+        display: none;
+    }
+
+    .mobilePlatformBottom {
+        margin-top: 5vh;
+    }
+
+    .mobilePlatformBottom h5 {
+        font-size: 18px;
+    }
+
+    .mobilePlatformBottom h2 {
+        margin: 0;
+    }
+
+    .mobilePlatformBottom h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .mobileApiList {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        min-height: 20vh;
+    }
+
+    .mobileApiPic {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5%;
+    }
+
+    .mobileApiPic img {
+        max-width: 70%;
+        max-height: 60%;
+    }
+
+    .mobileApiText {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobileApiText h5 {
+        font-size: 18px;
+        width: 100%;
+        color: var(--main-blue);
+        height: auto;
+    }
+
+    .mobileApiText p {
+        margin-top: 3px;
+        font-size: 16px;
+    }
+
+    .mobileArrow {
+        margin: 0;
+    }
+
+    .mobileArrow img {
+        margin: 0;
+        margin-left: 9%;
+    }
 }
