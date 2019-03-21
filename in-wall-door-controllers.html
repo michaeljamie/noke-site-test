@@ -328,12 +328,33 @@
         </div>
         <div class='controller-motion'>
             <div>
-                <div data-bg='./assets/Optimized-loading dock doors.jpg' class='controller-motionPic lazyload' id='in-wall1' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150"></div>
-                <div data-bg='./assets/Optimized-self storage door controller and phone treated.jpg' class='controller-motionPic lazyload' id='in-wall2' data-aos="fade-up" data-aos-offset="90"></div>
+                <div class='controller-motionBox controller-motionText'>
+                    <div>
+                        <h2>THIS NEW STOCKHOLM, SWEDEN BASED STORAGE FACILITY IS FEELING <span>A LITTLE SMARTER THAN THE REST</span></h2>
+                        <p>Green Storage deployed the Nokē Smart Entry System to modernize the self-storage experience and create a simple, convenient, and smart product for both their management and customers</p>
+                    </div>
+                </div>
+                <div id="video-popupGreen" class='video-overlayGreen vid-bkgdGreen'>
+                    <div class='popupGreen'>
+                        <a class="close" href="#door-types" onclick="pauseVideo()">&times;</a>
+                        <div class="vid-contentGreen">
+                            <!-- <iframe id='greenVideo' src="https://fast.wistia.com/assets/external/E-v1.js" title="SecurGuard Smart Entry System Video" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="970" height="550"></iframe> -->
+                            <iframe id='greenVideo' src="https://fast.wistia.net/embed/iframe/xfob9lcx6f?seo=false&videoFoam=true" title="Green Storage Case 1 - Noke (4K) Video" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="970" height="550"></iframe>
+                            <script src="https://fast.wistia.com/embed/medias/xfob9lcx6f.jsonp" async></script>
+                        </div>
+                    </div>
+                </div>
+                <a  href='#video-popupGreen' data-bg='./assets/Video Image for door controllers.jpg' class='controller-motionBg lazyload' id='in-wall2' data-aos="fade-up" data-aos-offset="90">
+                    <img data-src="./assets/play button.white.png" src="assets/play button.white.png" alt="White Play Button">
+                </a>
+                <a href='https://janusintl.wistia.com/medias/xfob9lcx6f' class='controller-motionMobile'>
+                    <img data-src="./assets/play button.white.png" src="assets/play button.white.png" alt="White Play Button">
+                </a>
             </div>
-            <div>
-                <div data-bg='./assets/Optimized-office doors and people.jpg' class='controller-motionPic lazyload' id='in-wall3' data-aos="fade-up" data-aos-offset="90"></div>
+            <div class='controller-motionPics'>
+                <div data-bg='./assets/Optimized-loading dock doors.jpg' class='controller-motionPic lazyload' id='in-wall1' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150"></div>
                 <div data-bg='./assets/Optimized-elevator.jpg' class='controller-motionPic lazyload' id='in-wall4' data-aos="fade-up" data-aos-offset="90" data-aos-delay="150"></div>
+                <div data-bg='./assets/Optimized-office doors and people.jpg' class='controller-motionPic lazyload' id='in-wall3' data-aos="fade-up" data-aos-offset="90"></div>
             </div>
         </div>
         <div class='controller-meet'>
@@ -661,6 +682,14 @@
             </div>
         </footer>
     </div>
+<script type="text/javascript">
+    var video = document.getElementById("greenVideo"); 
+        
+    function pauseVideo() { 
+        var video = document.getElementById("greenVideo");
+        video.src = video.src;
+    }
+</script>
 <!-- Fade in Animation -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>

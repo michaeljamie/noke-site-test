@@ -92,8 +92,154 @@
     width: 82%;
 }
 
+.controller-motionBox {
+    height: 600px;
+    width: 50%;
+}
+
+.controller-motionMobile {
+    display: none;
+}
+
+.controller-motionText {
+    background: #7F8083;
+    color: white;
+    margin-right: 3.5px;
+}
+
+.controller-motionText h2 {
+    width: 100%;
+    font-size: 32px;
+}
+
+.controller-motionText p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: var(--main-text);
+    width: 76%;
+}
+
+.controller-motionText>div {
+    padding: 7vh;
+}
+
 .controller-motionPic {
-    height: 500px;
+    height: 100%;
+    width: 33%;
+}
+
+.controller-motionPics {
+    height: 400px;
+}
+
+.controller-motionBg {
+    background: url('./../assets/Video\ Image\ for\ door\ controllers.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 3.5px;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controller-motionBg img {
+    max-height: 131px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.controller-motionBg:hover img {
+    -webkit-transform: scale(1.03, 1.03);
+    transform: scale(1.03, 1.03);
+}
+
+.video-overlayGreen {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    margin-top: 149vh;
+}
+
+.video-overlayGreen .cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+
+.video-overlayGreen:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popupGreen {
+    position: relative;
+    margin: 75px auto;
+    padding: 35px;
+    background: black;
+    max-width: 75vw;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.popupGreen .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 20px;
+    opacity: 0.95;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--main-blue);
+    z-index: 2;
+}
+
+.popupGreen .close:hover {
+   color: var(--main-dark-gray);
+}
+
+.popupGreen .vid-contentGreen {
+    display: flex;
+    justify-content: center;
+    max-height: auto;
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
+.embedded-videoGreen {
+    max-width: 100%;
+    min-height: 70vh;
+    max-height: 100%;
 }
 
 #in-wall1 {
@@ -105,11 +251,14 @@
 }
 
 #in-wall2 {
-    background: url('./../assets/self\ storage\ door\ controller\ and\ phone\ treated_opt.jpg');
+    background: url('./../assets/Video\ Image\ for\ door\ controllers.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    margin-left: 3.5px;
+    height: 100%;
+    width: 50%;
+    height: 600px;
+    width: 50%;
 }
 
 #in-wall3 {
@@ -117,7 +266,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    margin-right: 3.5px;
+    margin-left: 3.5px;
 }
 
 #in-wall4 {
@@ -125,7 +274,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    margin-left: 3.5px;
+    margin: 0 3.5px;
 }
 
 #in-wallWiredLeft {
@@ -323,13 +472,61 @@
         margin-bottom: 10vh;
     }
 
+    .video-overlayGreen {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .controller-motionBox {
+        width: 100%;
+        height: auto; 
+        margin-bottom: 7px;
+    }
+
+    .controller-motionBox h2 {
+        font-size: 25px;
+    }
+
+    .controller-motionBox p {
+        width: 100%;
+    }
+
+    .controller-motionBg {
+        display: none;
+    }
+
+    .controller-motionMobile {
+        background: url('./../assets/Video\ Image\ for\ door\ controllers.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .controller-motionMobile img {
+        max-height: 110px;
+    }
+
+    .controller-motionPics {
+        height: auto;
+        margin: 0;
+    }
+
     .controller-motionPic {
-        height: 350px;
+        width: 100%;
+        height: auto;
+        min-height: 300px;
     }
 
     #in-wall1 {
         margin: 0;
-        margin-bottom: 8px;
+        margin-bottom: 7px;
     }
 
     #in-wall2 {
@@ -338,11 +535,12 @@
 
     #in-wall3 {
         margin: 0;
-        margin-bottom: 8px;
+        margin-bottom: 7px;
     }
 
     #in-wall4 {
         margin: 0;
+        margin-bottom: 7px;
     }
 
     .controller-meet h2 {
@@ -430,6 +628,10 @@
     }
 
     #dc1inwall {
+        max-width: 170px;
+    }
+
+    #dc2inwall {
         max-width: 170px;
     }
 

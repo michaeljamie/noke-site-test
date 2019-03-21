@@ -20,11 +20,18 @@
     display: none;
 }
 
+.controller-motionPic {
+    height: 600px;
+    width: 50%;
+}
+
 #in-wall1 {
     background: url('./../assets/stone\ wall\ with\ garage_opt.jpg');
     background-position: bottom;
     background-size: cover;
     background-repeat: none;
+    margin: 0;
+    margin-right: 3.5px;
 }
 
 #in-wall2 {
@@ -32,6 +39,8 @@
     background-position: bottom;
     background-size: cover;
     background-repeat: none;
+    margin: 0;
+    margin-left: 3.5px;
 }
 
 #in-wall3 {
@@ -39,6 +48,8 @@
     background-position: bottom;
     background-size: cover;
     background-repeat: none;
+    margin: 0;
+    margin-right: 3.5px;
 }
 
 #in-wall4 {
@@ -46,6 +57,8 @@
     background-position: bottom;
     background-size: cover;
     background-repeat: none;
+    margin: 0;
+    margin-left: 3.5px;
 }
 
 .controller-meetLower>div {
@@ -119,6 +132,34 @@
         max-height: 45vh;
     }
 
+    .controller-motion>div {
+        margin: 0;
+    }
+
+    #in-wall1 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+    
+    #in-wall2 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+
+    #in-wall3 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+
+    #in-wall4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+
     .controller-meet>div {
         padding-bottom: 0;
     }
@@ -134,6 +175,7 @@
     #controller-mid {
         border-left: none;
     }
+
 
 }
 
