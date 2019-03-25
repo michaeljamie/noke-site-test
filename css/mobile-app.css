@@ -63,11 +63,15 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.appportal-lower>div:hover img {
+.appportal-lower>a:hover img {
     -webkit-transform: scale(1.03, 1.03) translateY(-10px);
     transform: scale(1.03, 1.03) translateY(-10px);
     -webkit-filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.2));
     filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+.appportal-lower>a:hover {
+    cursor: pointer;
 }
 
 .appportal-view h2 {
